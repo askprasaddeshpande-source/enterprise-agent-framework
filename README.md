@@ -23,7 +23,11 @@ See REPRODUCIBILITY.md, FROZEN_EVIDENCE_ANCHORS.json, PUBLICATION_MANIFEST.json,
 
 ## Archival DOI
 
-The exact Zenodo version DOI is intentionally added only after the GitHub publication artifact is finalized and the Zenodo record is reserved/published.
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.22193673
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.22193672
+- GitHub release: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/releases/tag/v1.1.0
+- Frozen release asset: `EAF-PUBLIC-REPRODUCIBILITY-v1.1.0.zip`
+- Frozen release SHA-256: `205B52F7C0DB7AB7695D7419906FB9610A867C88332A83381528AF1E4B8EFBD5`
 
 ## Licensing
 
