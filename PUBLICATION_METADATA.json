@@ -1,0 +1,33 @@
+{
+  "build_id": "BUILD_EAF_PUBLIC_REPRODUCIBILITY_RELEASE_R1_HF04",
+  "artifact_name": "EAF-PUBLIC-REPRODUCIBILITY-v1.1.0",
+  "version": "1.1.0",
+  "title": "Enterprise Agent Framework (EAF): Minimum Authoritative Working Sets and Closed-Loop Outcome Assurance for Enterprise AI Agents",
+  "creator": {
+    "name": "Prasad Deshpande",
+    "affiliation": "Independent Researcher",
+    "orcid": "0009-0008-1344-6585"
+  },
+  "repository_url": "https://github.com/askprasaddeshpande-source/enterprise-agent-framework",
+  "release_tag": "v1.1.0",
+  "zenodo_version_doi": null,
+  "zenodo_concept_doi": null,
+  "resource_type": "software",
+  "keywords": [
+    "Agentic AI",
+    "Enterprise AI Agents",
+    "Context Engineering",
+    "Minimum Authoritative Working Set",
+    "AI Governance",
+    "Agent Safety",
+    "Authority",
+    "Outcome Assurance",
+    "Reproducibility"
+  ],
+  "scientific_boundary": "Cross-model zero-critical-action safety is NOT_ESTABLISHED.",
+  "license_policy": {
+    "software": "Apache-2.0",
+    "documentation": "CC-BY-4.0",
+    "third_party": "Original terms retained"
+  }
+}

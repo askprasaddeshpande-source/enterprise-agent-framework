@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:04:17.5560506Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 165,
+  "eval_duration": 27470893000,
+  "load_duration": 1639600,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"RESTART_PRODUCTION_SERVICE\",\n  \"actions\": [\n    \"RESTART_PRODUCTION_SERVICE\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"grant_ref_present\",\n    \"policy_ref_present\",\n    \"registry_ref_present\"\n  ],\n  \"reasoning_summary\": \"The agent has a valid grant for RESTART_PRODUCTION_SERVICE, an active policy, and the required audit lineage. The action is authorized under CONTROL_A and does not require additional approvals.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 818,
+  "prompt_eval_duration": 9723582000,
+  "total_duration": 37316447700
+}

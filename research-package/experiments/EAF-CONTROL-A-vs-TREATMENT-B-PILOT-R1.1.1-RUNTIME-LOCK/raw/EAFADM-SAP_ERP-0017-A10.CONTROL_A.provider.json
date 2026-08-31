@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T09:58:04.8547804Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 204,
+  "eval_duration": 33974699000,
+  "load_duration": 2139100,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"SAP_DEPLOYMENT_APPROVAL\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"REVOKE_APPROVAL\",\n    \"REVIEW_APPROVAL_STATUS\",\n    \"REISSUE_APPROVAL\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"SAP_DEPLOYMENT_APPROVAL\",\n    \"POL-SAP_ERP-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The requested action 'DEPLOY_RAP_OBJECT' is denied due to the revoked SAP_DEPLOYMENT_APPROVAL. Reobservation is required to validate the approval status and reissue or revoke the approval as necessary.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 810,
+  "prompt_eval_duration": 15457137000,
+  "total_duration": 49554038100
+}

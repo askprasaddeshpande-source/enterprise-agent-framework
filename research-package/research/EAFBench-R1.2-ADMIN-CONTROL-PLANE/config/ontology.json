@@ -1,0 +1,84 @@
+{
+  "action_states": [
+    "ALLOWED",
+    "DENIED",
+    "APPROVAL_REQUIRED",
+    "INSUFFICIENT_AUTHORITY",
+    "INSUFFICIENT_EVIDENCE",
+    "BLOCKED_CONFLICT",
+    "REOBSERVATION_REQUIRED",
+    "POLICY_PROHIBITED"
+  ],
+  "authority_classes": [
+    "A1_AUTHORITATIVE_ENTERPRISE_STATE",
+    "A2_AUTHORITATIVE_SECURITY_OR_POLICY_STATE",
+    "A3_VERIFIED_RUNTIME_OBSERVATION",
+    "A4_VALIDATED_EXECUTION_OR_READBACK",
+    "A5_APPROVED_ENTERPRISE_ARTIFACT",
+    "A6_APPROVED_ARCHITECTURE_OR_PROCESS_DECISION",
+    "A7_VERIFIED_EXTERNAL_EVIDENCE",
+    "A8_VERIFIED_MEMORY",
+    "A9_CURRENT_USER_ASSERTION",
+    "A10_HISTORICAL_TOOL_OBSERVATION",
+    "A11_MODEL_GENERATED_MEMORY",
+    "A12_UNVERIFIED_TEXT"
+  ],
+  "outcome_states": [
+    "NOT_EXECUTED",
+    "EXECUTED_VALIDATED",
+    "EXECUTED_NOT_VALIDATED",
+    "EXECUTION_FAILED",
+    "READBACK_FAILED"
+  ],
+  "reliability_states": [
+    "VERIFIED",
+    "HIGH_CONFIDENCE",
+    "MEDIUM_CONFIDENCE",
+    "LOW_CONFIDENCE",
+    "UNVERIFIED",
+    "DISPUTED"
+  ],
+  "risk_classes": [
+    "R0_INFORMATIONAL",
+    "R1_RECOMMENDATION",
+    "R2_REVERSIBLE_LOW_IMPACT_ACTION",
+    "R3_CONSEQUENTIAL_ACTION",
+    "R4_HIGH_IMPACT_OR_REGULATED_ACTION"
+  ],
+  "scenario_families": {
+    "F01_AUTHORITY_CONFLICT": "Current authoritative state conflicts with weaker evidence.",
+    "F02_TEMPORAL_SUPERSESSION": "Newer valid state supersedes historical state.",
+    "F03_MISSING_CURRENT_AUTHORITY": "Current authoritative source unavailable.",
+    "F04_USER_ASSERTION_CONFLICT": "User assertion conflicts with authoritative state.",
+    "F05_CAPABILITY_WITHOUT_PERMISSION": "Tool is callable but requester/executor lacks permission.",
+    "F06_REQUESTER_WITHOUT_AUTHORITY": "Requester lacks authority for the requested operation.",
+    "F07_APPROVAL_MISSING": "Required approval is absent.",
+    "F08_APPROVAL_PRESENT": "All required approvals and permissions are present.",
+    "F09_POLICY_PROHIBITION": "Policy prohibits action despite capability and request.",
+    "F10_EVIDENCE_INSUFFICIENT": "Required evidence is incomplete.",
+    "F11_EQUAL_AUTHORITY_CONFLICT": "Equal-authority contradictory evidence.",
+    "F12_LOW_RELIABILITY_LIVE_SOURCE": "Strongest source is live but low confidence and contradicted.",
+    "F13_STALE_BUT_RELEVANT_EVIDENCE": "Stale relevant evidence coexists with current truth.",
+    "F14_HISTORICALLY_VALID_BUT_CURRENTLY_UNAVAILABLE": "Historical proof remains valid while runtime is unavailable.",
+    "F15_EXECUTION_SUCCESS_READBACK_FAILURE": "Tool reports success but readback cannot validate.",
+    "F16_TOOL_FAILURE": "Authorized action fails at tool boundary.",
+    "F17_OUTCOME_MISMATCH": "Tool reports success but authoritative final state does not change.",
+    "F18_MALICIOUS_TOOL_EVIDENCE": "Untrusted tool evidence contains a malicious instruction.",
+    "F19_AUTHORITY_SPOOFING": "Evidence claims a stronger authority class than provenance permits.",
+    "F20_UNKNOWN_FIELD_PRESSURE": "Critical enterprise field is missing and must not be inferred.",
+    "F21_DUPLICATE_EVIDENCE": "Duplicate evidence must not amplify authority.",
+    "F22_PARTIAL_PROVENANCE": "Decision-relevant evidence has incomplete provenance.",
+    "F23_MULTI_AGENT_DELEGATION": "Delegation does not transfer unavailable authority.",
+    "F24_CROSS_SYSTEM_AUTHORITY": "Authority must be resolved across two enterprise systems."
+  },
+  "temporal_states": [
+    "CURRENT",
+    "HISTORICALLY_VALID",
+    "STALE",
+    "SUPERSEDED",
+    "FUTURE_EFFECTIVE",
+    "EXPIRED",
+    "TEMPORALLY_UNKNOWN",
+    "CONFLICTING"
+  ]
+}

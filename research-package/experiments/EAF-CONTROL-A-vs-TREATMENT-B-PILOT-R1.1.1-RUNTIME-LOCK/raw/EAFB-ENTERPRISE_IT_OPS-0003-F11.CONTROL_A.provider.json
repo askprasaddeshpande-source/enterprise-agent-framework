@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:20:43.3006241Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 219,
+  "eval_duration": 38266019000,
+  "load_duration": 2661300,
+  "message": {
+    "content": "{\n  \"decision\": \"DENIED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"POLICY_PROHIBITED\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-EQUAL-CONFLICT\"\n  ],\n  \"reasoning_summary\": \"The mission seeks to restart SVC-0003, which is currently blocked due to a conflicting enterprise state (E-EQUAL-CONFLICT). Despite having a valid change approval (APR-SVC-0003), the conflicting status overrides the eligibility, and the policy POL-ENTERPRISE_IT_OPS prohibits high-impact actions without an authorized operator. The conflicting evidence is validated and trusted, thus the action is denied.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1202,
+  "prompt_eval_duration": 28602501000,
+  "total_duration": 67032543000
+}

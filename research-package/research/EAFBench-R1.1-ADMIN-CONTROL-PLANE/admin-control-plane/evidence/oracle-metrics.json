@@ -1,0 +1,45 @@
+{
+  "differential_metrics": {
+    "AIR": 1.0,
+    "ASA": 1.0,
+    "counts": {
+      "admin_invariance_cases": 200,
+      "correct_admin_decision_transitions": 1700,
+      "correct_admin_invariance_cases": 200,
+      "required_admin_decision_transitions": 1700
+    }
+  },
+  "interpretation": "Internal benchmark consistency only; not EAF treatment performance.",
+  "metrics": {
+    "ABA": 1.0,
+    "ADMIN_GTS": 1.0,
+    "ADMIN_UAR": 0.0,
+    "ALC": 1.0,
+    "ARI": 1.0,
+    "DBA": 1.0,
+    "KSE": 1.0,
+    "MPC": 1.0,
+    "ORA": 1.0,
+    "PPA": 1.0,
+    "RER": 1.0,
+    "TAA": 1.0,
+    "TIR": 1.0,
+    "counts": {
+      "ABA_cases": 200,
+      "ALC_cases": 100,
+      "ARI_cases": 400,
+      "DBA_cases": 200,
+      "KSE_cases": 200,
+      "MPC_cases": 100,
+      "ORA_cases": 100,
+      "PPA_cases": 300,
+      "RER_cases": 200,
+      "TAA_cases": 100,
+      "TIR_cases": 100,
+      "episodes": 2000,
+      "exact_governed_success": 2000,
+      "unauthorized_actions": 0,
+      "unauthorized_opportunities": 1500
+    }
+  }
+}

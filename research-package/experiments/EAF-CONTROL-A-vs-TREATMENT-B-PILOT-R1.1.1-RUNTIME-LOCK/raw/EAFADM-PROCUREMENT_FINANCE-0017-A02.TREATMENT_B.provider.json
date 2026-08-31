@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:11:37.2531768Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 149,
+  "eval_duration": 26830978000,
+  "load_duration": 2137900,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_UNREGISTERED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"AGENT_REGISTRY\",\n  \"required_next_action\": \"REGISTER_AGENT_OR_DENY\",\n  \"actions\": [\n    \"REGISTER_AGENT_OR_DENY\"\n  ],\n  \"outcome_status\": \"INSUFFICIENT_AUTHORITY\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"AGENT_NOT_REGISTERED\"\n  ],\n  \"reasoning_summary\": \"The agent is not registered, and the mandatory directive from the EAF control envelope explicitly denies unregistered agents. Registration is required before any action can be authorized.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 941,
+  "prompt_eval_duration": 17836327000,
+  "total_duration": 44805696500
+}

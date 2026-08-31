@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:34:36.4404233Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 168,
+  "eval_duration": 28503539000,
+  "load_duration": 3166200,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_TENANT_SCOPE\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"TENANT-02\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"REOBSERVE_TENANT_SCOPE\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"REF-0001\"\n  ],\n  \"reasoning_summary\": \"The mission is scoped to TENANT-99, but the agent's registry is associated with TENANT-02. This tenant scope mismatch prohibits the action.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 811,
+  "prompt_eval_duration": 15682641000,
+  "total_duration": 44351650500
+}

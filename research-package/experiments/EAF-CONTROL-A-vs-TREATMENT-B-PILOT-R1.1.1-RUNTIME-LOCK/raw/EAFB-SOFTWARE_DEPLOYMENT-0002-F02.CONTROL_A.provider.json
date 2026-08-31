@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:27:20.9063833Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 190,
+  "eval_duration": 32217269000,
+  "load_duration": 2717600,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"ALLOWED\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission requires deployment of REL-0002. The requester has the required role (RELEASE_MANAGER) and the necessary approval (PRODUCTION_RELEASE_APPROVAL) is present. The capability for DEPLOY_PRODUCTION_RELEASE is technically available and meets the policy requirements. The historical status is superseded, and the current status is eligible, validating the deployment action.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1034,
+  "prompt_eval_duration": 16894107000,
+  "total_duration": 49241033200
+}

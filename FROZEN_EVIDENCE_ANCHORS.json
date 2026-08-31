@@ -1,0 +1,324 @@
+[
+  {
+    "id": "FROZEN_MANUSCRIPT_V1_0",
+    "sha256": "e70101f5d6f6d34478b9333519123ad15e6469e5ea8fec685dd70904566697e2",
+    "required": true,
+    "role": "Scientific source of record",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 3,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1\\EAF_Manuscript_v1.0_FROZEN_SOURCE.md",
+        "zip_entry": null,
+        "bytes": 47843,
+        "serialized_file_sha256": "e70101f5d6f6d34478b9333519123ad15e6469e5ea8fec685dd70904566697e2",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_EXTERNAL_REVIEW_R1.zip",
+        "zip_entry": "EAF_V1_1_EXTERNAL_REVIEW_R1/04_EVIDENCE/EAF_Manuscript_v1.0_FROZEN_SOURCE.md",
+        "bytes": 47843,
+        "serialized_file_sha256": "e70101f5d6f6d34478b9333519123ad15e6469e5ea8fec685dd70904566697e2",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1.zip",
+        "zip_entry": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1/EAF_Manuscript_v1.0_FROZEN_SOURCE.md",
+        "bytes": 47843,
+        "serialized_file_sha256": "e70101f5d6f6d34478b9333519123ad15e6469e5ea8fec685dd70904566697e2",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "DATA_PREP_LOGICAL_MANIFEST",
+    "sha256": "60960f610800bbe4e4b4ff81da0e603894f0d72ef9640273b6bb8882af9cea87",
+    "required": false,
+    "role": "v1.1 data-prep logical manifest",
+    "verification": "FILE_SHA256",
+    "status": "NOT_FOUND",
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "id": "TRACK_A_SCIENTIFIC_CLOSURE",
+    "sha256": "98f2fa4bfef3753cd6afa4bef427f762d115e250808a9de07051fb212178a7e5",
+    "required": true,
+    "role": "Track-A scientific-closure manifest",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 2,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_CODEX_DATA_RECOVERY_R1\\recovered\\BENCHMARK-FAMILY-MAPPING-SOURCE-SCIENTIFIC-CLOSURE.json",
+        "zip_entry": null,
+        "bytes": 85773,
+        "serialized_file_sha256": "98f2fa4bfef3753cd6afa4bef427f762d115e250808a9de07051fb212178a7e5",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-R2-FOLLOWUP-SCIENTIFIC-CLOSURE-R1\\SCIENTIFIC-CLOSURE.json",
+        "zip_entry": null,
+        "bytes": 85773,
+        "serialized_file_sha256": "98f2fa4bfef3753cd6afa4bef427f762d115e250808a9de07051fb212178a7e5",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "TRACK_A_STATISTICAL_SUPPLEMENT",
+    "sha256": "b123dc433b54ff4afae280e22c3be0577e76e11f9331adb7c20f64b1a8dda5e9",
+    "required": true,
+    "role": "Restored complete Track-A statistics",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 2,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_CODEX_DATA_RECOVERY_R1\\recovered\\TRACK-A-STATISTICAL-SUPPLEMENT.md",
+        "zip_entry": null,
+        "bytes": 9999,
+        "serialized_file_sha256": "b123dc433b54ff4afae280e22c3be0577e76e11f9331adb7c20f64b1a8dda5e9",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-TRACK-A-REVIEWER-ADJUDICATION-R1\\TRACK-A-STATISTICAL-SUPPLEMENT.md",
+        "zip_entry": null,
+        "bytes": 9999,
+        "serialized_file_sha256": "b123dc433b54ff4afae280e22c3be0577e76e11f9331adb7c20f64b1a8dda5e9",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "BENCHMARK_FAMILIES",
+    "sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+    "required": true,
+    "role": "Benchmark family mapping",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 7,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_CODEX_DATA_RECOVERY_R1\\recovered\\BENCHMARK-FAMILY-MAPPING-SOURCE-families.json",
+        "zip_entry": null,
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-PARALLEL-CONSOLIDATED-TRACK-R1\\data\\decision-assurance-families.json",
+        "zip_entry": null,
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-R2-CONSOLIDATED-ASSURANCE-R1-HF01\\data\\families.json",
+        "zip_entry": null,
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-R2-CONSOLIDATED-ASSURANCE-R1\\data\\families.json",
+        "zip_entry": null,
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF-PARALLEL-CONSOLIDATED-TRACK-R1.zip",
+        "zip_entry": "EAF-PARALLEL-CONSOLIDATED-TRACK-R1/data/decision-assurance-families.json",
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF-R2-CONSOLIDATED-ASSURANCE-R1-HF01.zip",
+        "zip_entry": "EAF-R2-CONSOLIDATED-ASSURANCE-R1-HF01/data/families.json",
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF-R2-CONSOLIDATED-ASSURANCE-R1.zip",
+        "zip_entry": "EAF-R2-CONSOLIDATED-ASSURANCE-R1/data/families.json",
+        "bytes": 1243,
+        "serialized_file_sha256": "76b5715bc31ac66ca420d2c8f805b5fa15df9ddba7d5f81114a944d228c0c17d",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "R3_RESULT_MANIFEST",
+    "sha256": "bd9eb6d102e2539bdb6657296b64b87313c5b57d98755011c8f48124cf37a07b",
+    "required": true,
+    "role": "Frozen R3 result manifest",
+    "verification": "LOGICAL_SHA256_FIELD",
+    "status": "MATCHED",
+    "match_count": 1,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-R3-CROSS-MODEL-REPLICATION-R1\\results\\R3-RESULT-MANIFEST.json",
+        "zip_entry": null,
+        "bytes": 1067,
+        "serialized_file_sha256": "f27729a63d80609ce64b0243c855649224c8f3cdf55d90491a20fe83eb899ab9",
+        "logical_sha256": "bd9eb6d102e2539bdb6657296b64b87313c5b57d98755011c8f48124cf37a07b"
+      }
+    ]
+  },
+  {
+    "id": "R3_RUN_LEDGER",
+    "sha256": "1cdfa9d536161fe3d2590e95bdb61fddcf094399728da9f43dcc203b419db1cd",
+    "required": true,
+    "role": "R3 raw-call audit trail",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 1,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-R3-CROSS-MODEL-REPLICATION-R1\\run\\R3-RUN-LEDGER.jsonl",
+        "zip_entry": null,
+        "bytes": 1534533,
+        "serialized_file_sha256": "1cdfa9d536161fe3d2590e95bdb61fddcf094399728da9f43dcc203b419db1cd",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "R3_SIX_CUA_FORENSIC_JSON",
+    "sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+    "required": true,
+    "role": "R3 six-CUA forensic JSON",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 6,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1\\R3-SIX-CUA-FORENSIC.json",
+        "zip_entry": null,
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1\\R3-SIX-CUA-FORENSIC.json",
+        "zip_entry": null,
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-TRACK-C-R3-CUA-FORENSIC-AND-V099-R1\\R3-SIX-CUA-FORENSIC.json",
+        "zip_entry": null,
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1.zip",
+        "zip_entry": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1/R3-SIX-CUA-FORENSIC.json",
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_EXTERNAL_REVIEW_R1.zip",
+        "zip_entry": "EAF_V1_1_EXTERNAL_REVIEW_R1/04_EVIDENCE/R3-SIX-CUA-FORENSIC.json",
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1.zip",
+        "zip_entry": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1/R3-SIX-CUA-FORENSIC.json",
+        "bytes": 29283,
+        "serialized_file_sha256": "9d73b382b884cdeeff77ecc986065f901a90625ae718cf125db75c9b4aa0fd5c",
+        "logical_sha256": null
+      }
+    ]
+  },
+  {
+    "id": "R3_SIX_CUA_FORENSIC_MD",
+    "sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+    "required": true,
+    "role": "R3 six-CUA forensic Markdown",
+    "verification": "FILE_SHA256",
+    "status": "MATCHED",
+    "match_count": 6,
+    "matches": [
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1\\R3-SIX-CUA-FORENSIC.md",
+        "zip_entry": null,
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1\\R3-SIX-CUA-FORENSIC.md",
+        "zip_entry": null,
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "FILE",
+        "discovery_relative_path": "EAF-TRACK-C-R3-CUA-FORENSIC-AND-V099-R1\\R3-SIX-CUA-FORENSIC.md",
+        "zip_entry": null,
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1.zip",
+        "zip_entry": "EAF_FINAL_TARGETED_DELTA_REVIEW_R1/R3-SIX-CUA-FORENSIC.md",
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_EXTERNAL_REVIEW_R1.zip",
+        "zip_entry": "EAF_V1_1_EXTERNAL_REVIEW_R1/04_EVIDENCE/R3-SIX-CUA-FORENSIC.md",
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      },
+      {
+        "source_type": "ZIP_ENTRY",
+        "discovery_relative_path": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1.zip",
+        "zip_entry": "EAF_V1_1_PUBLICATION_HARDENING_DATA_PREP_R1/R3-SIX-CUA-FORENSIC.md",
+        "bytes": 2173,
+        "serialized_file_sha256": "6c0d34a9a24795c6407db9b129b3e7a1c4a08dbbff157619b2a39b7bb9d9b899",
+        "logical_sha256": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "dffa3856ffbc6ff23082ae5a0380f4ca2024dc106e16b27c7519ca779905dad9",
+    "source_r1_packet_sha256": "dffa3856ffbc6ff23082ae5a0380f4ca2024dc106e16b27c7519ca779905dad9"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "93b7345ca635b733e761bb1282bab22a316e891e23e580658c8fcecaebf3ef84",
+    "source_r1_packet_sha256": "93b7345ca635b733e761bb1282bab22a316e891e23e580658c8fcecaebf3ef84"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "9b287657bf140d0b758a857c0fa32b05e34092b05321f25474c4372c18634901",
+    "source_r1_packet_sha256": "9b287657bf140d0b758a857c0fa32b05e34092b05321f25474c4372c18634901"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "acd5f7f643521ae15eeccda8e3f937dd7cc48e4473e7665ca7cf7433db4ac666",
+    "source_r1_packet_sha256": "acd5f7f643521ae15eeccda8e3f937dd7cc48e4473e7665ca7cf7433db4ac666"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "f739bfaad7a04e2e2513e49c48c4d154f112cb27cf4c76fa69d698e2443eb5e5",
+    "source_r1_packet_sha256": "f739bfaad7a04e2e2513e49c48c4d154f112cb27cf4c76fa69d698e2443eb5e5"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "3d57dc9cfdce1bb6e2cad72e581cdf47fd873de499c2ff7849c48e0da20db2c2",
+    "source_r1_packet_sha256": "3d57dc9cfdce1bb6e2cad72e581cdf47fd873de499c2ff7849c48e0da20db2c2"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "4d9707b95408906cce65330e7aa6050b0e66a7bbf1ff3bd7680e64bd211e620c",
+    "source_r1_packet_sha256": "4d9707b95408906cce65330e7aa6050b0e66a7bbf1ff3bd7680e64bd211e620c"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "00223a0d2418074e05298758f1dd1bee8dc15ae6b586613aeeb65ff73e362b1e",
+    "source_r1_packet_sha256": "00223a0d2418074e05298758f1dd1bee8dc15ae6b586613aeeb65ff73e362b1e"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "a41812d7f55a21be1b922f0cd6aac4ec36c21d820423160820898e29dfe7a412",
+    "source_r1_packet_sha256": "a41812d7f55a21be1b922f0cd6aac4ec36c21d820423160820898e29dfe7a412"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "22b59f820cca90ffcc260f38874d5e72cf9f51c6c526ca9ee9b9c2c6311bdbe1",
+    "source_r1_packet_sha256": "22b59f820cca90ffcc260f38874d5e72cf9f51c6c526ca9ee9b9c2c6311bdbe1"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "69c041de6be9639b51b5a7420dfa7f3c9fe8a492fcbce52d8c5363632fea20cd",
+    "source_r1_packet_sha256": "69c041de6be9639b51b5a7420dfa7f3c9fe8a492fcbce52d8c5363632fea20cd"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "0af979e88a273df33a9f2f42cce812ab9d1e12c1f7bc747380e3686c7902a8e6",
+    "source_r1_packet_sha256": "0af979e88a273df33a9f2f42cce812ab9d1e12c1f7bc747380e3686c7902a8e6"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c7f7691759a513e9c4c2e1ee277debe0e1ac533d90966374f3d013915947030d",
+    "source_r1_packet_sha256": "c7f7691759a513e9c4c2e1ee277debe0e1ac533d90966374f3d013915947030d"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "e9c4a5cd82b5b2129f9c3f3cb47ec085bfa4605948aff5ed0a14e994ac896193",
+    "source_r1_packet_sha256": "e9c4a5cd82b5b2129f9c3f3cb47ec085bfa4605948aff5ed0a14e994ac896193"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "cd45de0f4d24efed7b526a6ee3ae01451d36e7b0b22afde958aa822af561c49d",
+    "source_r1_packet_sha256": "cd45de0f4d24efed7b526a6ee3ae01451d36e7b0b22afde958aa822af561c49d"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "4c8f7362da869d7e0c1a0d426027a3211104767d61b7bf34e18443cfbb649c31",
+    "source_r1_packet_sha256": "4c8f7362da869d7e0c1a0d426027a3211104767d61b7bf34e18443cfbb649c31"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "517c1144c10853f006e1fdd5aeb24c688eddf5e1e5b137263b1edb975d2bdb57",
+    "source_r1_packet_sha256": "517c1144c10853f006e1fdd5aeb24c688eddf5e1e5b137263b1edb975d2bdb57"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "151326cfa9bc67d25eb3ed93096b4044425fa14607653ef3c3fbba685030acc4",
+    "source_r1_packet_sha256": "151326cfa9bc67d25eb3ed93096b4044425fa14607653ef3c3fbba685030acc4"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "4dcab4ae29fd169b75af0825c67d855e2a99e0abd21e251245cd39b013fda374",
+    "source_r1_packet_sha256": "4dcab4ae29fd169b75af0825c67d855e2a99e0abd21e251245cd39b013fda374"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "3af5b9a06091264cacf6c70b6cbb2d1a718f08fa82fd034424fc11e37f528e7f",
+    "source_r1_packet_sha256": "3af5b9a06091264cacf6c70b6cbb2d1a718f08fa82fd034424fc11e37f528e7f"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "044c676cc5e21194193b6c268afd74b62b34ad3b4a2a4a47414a6248bb29211a",
+    "source_r1_packet_sha256": "044c676cc5e21194193b6c268afd74b62b34ad3b4a2a4a47414a6248bb29211a"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "44d4d30f4a300923c4c8eb4d3a667b786dae9b45f1fd835bb6eacc2f1b444207",
+    "source_r1_packet_sha256": "44d4d30f4a300923c4c8eb4d3a667b786dae9b45f1fd835bb6eacc2f1b444207"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7b46ab3851fe06bd381bee88ada27772951b30882e8266501cd5e12e70e1c741",
+    "source_r1_packet_sha256": "7b46ab3851fe06bd381bee88ada27772951b30882e8266501cd5e12e70e1c741"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "2364dfcb357a3ff06fdfd4bc37dd787942eafb10c0947f75da9883b6f2c81edc",
+    "source_r1_packet_sha256": "2364dfcb357a3ff06fdfd4bc37dd787942eafb10c0947f75da9883b6f2c81edc"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "581c747c34677910a3c60aa920df45c6e8c9feab4143e9637da8b0542377450a",
+    "source_r1_packet_sha256": "581c747c34677910a3c60aa920df45c6e8c9feab4143e9637da8b0542377450a"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "ec1773784ed73e43e1d8b5e47c2499b9477fc20255901141e5ccfe60e8255e8f",
+    "source_r1_packet_sha256": "ec1773784ed73e43e1d8b5e47c2499b9477fc20255901141e5ccfe60e8255e8f"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "f09b1471651586853fb0f79aed0e28685d6ecdb5f809e1068c7764b7d31b8418",
+    "source_r1_packet_sha256": "f09b1471651586853fb0f79aed0e28685d6ecdb5f809e1068c7764b7d31b8418"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "3392f58eb9bfafecdc4e041ab6c776df3499fe49aa39d87c818960b36cadf7dc",
+    "source_r1_packet_sha256": "3392f58eb9bfafecdc4e041ab6c776df3499fe49aa39d87c818960b36cadf7dc"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "f4974db21948f6abb0ac95208cdad80e05b0493dd376d473d14399e6715b8ab5",
+    "source_r1_packet_sha256": "f4974db21948f6abb0ac95208cdad80e05b0493dd376d473d14399e6715b8ab5"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "85fe39165214030353bdaaa64288fe6eabf8fc59726bcbd3a79e63c2cdb9488f",
+    "source_r1_packet_sha256": "85fe39165214030353bdaaa64288fe6eabf8fc59726bcbd3a79e63c2cdb9488f"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d5769ab8894e349956ce9ef1c060fabcd65b4c8461aa57423933b90676f78f1d",
+    "source_r1_packet_sha256": "d5769ab8894e349956ce9ef1c060fabcd65b4c8461aa57423933b90676f78f1d"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "99b60da59826a077f8a66094a7bc2d0d44af9f561d34c6a42646b14fbdbc07bc",
+    "source_r1_packet_sha256": "99b60da59826a077f8a66094a7bc2d0d44af9f561d34c6a42646b14fbdbc07bc"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "ab97cc8f988309a60a46ad11baeedff440a52ddadac43fbff350eb29a6c38d88",
+    "source_r1_packet_sha256": "ab97cc8f988309a60a46ad11baeedff440a52ddadac43fbff350eb29a6c38d88"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "91065908364a0785117dcb98b7c90cde5f7f6baea4f03ed1a978e04d41c5e89c",
+    "source_r1_packet_sha256": "91065908364a0785117dcb98b7c90cde5f7f6baea4f03ed1a978e04d41c5e89c"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "63470d84fbb32b5979a2b85ea6841ec85795d0f23ea2b8a923763a42d6f2e258",
+    "source_r1_packet_sha256": "63470d84fbb32b5979a2b85ea6841ec85795d0f23ea2b8a923763a42d6f2e258"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "cfb670b6208a7a69beae103810751c7219312238cfdb52dd0b79b9329523c688",
+    "source_r1_packet_sha256": "cfb670b6208a7a69beae103810751c7219312238cfdb52dd0b79b9329523c688"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "69899efb82bc059e9493848acc0a7e1d6f3568005032e56ddcc2e27a88d2e63a",
+    "source_r1_packet_sha256": "69899efb82bc059e9493848acc0a7e1d6f3568005032e56ddcc2e27a88d2e63a"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "762dd8dcf405c55f6cae66b7632bdff543a88998b772b121b6b53c3a9d8a9105",
+    "source_r1_packet_sha256": "762dd8dcf405c55f6cae66b7632bdff543a88998b772b121b6b53c3a9d8a9105"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "02066710c4ee0e890d998c0dbff27f96a3da64ab3227d721a50452fbc3d4a4f0",
+    "source_r1_packet_sha256": "02066710c4ee0e890d998c0dbff27f96a3da64ab3227d721a50452fbc3d4a4f0"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "2a383dc44ecb1ab28b75945553f8208a65d6ca1a0b6fe65146c7c9b2656afd46",
+    "source_r1_packet_sha256": "2a383dc44ecb1ab28b75945553f8208a65d6ca1a0b6fe65146c7c9b2656afd46"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "3192d4184297c2dc3b2c8b4cbe568fd33198eade4d84223fea61f9a364c93eb4",
+    "source_r1_packet_sha256": "3192d4184297c2dc3b2c8b4cbe568fd33198eade4d84223fea61f9a364c93eb4"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "46763e0ec4f23f0151abd214c547bd5b23dcc03fc6f129e2636ed34cd1caf64c",
+    "source_r1_packet_sha256": "46763e0ec4f23f0151abd214c547bd5b23dcc03fc6f129e2636ed34cd1caf64c"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "8c3f508fed4d151a9ce5de79450f993cc9c80435afd79282338b97184a01839e",
+    "source_r1_packet_sha256": "8c3f508fed4d151a9ce5de79450f993cc9c80435afd79282338b97184a01839e"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "6ba2d0e9894eefb1ad5dc58b70e1264a36f7b8ae4b8601ae32591aa4ce5bf1cc",
+    "source_r1_packet_sha256": "6ba2d0e9894eefb1ad5dc58b70e1264a36f7b8ae4b8601ae32591aa4ce5bf1cc"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "8392a0919f33cdea97db8dc1473c41880f1eb2e1134eaf6c3277fe0519b68032",
+    "source_r1_packet_sha256": "8392a0919f33cdea97db8dc1473c41880f1eb2e1134eaf6c3277fe0519b68032"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "7c204e160d9381758a91ae6c23225ede43dbebd034b212d8896c5be649c6efe6",
+    "source_r1_packet_sha256": "7c204e160d9381758a91ae6c23225ede43dbebd034b212d8896c5be649c6efe6"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "acff0be88721e127d13fed63efa7c103ee3006db506235b07bd361802d416efd",
+    "source_r1_packet_sha256": "acff0be88721e127d13fed63efa7c103ee3006db506235b07bd361802d416efd"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "297ae36701bf2ed644852c71a80015168badff52cd4c34b7d8d562b7003ca637",
+    "source_r1_packet_sha256": "297ae36701bf2ed644852c71a80015168badff52cd4c34b7d8d562b7003ca637"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "e572f3966157c92f34cfe2043202f4c2b306f50f56133082ea40d53550a57249",
+    "source_r1_packet_sha256": "e572f3966157c92f34cfe2043202f4c2b306f50f56133082ea40d53550a57249"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "dcb82ba8d05e550ea5d8d282d8425e6985a8fd48e6ebd9cf74eeda8ad5a11201",
+    "source_r1_packet_sha256": "dcb82ba8d05e550ea5d8d282d8425e6985a8fd48e6ebd9cf74eeda8ad5a11201"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "f4c4e74764f4c49e4cdb719a741d361241097659a01e5073d496952504a5d2a6",
+    "source_r1_packet_sha256": "f4c4e74764f4c49e4cdb719a741d361241097659a01e5073d496952504a5d2a6"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d2dd3c82309a9c45d9f50048c3e243f60ac19b4d1312061cddcce8be369fb504",
+    "source_r1_packet_sha256": "d2dd3c82309a9c45d9f50048c3e243f60ac19b4d1312061cddcce8be369fb504"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "58cf0fc3829c576189970b8a6674a09ff72a0315322416c8ce37a19ec34405ef",
+    "source_r1_packet_sha256": "58cf0fc3829c576189970b8a6674a09ff72a0315322416c8ce37a19ec34405ef"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "26e27ff1291c3c58e0e4afdec9c4fe65ec0dbd3e4c5775b0141ce1ef7d781bb6",
+    "source_r1_packet_sha256": "26e27ff1291c3c58e0e4afdec9c4fe65ec0dbd3e4c5775b0141ce1ef7d781bb6"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "156aba00f7e48a1257f008ad658fd5b9f31953697dfd51342ff12e55d4a5b4de",
+    "source_r1_packet_sha256": "156aba00f7e48a1257f008ad658fd5b9f31953697dfd51342ff12e55d4a5b4de"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "33ffa054e560d4bfb1c5325a8468d27bd173e839d64e4f94069435f4f22807c4",
+    "source_r1_packet_sha256": "33ffa054e560d4bfb1c5325a8468d27bd173e839d64e4f94069435f4f22807c4"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "8cf7c75820557ebf5f15a8e718ee4d0175704a3704dffd144e5bfe0b672bf72f",
+    "source_r1_packet_sha256": "8cf7c75820557ebf5f15a8e718ee4d0175704a3704dffd144e5bfe0b672bf72f"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "97c7b7ce8f644e7683d1037d9f26ea184b12f5b12147b3cc112b3348a0e847d8",
+    "source_r1_packet_sha256": "97c7b7ce8f644e7683d1037d9f26ea184b12f5b12147b3cc112b3348a0e847d8"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "f637d2153d67aef948442584e4a389beacdfd346bc9d80946df6dc964f451b50",
+    "source_r1_packet_sha256": "f637d2153d67aef948442584e4a389beacdfd346bc9d80946df6dc964f451b50"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "8e31a5112e468c4fe245b49486cfd0890b0eae45fbce9e858c3f882cac17ed0a",
+    "source_r1_packet_sha256": "8e31a5112e468c4fe245b49486cfd0890b0eae45fbce9e858c3f882cac17ed0a"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "451d0239e84535b71402466818429547664b3e711111f54033ff5352625d1721",
+    "source_r1_packet_sha256": "451d0239e84535b71402466818429547664b3e711111f54033ff5352625d1721"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c897de3472a8aa56468411eba19b8a0794aef6296b3eceae8537ae5016ff1769",
+    "source_r1_packet_sha256": "c897de3472a8aa56468411eba19b8a0794aef6296b3eceae8537ae5016ff1769"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0018-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "be10d2e06caa37483e24fb79fb7b72ce7d99b1643a822a427e87bf074be13d0b",
+    "source_r1_packet_sha256": "be10d2e06caa37483e24fb79fb7b72ce7d99b1643a822a427e87bf074be13d0b"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "6158106418ffd318fe2e1f3a75493bc107c3cd47247e983b3b6c7a03412e4ec9",
+    "source_r1_packet_sha256": "6158106418ffd318fe2e1f3a75493bc107c3cd47247e983b3b6c7a03412e4ec9"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0005-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "4c193be4293d1102f0a1fea2c04cdd37f16530eee717a249c0ef9069f8dface5",
+    "source_r1_packet_sha256": "4c193be4293d1102f0a1fea2c04cdd37f16530eee717a249c0ef9069f8dface5"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "dba711a3cd0479133d04000062921f63b67f5bead3f804b64b49f52952a773f4",
+    "source_r1_packet_sha256": "dba711a3cd0479133d04000062921f63b67f5bead3f804b64b49f52952a773f4"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "f220b11bb0b38ee20f7f39bb7eaf2545cf5f6a62cdffa84848d7205605046003",
+    "source_r1_packet_sha256": "f220b11bb0b38ee20f7f39bb7eaf2545cf5f6a62cdffa84848d7205605046003"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "60a5358d3627b8b5a601d6d97f320374eb65bd3b3c735a9de4c201c1c01e882f",
+    "source_r1_packet_sha256": "60a5358d3627b8b5a601d6d97f320374eb65bd3b3c735a9de4c201c1c01e882f"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "e06d9f5418f0d73974160520daaa1da657095e39270b65bb44062740197e60b8",
+    "source_r1_packet_sha256": "e06d9f5418f0d73974160520daaa1da657095e39270b65bb44062740197e60b8"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0014-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "22de5e1d3938b9adc1b4ecc1604ae9e9fe81fe86f802f1c3daf7085ea01cdae0",
+    "source_r1_packet_sha256": "22de5e1d3938b9adc1b4ecc1604ae9e9fe81fe86f802f1c3daf7085ea01cdae0"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "7e1fd0942d393578b3ddb8c6df3fee3584e6a379151b844ac70407702777e680",
+    "source_r1_packet_sha256": "7e1fd0942d393578b3ddb8c6df3fee3584e6a379151b844ac70407702777e680"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0009-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "f30ab94155ff7ace7191d78972ddde6f843c6205d9aecaa38ee14f230d0d28ba",
+    "source_r1_packet_sha256": "f30ab94155ff7ace7191d78972ddde6f843c6205d9aecaa38ee14f230d0d28ba"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "c21f32926606463d8b67c033c6a5e14c191cc3899d826912625a89d527f2cade",
+    "source_r1_packet_sha256": "c21f32926606463d8b67c033c6a5e14c191cc3899d826912625a89d527f2cade"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "74d3797feb4e27153125f283acc3921df4b8c6de52c4e0926e11ab35658c3ebc",
+    "source_r1_packet_sha256": "74d3797feb4e27153125f283acc3921df4b8c6de52c4e0926e11ab35658c3ebc"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0015-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "78df601210da5507b10be830a2f9f398da790649c44d5624208c2ccb8a0b944f",
+    "source_r1_packet_sha256": "78df601210da5507b10be830a2f9f398da790649c44d5624208c2ccb8a0b944f"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "336554bc026fb5f7e88a6afd375e5129570c650185b68d624175b88c869e3edd",
+    "source_r1_packet_sha256": "336554bc026fb5f7e88a6afd375e5129570c650185b68d624175b88c869e3edd"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "d9027401b29a2bb75d5b4449aad3c1a85e3a70dfd37c91b94be5aeda0295bcea",
+    "source_r1_packet_sha256": "d9027401b29a2bb75d5b4449aad3c1a85e3a70dfd37c91b94be5aeda0295bcea"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "b25090392757868ff0c3c519f962d23b8c9a1cb2d9ccbed5ea4e5f04d313a5f4",
+    "source_r1_packet_sha256": "b25090392757868ff0c3c519f962d23b8c9a1cb2d9ccbed5ea4e5f04d313a5f4"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "8110b197a3b2f5d3c80dcefefd88a67e5ee002bf4b8f44a4a7d0847128098163",
+    "source_r1_packet_sha256": "8110b197a3b2f5d3c80dcefefd88a67e5ee002bf4b8f44a4a7d0847128098163"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0003-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "8b0bd4ea509a4e1397711055c072c9ef3f0148792635299e940574b23f0ad0ff",
+    "source_r1_packet_sha256": "8b0bd4ea509a4e1397711055c072c9ef3f0148792635299e940574b23f0ad0ff"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "cbfc6ff0f3814af478d0a6ad8ce74f14c54adcd854a8a8608ac7e963fc53b558",
+    "source_r1_packet_sha256": "cbfc6ff0f3814af478d0a6ad8ce74f14c54adcd854a8a8608ac7e963fc53b558"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "5eb6baa87161df4eb69820c7eb7f73e2eb14a03d9e3ea89024440bbaaee0b99c",
+    "source_r1_packet_sha256": "5eb6baa87161df4eb69820c7eb7f73e2eb14a03d9e3ea89024440bbaaee0b99c"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "eb73362c42a379ba57899c678cd0889b7de60ba0e1c606e0921dafffda0d102f",
+    "source_r1_packet_sha256": "eb73362c42a379ba57899c678cd0889b7de60ba0e1c606e0921dafffda0d102f"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0014-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "6c43ce0d703680e1f40adfaedf9000b160cc5fadb1564c292203ebe994d2d0ca",
+    "source_r1_packet_sha256": "6c43ce0d703680e1f40adfaedf9000b160cc5fadb1564c292203ebe994d2d0ca"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "b7b362f21f33edd60fc11a2e7fc5434c8c632dae6d72bec9b4d50d8bbb9ceeeb",
+    "source_r1_packet_sha256": "b7b362f21f33edd60fc11a2e7fc5434c8c632dae6d72bec9b4d50d8bbb9ceeeb"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "3104f46a9095475e09c2e6efa0b5546d035f74ae33ffe65c80ca93b92466c45a",
+    "source_r1_packet_sha256": "3104f46a9095475e09c2e6efa0b5546d035f74ae33ffe65c80ca93b92466c45a"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "971049fb6a06c142d9462f0d1bbc49db037e8a940287f80ffe73990617b4fd7f",
+    "source_r1_packet_sha256": "971049fb6a06c142d9462f0d1bbc49db037e8a940287f80ffe73990617b4fd7f"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "9c3bfd191e7344514cc97a68136870b1553cc66ad66e9b1d8962076f476b4913",
+    "source_r1_packet_sha256": "9c3bfd191e7344514cc97a68136870b1553cc66ad66e9b1d8962076f476b4913"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "57c028f3bfa33d51e27ba87f74fc04b940272eccb57b780cf22614efc682962c",
+    "source_r1_packet_sha256": "57c028f3bfa33d51e27ba87f74fc04b940272eccb57b780cf22614efc682962c"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "31fca173c684dc9b101c039c508b0dc80debd2c5130a960a217e3f709d5312a3",
+    "source_r1_packet_sha256": "31fca173c684dc9b101c039c508b0dc80debd2c5130a960a217e3f709d5312a3"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c278b597c3396402f3a1105a8801c98f8d8365da553b98903b230cbb4d84e638",
+    "source_r1_packet_sha256": "c278b597c3396402f3a1105a8801c98f8d8365da553b98903b230cbb4d84e638"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "fd4da1de139497dd3185246b8b63cb9ef271f071abe04b98478a2b9ce40c53f0",
+    "source_r1_packet_sha256": "fd4da1de139497dd3185246b8b63cb9ef271f071abe04b98478a2b9ce40c53f0"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "b469589ce1f4b049dd64ad321e70c60a41d82107632b09aef2247f204740fa78",
+    "source_r1_packet_sha256": "b469589ce1f4b049dd64ad321e70c60a41d82107632b09aef2247f204740fa78"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "893a248ccae9227ec155818885049973792aed6d9dcfb3d7c2ed6fbd366ddc36",
+    "source_r1_packet_sha256": "893a248ccae9227ec155818885049973792aed6d9dcfb3d7c2ed6fbd366ddc36"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "791ba896a4053bfd0dc4d8782ad9b1993bab1500be3f963f10d1ec89b24077f0",
+    "source_r1_packet_sha256": "791ba896a4053bfd0dc4d8782ad9b1993bab1500be3f963f10d1ec89b24077f0"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "1e35452c9c870547a45ee15cf7a5bbcdf863377a0294de8e987ebd71682364ab",
+    "source_r1_packet_sha256": "1e35452c9c870547a45ee15cf7a5bbcdf863377a0294de8e987ebd71682364ab"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "7e247f834422fcff7594ed39a97d66c15d28fa07c3e2dc75f55f6d027ff37cce",
+    "source_r1_packet_sha256": "7e247f834422fcff7594ed39a97d66c15d28fa07c3e2dc75f55f6d027ff37cce"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "31a47e36e408159ae704756179ff7fd676bf0e94fd75c40086244d9e04414d82",
+    "source_r1_packet_sha256": "31a47e36e408159ae704756179ff7fd676bf0e94fd75c40086244d9e04414d82"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "5caa87a0d08d65a49c445b1fcdcea8dace110dbbbbc2ff3fd5ccb2fefd02d284",
+    "source_r1_packet_sha256": "5caa87a0d08d65a49c445b1fcdcea8dace110dbbbbc2ff3fd5ccb2fefd02d284"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "95b45bcb2b1594d8c64e340fc6f82b31c800628a0b116521a29a524dee3cf9e8",
+    "source_r1_packet_sha256": "95b45bcb2b1594d8c64e340fc6f82b31c800628a0b116521a29a524dee3cf9e8"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "821b8999f85ef509c7a455d149f9ca692ae9d310fda3ff7827d5a22d78f53d3e",
+    "source_r1_packet_sha256": "821b8999f85ef509c7a455d149f9ca692ae9d310fda3ff7827d5a22d78f53d3e"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "fa9a73d74fe1a2c2f52615556c04545b8ccfcdae52394ef484098df922aba530",
+    "source_r1_packet_sha256": "fa9a73d74fe1a2c2f52615556c04545b8ccfcdae52394ef484098df922aba530"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c322bd5a4b29a3ed75fdbf746b331cfa2babfdeaa61e42e41e10cef4f1cd2c1a",
+    "source_r1_packet_sha256": "c322bd5a4b29a3ed75fdbf746b331cfa2babfdeaa61e42e41e10cef4f1cd2c1a"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d965ee996c2d5bc040e4a125eb289b71bdc2ec5256b3cd4dd8094144dc8bb5b8",
+    "source_r1_packet_sha256": "d965ee996c2d5bc040e4a125eb289b71bdc2ec5256b3cd4dd8094144dc8bb5b8"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "0e46f0238c750a265f37d97360e896631482f4bf6a6810feac4b73bd10791d87",
+    "source_r1_packet_sha256": "0e46f0238c750a265f37d97360e896631482f4bf6a6810feac4b73bd10791d87"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "5a2967bae7532d63834d88a89f301abe0eae44ed90ac041dc34a9391b81f7939",
+    "source_r1_packet_sha256": "5a2967bae7532d63834d88a89f301abe0eae44ed90ac041dc34a9391b81f7939"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "988b87089037b68006d0dd088e2defc6bf319c813fd0d44d920f3d86bb523225",
+    "source_r1_packet_sha256": "988b87089037b68006d0dd088e2defc6bf319c813fd0d44d920f3d86bb523225"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "1d730ebd100daf43d3775bf2ef9ac73719a00db78ff01cb4fed6220886ec5155",
+    "source_r1_packet_sha256": "1d730ebd100daf43d3775bf2ef9ac73719a00db78ff01cb4fed6220886ec5155"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "62fec7c2c0310c611d231096917bbe27c7eeedb54000ec8094c7d7e4bd38208b",
+    "source_r1_packet_sha256": "62fec7c2c0310c611d231096917bbe27c7eeedb54000ec8094c7d7e4bd38208b"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "39e1c8352288c7e94e447b41c4ef777ea8c5e26c911a89e9e45884b783a51f5c",
+    "source_r1_packet_sha256": "39e1c8352288c7e94e447b41c4ef777ea8c5e26c911a89e9e45884b783a51f5c"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "d6b8e87a8de1831ea61c7ac9502ba39c2a0231bda75254a05e02cb8dd834cb9d",
+    "source_r1_packet_sha256": "d6b8e87a8de1831ea61c7ac9502ba39c2a0231bda75254a05e02cb8dd834cb9d"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "5e9d9cd3154c0951ea24edc8b6b5e660be0e3c8de5312ebec2e7189c94be5c9e",
+    "source_r1_packet_sha256": "5e9d9cd3154c0951ea24edc8b6b5e660be0e3c8de5312ebec2e7189c94be5c9e"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "0a37a0cebec50e72491ccd97410d1405873a7c88fb52ff23a08ced3c5cc44208",
+    "source_r1_packet_sha256": "0a37a0cebec50e72491ccd97410d1405873a7c88fb52ff23a08ced3c5cc44208"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "2765f299a1c9225ecd31d0fb2dd83ca23ec6bf89090fac6249bbc4549cbd4211",
+    "source_r1_packet_sha256": "2765f299a1c9225ecd31d0fb2dd83ca23ec6bf89090fac6249bbc4549cbd4211"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "05745a7c506cdab3ee66a816355eacaa2de4ff3da1996f11117ded99c83ed7de",
+    "source_r1_packet_sha256": "05745a7c506cdab3ee66a816355eacaa2de4ff3da1996f11117ded99c83ed7de"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0020-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "1b668ce8b496ed2c81899bc494a3587b826cb01e7f99fb50bb53d59e737486f7",
+    "source_r1_packet_sha256": "1b668ce8b496ed2c81899bc494a3587b826cb01e7f99fb50bb53d59e737486f7"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "ea6fbe972f75e858b27a8656e05e9b80309dd5c0a979d018a0e2b62aeaf9802d",
+    "source_r1_packet_sha256": "ea6fbe972f75e858b27a8656e05e9b80309dd5c0a979d018a0e2b62aeaf9802d"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "96bbfae71f529540f2d40ec7b1e195d3841b8969a8643cfd7c44014aa6a32114",
+    "source_r1_packet_sha256": "96bbfae71f529540f2d40ec7b1e195d3841b8969a8643cfd7c44014aa6a32114"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "89011827b51ca5fdd7d96c9833ff4455613aa6ba657cf744853a5afccf35f60a",
+    "source_r1_packet_sha256": "89011827b51ca5fdd7d96c9833ff4455613aa6ba657cf744853a5afccf35f60a"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "726437a65cdb5c52604436f4f4ae5494c0bedbc785c8097a392d4a659349dd2a",
+    "source_r1_packet_sha256": "726437a65cdb5c52604436f4f4ae5494c0bedbc785c8097a392d4a659349dd2a"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "e88318410615bd97d5d070bd7d0ca9a62c90d952cecad69cd322c448cf2f5299",
+    "source_r1_packet_sha256": "e88318410615bd97d5d070bd7d0ca9a62c90d952cecad69cd322c448cf2f5299"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "b6701426cbc0f0eb34c7b7b07daff824b0e06b67d07ca354e8e92ea96bd58e22",
+    "source_r1_packet_sha256": "b6701426cbc0f0eb34c7b7b07daff824b0e06b67d07ca354e8e92ea96bd58e22"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "8a1910c00f60df25b54d23436c3e374b528a69893e7d8eef28022ce9c5238119",
+    "source_r1_packet_sha256": "8a1910c00f60df25b54d23436c3e374b528a69893e7d8eef28022ce9c5238119"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "adab1d5c3412c163dbaa1e2cb092d31e91170121b35afc7af230756bf04cc6e1",
+    "source_r1_packet_sha256": "adab1d5c3412c163dbaa1e2cb092d31e91170121b35afc7af230756bf04cc6e1"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c560b403b62f1a221e62a1905e010e2ed6138cd479588befe2ebee4aea2a5827",
+    "source_r1_packet_sha256": "c560b403b62f1a221e62a1905e010e2ed6138cd479588befe2ebee4aea2a5827"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "40bec9f57b01327724e70e024163c6eff8d8f47ee11afcaf3c9f280476f0df27",
+    "source_r1_packet_sha256": "40bec9f57b01327724e70e024163c6eff8d8f47ee11afcaf3c9f280476f0df27"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "074ac0a85389fceb489b666154e40d75f300bb26ece9fd0b493a32a69a1608f5",
+    "source_r1_packet_sha256": "074ac0a85389fceb489b666154e40d75f300bb26ece9fd0b493a32a69a1608f5"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "67fb979e8e27190c515582007247b66aee5b87b9d91d40922a35a6275a3dfff7",
+    "source_r1_packet_sha256": "67fb979e8e27190c515582007247b66aee5b87b9d91d40922a35a6275a3dfff7"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "3878a6db916d1b1f40a49e86a1ab4900257bba7db1ff23aa9e571b562a2cdd84",
+    "source_r1_packet_sha256": "3878a6db916d1b1f40a49e86a1ab4900257bba7db1ff23aa9e571b562a2cdd84"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "2a9d96320a70f40a0138b3f0280357b5d5fdd25d2c5e42a327334bd33b16250c",
+    "source_r1_packet_sha256": "2a9d96320a70f40a0138b3f0280357b5d5fdd25d2c5e42a327334bd33b16250c"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "6465673ecbe335a61109b4a52d8dd98e1f7570fffbfbc98773aa40c2256decea",
+    "source_r1_packet_sha256": "6465673ecbe335a61109b4a52d8dd98e1f7570fffbfbc98773aa40c2256decea"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "9ecdc2f19d93612c992e9eea288f187da0927164a373b3d096609a2c9ae3c5a9",
+    "source_r1_packet_sha256": "9ecdc2f19d93612c992e9eea288f187da0927164a373b3d096609a2c9ae3c5a9"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "5a636b9a540d73affdab2dc83dbd55ee61d10089dd9f303a5123c010243968bb",
+    "source_r1_packet_sha256": "5a636b9a540d73affdab2dc83dbd55ee61d10089dd9f303a5123c010243968bb"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "57c190a406247b4c21216b5391205e27e2756c82fb039cb15f3eecd14ae1f7e8",
+    "source_r1_packet_sha256": "57c190a406247b4c21216b5391205e27e2756c82fb039cb15f3eecd14ae1f7e8"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "0df6848922c7c600e8ae214e06b7064dadb45c78bd19fadfd72ae2105cf09646",
+    "source_r1_packet_sha256": "0df6848922c7c600e8ae214e06b7064dadb45c78bd19fadfd72ae2105cf09646"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "0eb1650e6db70ff22a2151bcca4bd2af9da125eaf64ce019b7ddd3599c1d3a27",
+    "source_r1_packet_sha256": "0eb1650e6db70ff22a2151bcca4bd2af9da125eaf64ce019b7ddd3599c1d3a27"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "c0214bc7c69efbf62a6021dab525be2181829a3610a1ebea26b2613dc042b6ee",
+    "source_r1_packet_sha256": "c0214bc7c69efbf62a6021dab525be2181829a3610a1ebea26b2613dc042b6ee"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "bfdbf256a416b2bb17e09682d945f56e64d67554a6c3cfa86043b409294c7470",
+    "source_r1_packet_sha256": "bfdbf256a416b2bb17e09682d945f56e64d67554a6c3cfa86043b409294c7470"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "5fd2b67d15d62ec8415703fee581c368f56e5e43603f641b16945e11287ec3e8",
+    "source_r1_packet_sha256": "5fd2b67d15d62ec8415703fee581c368f56e5e43603f641b16945e11287ec3e8"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "fcb76a63477f08771aaf9c84e99677c1b69df76546395f7fa1434e9856b3291f",
+    "source_r1_packet_sha256": "fcb76a63477f08771aaf9c84e99677c1b69df76546395f7fa1434e9856b3291f"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d0f11af7543e4d2541cba9f053b0978c9b2a31274117b8192e58f3289d276198",
+    "source_r1_packet_sha256": "d0f11af7543e4d2541cba9f053b0978c9b2a31274117b8192e58f3289d276198"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0017-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "4aa5e354d8e4f641c1578301a2e5c3b6f550dd46b89c3a08d77801e0c607cc07",
+    "source_r1_packet_sha256": "4aa5e354d8e4f641c1578301a2e5c3b6f550dd46b89c3a08d77801e0c607cc07"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "f0b5b77ed4b931bb5aad85f0122edca3180bdadc5e1795f74f08995b700d382d",
+    "source_r1_packet_sha256": "f0b5b77ed4b931bb5aad85f0122edca3180bdadc5e1795f74f08995b700d382d"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7a586c81979ec15eadc190247dfe1ea647571b7460d8f4561e8f9199bc718978",
+    "source_r1_packet_sha256": "7a586c81979ec15eadc190247dfe1ea647571b7460d8f4561e8f9199bc718978"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "541cad49c2d069f297c802b66916c6bd211740cade50ea2d052724b613203a16",
+    "source_r1_packet_sha256": "541cad49c2d069f297c802b66916c6bd211740cade50ea2d052724b613203a16"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7631077380ca315e6954618ca815ae37e7b0dafbc3d4ae6277285b341f28faab",
+    "source_r1_packet_sha256": "7631077380ca315e6954618ca815ae37e7b0dafbc3d4ae6277285b341f28faab"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "d5ced44f69b1e7f3b378ddbdc6c6c8bb124fa25fc6f44417a07706c52aa35c87",
+    "source_r1_packet_sha256": "d5ced44f69b1e7f3b378ddbdc6c6c8bb124fa25fc6f44417a07706c52aa35c87"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "55b8acf430729a9e4e6279223da2f0e59bbbcdf7c7cfff1b8b874f6fb14c86e0",
+    "source_r1_packet_sha256": "55b8acf430729a9e4e6279223da2f0e59bbbcdf7c7cfff1b8b874f6fb14c86e0"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "04fdbde0179b0e34fe05ab242508aa2be9e2b7985d091e93b396d88ba6ae2133",
+    "source_r1_packet_sha256": "04fdbde0179b0e34fe05ab242508aa2be9e2b7985d091e93b396d88ba6ae2133"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "bc45a229db58ef7e685aa2d19860a4d4892d5392e6b0cc871fabd08267d40a3a",
+    "source_r1_packet_sha256": "bc45a229db58ef7e685aa2d19860a4d4892d5392e6b0cc871fabd08267d40a3a"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c4e1e6d048e7c34ce100bddcec4e0d72512440efb5aa61ce7511c32ddac6fa39",
+    "source_r1_packet_sha256": "c4e1e6d048e7c34ce100bddcec4e0d72512440efb5aa61ce7511c32ddac6fa39"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "ede99d1bd221c4d331104d721a22d5adee1521de622fd7e7abc4a9afa2d81faf",
+    "source_r1_packet_sha256": "ede99d1bd221c4d331104d721a22d5adee1521de622fd7e7abc4a9afa2d81faf"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "223ab8f58dbe47901bc8ecf171b5c9bf77b744e7d8c27da255a2a0cffc3e0af5",
+    "source_r1_packet_sha256": "223ab8f58dbe47901bc8ecf171b5c9bf77b744e7d8c27da255a2a0cffc3e0af5"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "93ecec90a24990ad96d8c87ad9a8eb900514527bf4edc23054fd071271671f53",
+    "source_r1_packet_sha256": "93ecec90a24990ad96d8c87ad9a8eb900514527bf4edc23054fd071271671f53"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "be14df88b91c36da9aacbc35011713f6ba2f206bad7c04d0e1c33c97f9014157",
+    "source_r1_packet_sha256": "be14df88b91c36da9aacbc35011713f6ba2f206bad7c04d0e1c33c97f9014157"
+  },
+  {
+    "episode_id": "EAFADM-SAP_ERP-0008-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "84e0ddaecaf091bf2cadb0249adc78da51b593b2265a61c42a03c9842d4d2570",
+    "source_r1_packet_sha256": "84e0ddaecaf091bf2cadb0249adc78da51b593b2265a61c42a03c9842d4d2570"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "59b80021a8d75607484c0a44b0e17d6cc1ec63ce530aeef9414f7a162519ae93",
+    "source_r1_packet_sha256": "59b80021a8d75607484c0a44b0e17d6cc1ec63ce530aeef9414f7a162519ae93"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "e17d963acfe1b0e2c179d77123025597a8abd64772cb2e88344742e75b5a44b3",
+    "source_r1_packet_sha256": "e17d963acfe1b0e2c179d77123025597a8abd64772cb2e88344742e75b5a44b3"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "0c600a84d33c89158d7b734b6448d40ff17711e5354e65a4b70e174dae5fe951",
+    "source_r1_packet_sha256": "0c600a84d33c89158d7b734b6448d40ff17711e5354e65a4b70e174dae5fe951"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F02",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "ca1801c97f0e1b06d527205113309d3877ae85ac51c74821f5e6ac947b1d2453",
+    "source_r1_packet_sha256": "ca1801c97f0e1b06d527205113309d3877ae85ac51c74821f5e6ac947b1d2453"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "b079c353d9433cebc6d8043a167ddc5ef1465cf8e328b8054ec17ab9c21facbd",
+    "source_r1_packet_sha256": "b079c353d9433cebc6d8043a167ddc5ef1465cf8e328b8054ec17ab9c21facbd"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F16",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "8001ca7b8b67eed3121b8f8d31df83354fa007a9bcc530e4ae8d052da3705841",
+    "source_r1_packet_sha256": "8001ca7b8b67eed3121b8f8d31df83354fa007a9bcc530e4ae8d052da3705841"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "292af9f455e3e923e51ed7d2858f763c278236d1fe8ebc27d5df821e89ae1a71",
+    "source_r1_packet_sha256": "292af9f455e3e923e51ed7d2858f763c278236d1fe8ebc27d5df821e89ae1a71"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "0624e2654d1760c969ea8db68fd9378a7b58cfbf5e8f40bc25720438031cee42",
+    "source_r1_packet_sha256": "0624e2654d1760c969ea8db68fd9378a7b58cfbf5e8f40bc25720438031cee42"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0001-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "9d8999d04a5f3005f12c5171e5e65532f914b72c6502a5d30d380b3e5a3051fc",
+    "source_r1_packet_sha256": "9d8999d04a5f3005f12c5171e5e65532f914b72c6502a5d30d380b3e5a3051fc"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "eeb6725c302e5dcf4a630c3ba31f5f1eebcee1ac3c3a0bae821d3000b21b859c",
+    "source_r1_packet_sha256": "eeb6725c302e5dcf4a630c3ba31f5f1eebcee1ac3c3a0bae821d3000b21b859c"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F06",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "093ecd9b51873bc762c1301d0a59080cb5d99f42ed6cf2cae38b39a4b113c529",
+    "source_r1_packet_sha256": "093ecd9b51873bc762c1301d0a59080cb5d99f42ed6cf2cae38b39a4b113c529"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0020-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "600ff056bf79af7673fefebd851f9ae7b8ff9ca571502b0d668a3f52eca4a13d",
+    "source_r1_packet_sha256": "600ff056bf79af7673fefebd851f9ae7b8ff9ca571502b0d668a3f52eca4a13d"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F14",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7d5e0f9dc90e7d53531490f858992e59852f67b05dc05624f446a01e8ecc5c0e",
+    "source_r1_packet_sha256": "7d5e0f9dc90e7d53531490f858992e59852f67b05dc05624f446a01e8ecc5c0e"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "bb962d5a1fdab73c96cebffa9a3696d61e21e38210988ac758d152d503ba978e",
+    "source_r1_packet_sha256": "bb962d5a1fdab73c96cebffa9a3696d61e21e38210988ac758d152d503ba978e"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0015-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "ee67eca8b78d4fe926a013664defa08ed37417bec17da6044938e276eb8f351f",
+    "source_r1_packet_sha256": "ee67eca8b78d4fe926a013664defa08ed37417bec17da6044938e276eb8f351f"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0001-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "771a1cff618be06b099f28aefce4993c5a9b8d659de0df14be5f3309c3dbbfa7",
+    "source_r1_packet_sha256": "771a1cff618be06b099f28aefce4993c5a9b8d659de0df14be5f3309c3dbbfa7"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "072df7a8ee7a3b5d23d9457015e526b7158b66525bfeab57fb7a7c4ca6644c59",
+    "source_r1_packet_sha256": "072df7a8ee7a3b5d23d9457015e526b7158b66525bfeab57fb7a7c4ca6644c59"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "38c70aa8bc9b7d39f80cd8a4f3030b6720f23b0098709286bc8d150b98f0c6d1",
+    "source_r1_packet_sha256": "38c70aa8bc9b7d39f80cd8a4f3030b6720f23b0098709286bc8d150b98f0c6d1"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F05",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "621530cd8f86e69d8d54e51e1db4f86d25e3c9461d3849b28f2bc781964c05bf",
+    "source_r1_packet_sha256": "621530cd8f86e69d8d54e51e1db4f86d25e3c9461d3849b28f2bc781964c05bf"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "adbab9ab8674c72e9803941b70d503f05fc406c108244c21d953fc71320944e4",
+    "source_r1_packet_sha256": "adbab9ab8674c72e9803941b70d503f05fc406c108244c21d953fc71320944e4"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F03",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "c1a4446887369336b8ce3271452fee05f7034abb4dce0125c9efd4130d084596",
+    "source_r1_packet_sha256": "c1a4446887369336b8ce3271452fee05f7034abb4dce0125c9efd4130d084596"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0020-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "a63816af4f69b047f9a9118037daef2379bacc702eac99c7b386e667584e8bf4",
+    "source_r1_packet_sha256": "a63816af4f69b047f9a9118037daef2379bacc702eac99c7b386e667584e8bf4"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "e82dedc8f1915dc911844166623120d4fa42c67bd8ddda15ba7c16a57ea8eb83",
+    "source_r1_packet_sha256": "e82dedc8f1915dc911844166623120d4fa42c67bd8ddda15ba7c16a57ea8eb83"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F01",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "6bdc033db00d5a49adcabb3667026e2a208a982083b67f032f6c4c164939dea8",
+    "source_r1_packet_sha256": "6bdc033db00d5a49adcabb3667026e2a208a982083b67f032f6c4c164939dea8"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "f9daf395c4d7af47e6430838cef57ed4347d8de2805e6add99dfe97b580d8485",
+    "source_r1_packet_sha256": "f9daf395c4d7af47e6430838cef57ed4347d8de2805e6add99dfe97b580d8485"
+  },
+  {
+    "episode_id": "EAFB-SAP_ERP-0013-F08",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "6560c194eefd7f60a43960dac1d389fc70e6b5616484c15d811b5b9d3af93c4a",
+    "source_r1_packet_sha256": "6560c194eefd7f60a43960dac1d389fc70e6b5616484c15d811b5b9d3af93c4a"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F09",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7a9174649d53c8833ab9b863fbd3c94f63c73d434454f10b41d9011f4c1a6a6e",
+    "source_r1_packet_sha256": "7a9174649d53c8833ab9b863fbd3c94f63c73d434454f10b41d9011f4c1a6a6e"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0019-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "47e444c01d1868e2ee3949b7c0afc2218f34b4d3e5a571de77b89a65b169090c",
+    "source_r1_packet_sha256": "47e444c01d1868e2ee3949b7c0afc2218f34b4d3e5a571de77b89a65b169090c"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0008-A02",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "be836f0ec61ac6d39ab3b243bc61d7e8444b9b93708bfa590aeb81e79021db71",
+    "source_r1_packet_sha256": "be836f0ec61ac6d39ab3b243bc61d7e8444b9b93708bfa590aeb81e79021db71"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "b2c274296f41a90a5389798c5c9672b7fc06e916a84f7dec368a76d537604dcc",
+    "source_r1_packet_sha256": "b2c274296f41a90a5389798c5c9672b7fc06e916a84f7dec368a76d537604dcc"
+  },
+  {
+    "episode_id": "EAFB-SOFTWARE_DEPLOYMENT-0002-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "a9f420489f8ef5d2997f45cc79aeec09e317ec69beaf81f5481761193f3ae202",
+    "source_r1_packet_sha256": "a9f420489f8ef5d2997f45cc79aeec09e317ec69beaf81f5481761193f3ae202"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "46c04aab6dce6b24f2e2ddcc617463052b482c82f3c4ab8743f71d869ad915b9",
+    "source_r1_packet_sha256": "46c04aab6dce6b24f2e2ddcc617463052b482c82f3c4ab8743f71d869ad915b9"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A04",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "cfe8de7a32864514deda95a07279506f6a5de2b3b827e29296c536be439f2914",
+    "source_r1_packet_sha256": "cfe8de7a32864514deda95a07279506f6a5de2b3b827e29296c536be439f2914"
+  },
+  {
+    "episode_id": "EAFADM-CUSTOMER_OPERATIONS-0014-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "6be000caf55491b6ebd0038f2d8f49ea6c0b90cb4443554135c9e5d947a762d3",
+    "source_r1_packet_sha256": "6be000caf55491b6ebd0038f2d8f49ea6c0b90cb4443554135c9e5d947a762d3"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "ce7700b39b15aa03df4467afa8862a2cbdb43197bc9f4c24d8a6d897a800e867",
+    "source_r1_packet_sha256": "ce7700b39b15aa03df4467afa8862a2cbdb43197bc9f4c24d8a6d897a800e867"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0008-A06",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "c3ee6c3ece94b8c01a1c6a1b7a3d0fb0804df6df45629478a844a5d43ed2ff25",
+    "source_r1_packet_sha256": "c3ee6c3ece94b8c01a1c6a1b7a3d0fb0804df6df45629478a844a5d43ed2ff25"
+  },
+  {
+    "episode_id": "EAFB-CUSTOMER_OPERATIONS-0018-F15",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d1c4fc517061ecc4bd8e174436136d4f5f6b4dd0c5f0d877db81df4d5fa2e6d4",
+    "source_r1_packet_sha256": "d1c4fc517061ecc4bd8e174436136d4f5f6b4dd0c5f0d877db81df4d5fa2e6d4"
+  },
+  {
+    "episode_id": "EAFB-ENTERPRISE_IT_OPS-0003-F07",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "7fefa37021129bbf2d074da39d607cb387b628a08d5860d139a1a449a7d7c6d8",
+    "source_r1_packet_sha256": "7fefa37021129bbf2d074da39d607cb387b628a08d5860d139a1a449a7d7c6d8"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A01",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "43b142b5c9d23c3dcccfce814ebf362fa6bd96ee38d10d08e7d5ca90fae722c8",
+    "source_r1_packet_sha256": "43b142b5c9d23c3dcccfce814ebf362fa6bd96ee38d10d08e7d5ca90fae722c8"
+  },
+  {
+    "episode_id": "EAFADM-ENTERPRISE_IT_OPS-0003-A10",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "1f31b165c50fb1cb250c611fe3e6f693dfc001c2d46a155aa0a0c1c12b31379b",
+    "source_r1_packet_sha256": "1f31b165c50fb1cb250c611fe3e6f693dfc001c2d46a155aa0a0c1c12b31379b"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0002-A03",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "8a9e898d6abf40b7c38721e3660df6208413f31d7cc8951b7b7b5e0e5005c6d9",
+    "source_r1_packet_sha256": "8a9e898d6abf40b7c38721e3660df6208413f31d7cc8951b7b7b5e0e5005c6d9"
+  },
+  {
+    "episode_id": "EAFADM-SOFTWARE_DEPLOYMENT-0018-A11",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "e15bfc02f71226707695769f81bc53f54e4670e678f025b882ec2d3f5d4b317f",
+    "source_r1_packet_sha256": "e15bfc02f71226707695769f81bc53f54e4670e678f025b882ec2d3f5d4b317f"
+  },
+  {
+    "episode_id": "EAFADM-PROCUREMENT_FINANCE-0017-A07",
+    "identical_to_r1": true,
+    "layer": "admin",
+    "packet_sha256": "1a4c0cc50de00dab05e199037445cc406552553c92e45e004f167d03b9730c88",
+    "source_r1_packet_sha256": "1a4c0cc50de00dab05e199037445cc406552553c92e45e004f167d03b9730c88"
+  },
+  {
+    "episode_id": "EAFB-PROCUREMENT_FINANCE-0011-F11",
+    "identical_to_r1": true,
+    "layer": "original",
+    "packet_sha256": "d9f4cf2974ec781c3c0d75b97030523c0684db8a34d950a1e6af4ab46de9c3b5",
+    "source_r1_packet_sha256": "d9f4cf2974ec781c3c0d75b97030523c0684db8a34d950a1e6af4ab46de9c3b5"
+  }
+]

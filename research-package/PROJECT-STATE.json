@@ -1,0 +1,21 @@
+{
+  "authoritative_nested_release_verified": true,
+  "authoritative_project_root": "research/EAFBench-R1.2-ADMIN-CONTROL-PLANE",
+  "benchmark": {
+    "admin_control_plane_episodes": 2000,
+    "admin_dataset_file": "admin-control-plane/dataset/eaf-admin-bench-v1.2.jsonl",
+    "admin_dataset_version": "1.2",
+    "combined_controlled_episodes": 4400,
+    "evaluated_model_experiments": 0,
+    "original_dataset_file": "dataset/eafbench-v0.2.jsonl",
+    "original_dataset_version": "0.2",
+    "original_eafbench_episodes": 2400,
+    "real_ops_normalized_observations": 1
+  },
+  "claim_state": "ARCHITECTURE_AND_BENCHMARK_READY; EMPIRICAL_SUPERIORITY_NOT_ESTABLISHED",
+  "created_at_utc": "2026-08-29T08:18:52.381705+00:00",
+  "last_versioned_correction_utc": "2026-08-29T08:40:03.002537+00:00",
+  "next_gate": "EAFBench-R1.2-ADMIN-CONTROL-PLANE-REVIEW-AND-FREEZE",
+  "package": "EAF-CONSOLIDATED-RESEARCH-PACKAGE-R1",
+  "status": "REVIEW_REQUIRED_AFTER_VERSIONED_CORRECTION"
+}

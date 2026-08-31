@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T15:00:22.5700079Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 188,
+  "eval_duration": 34756920000,
+  "load_duration": 3229800,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"SAP_RELEASE_AUTHORITY\",\n  \"required_next_action\": \"DEPLOY_RAP_OBJECT\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The deployment of RAP-0013 is authorized based on the verified evidence of current and historical eligibility, the presence of the required SAP deployment approval, and the requester's role as SAP_RELEASE_AUTHORITY. The policy POL-SAP_ERP is satisfied with the presence of authoritative system readiness and deployment authority.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1153,
+  "prompt_eval_duration": 26709285000,
+  "total_duration": 61652531700
+}

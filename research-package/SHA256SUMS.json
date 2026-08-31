@@ -1,0 +1,727 @@
+{
+  "artifact": "EAF-CONSOLIDATED-RESEARCH-PACKAGE-R1",
+  "authoritative_nested_release_verified": true,
+  "entries": [
+    {
+      "bytes": 702,
+      "path": "CONSOLIDATION-ACCEPTANCE.json",
+      "sha256": "c3a9c330b677ffdccc69108334074c8251388e0ba458fc3f546504e4b3d24616"
+    },
+    {
+      "bytes": 659,
+      "path": "PROJECT-STATE.json",
+      "sha256": "c91e7bfc1245fc7db42fc0a00332673e74c1cbac6077cdeaae27b0a09b472a36"
+    },
+    {
+      "bytes": 1702,
+      "path": "README.md",
+      "sha256": "e4131d27d0c4fc755c8f7735f80861abbbddc4f77dd92a6a361a5716a76f35cf"
+    },
+    {
+      "bytes": 1453,
+      "path": "architecture.md",
+      "sha256": "1be5e024dc4f88a8babf6abc718d73fc9265e5d728b1aa5cb36106bd91e20258"
+    },
+    {
+      "bytes": 823,
+      "path": "brain.md",
+      "sha256": "b4fdbc9e14289934381ad87724bb3725952fedd5219dff3b08780afd8771e25e"
+    },
+    {
+      "bytes": 1194,
+      "path": "claim-ledger.md",
+      "sha256": "fbac94194b1db7fdc951596ad2431920909456e56feb1ca558bf68b441a6956e"
+    },
+    {
+      "bytes": 1900,
+      "path": "current-state.md",
+      "sha256": "ac431c90bdfac4fe8dbac580ae0bca9007000c39169e9dffd1907fa911b2c613"
+    },
+    {
+      "bytes": 1268,
+      "path": "decisions.md",
+      "sha256": "f7bc3dafe5475b04bc675b189cf2bcbd63ae33cc3f929b9d8284744c581a52c6"
+    },
+    {
+      "bytes": 1597,
+      "path": "handover.md",
+      "sha256": "f4b523c0fda59e0d899d1ae1d53bd7a37e605ea271ed22df876b6ceb5490c0a1"
+    },
+    {
+      "bytes": 1313,
+      "path": "issue-backlog.md",
+      "sha256": "a4250b5f419faef433b3df38c391929e49d9fc2cb8b1cc55a63c7a500c3b67e5"
+    },
+    {
+      "bytes": 1608,
+      "path": "next-executable-prompt.md",
+      "sha256": "50d764ddb11f08ff0f48eccd00b638cd7b71dbcc5eabeed785dfb9e750ffeacc"
+    },
+    {
+      "bytes": 935,
+      "path": "release-notes.md",
+      "sha256": "df7253e93959941c7718b979dec6dd5610e36fa544f28ae8eeeb814312189f39"
+    },
+    {
+      "bytes": 37,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/.pytest_cache/.gitignore",
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "bytes": 191,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/.pytest_cache/CACHEDIR.TAG",
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "bytes": 302,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/.pytest_cache/README.md",
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "bytes": 616,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/.pytest_cache/v/cache/nodeids",
+      "sha256": "6a02b10242c4e1a91a3f79871f0f4db5fb3d91099505b0a1cdb0c4e7e39f1294"
+    },
+    {
+      "bytes": 395,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/FREEZE-CANDIDATE.md",
+      "sha256": "9d6e743eb163b29ae959e3f8d96a37a1821a9894c4687fb1ef845d8599fd9d1e"
+    },
+    {
+      "bytes": 3365,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/README.md",
+      "sha256": "250e9344e922d132eba58220f9902aa80c99494b448c3074b902fc15ee0a2f5d"
+    },
+    {
+      "bytes": 2673,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/config/domains.json",
+      "sha256": "285adc410e073e09c7a7c7aaf2d7e9c2021e58771930b7fa9aacf9e72eae7763"
+    },
+    {
+      "bytes": 3090,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/config/ontology.json",
+      "sha256": "d1a1fcf25b852f50d416906e5cab2590c90497608cba0cbc892cb9147ce2ec2f"
+    },
+    {
+      "bytes": 479,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/config/splits.json",
+      "sha256": "1e22effe3a9d42f1eceb1e7030685ac9bb7e9bf92bd0e4171727d8ea904968aa"
+    },
+    {
+      "bytes": 1694,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/contract/EAF-ADMIN-CONTROL-PLANE-CONTRACT-v1.1.json",
+      "sha256": "68044e7c33f5acd3fb5923d205e25918b4164dbe187c7d53a99293bbba822dd9"
+    },
+    {
+      "bytes": 1006,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/contract/EAF-ADMIN-CONTROL-PLANE-CONTRACT-v1.1.md",
+      "sha256": "487c0ee2294785b57eff054478d37d71bf1a83e5d1fd12b01045d73dd10e12bd"
+    },
+    {
+      "bytes": 2283,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/contract/invariants.json",
+      "sha256": "32556127904c73f66131e675d89743297149e04d56243dd22f7bf6d7acd3c646"
+    },
+    {
+      "bytes": 1013411,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/adversarial.jsonl",
+      "sha256": "039230346846a4d89ba4e3b6db56eb87f66e56ea2c63aaabc024fe6517cce7ba"
+    },
+    {
+      "bytes": 6668969,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/eaf-admin-bench-v1.1.jsonl",
+      "sha256": "c33d783b0ca31d3921782bda54857aff8c999b2f38e16269c6a7da6ea901f6c3"
+    },
+    {
+      "bytes": 1005804,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/falsification.jsonl",
+      "sha256": "1994fc758d954fca15f418ec1e2b5192ca1c93051f6bfba36f842eb03520c36f"
+    },
+    {
+      "bytes": 200521,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/golden-60.jsonl",
+      "sha256": "8ee061dc609230249d6cbf5fbf54ce20464a58bfd450676b139b3456c8cd4b1a"
+    },
+    {
+      "bytes": 1006711,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/heldout.jsonl",
+      "sha256": "ce4d77eddde21a130e1a08e26270e4bfab12ee63226905535aa8e5ae75cf3400"
+    },
+    {
+      "bytes": 1173,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/docs/ARCHITECTURE.md",
+      "sha256": "2a3f4f57a35311d73fe834037562a039f9683f7674757766f6c52cb07b9b25ff"
+    },
+    {
+      "bytes": 745,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/docs/CLAIM-DISCIPLINE.md",
+      "sha256": "04a80007c05d237dc4194b8ea2bf9ca407e419c020c062d1384af02c9031e15f"
+    },
+    {
+      "bytes": 3619,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/docs/DATASET-CARD.md",
+      "sha256": "c289c7c57e9bda45cea5ab7a548242c1bdab54a8b54906fffd8d806c47d41baf"
+    },
+    {
+      "bytes": 1231,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/ACCEPTANCE-REPORT.json",
+      "sha256": "1965620e2d151f858a73e0899354220174fcf6d1f9ace8cf2fb075984830d3be"
+    },
+    {
+      "bytes": 1362,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/ACCEPTANCE-REPORT.md",
+      "sha256": "d8ff0eb03bd5718e23f871cc12034451147a767b0ed294f9002e109ac7ed3073"
+    },
+    {
+      "bytes": 1735,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/dataset-characterization.json",
+      "sha256": "5b6c334c2b381772e95167d2cbd23c6f49d78eb66c7e0fe224e43405f0b52d75"
+    },
+    {
+      "bytes": 1025,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/oracle-metrics.json",
+      "sha256": "5996f2ecf80b298070734c4eb508cc3f77d45617205ce4c702f091995135ed2d"
+    },
+    {
+      "bytes": 472,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/preservation-check.json",
+      "sha256": "9d427c8a15e062d9e234f8ff482b1c1baa2af0b38e863a26ae84f4e275968c9a"
+    },
+    {
+      "bytes": 1304,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/pytest-output.txt",
+      "sha256": "f29a6029c3f4e117570ca6c3e02553bfe5788d813cad048ec80158a5b9e848c4"
+    },
+    {
+      "bytes": 73,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/schema-validation.json",
+      "sha256": "974c1d336c516b269de65f5fddfaf43877d3c057352598b95a35c1a58d81ad7d"
+    },
+    {
+      "bytes": 3,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/evidence/validator-failures.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 2269,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/schemas/admin-episode.schema.json",
+      "sha256": "20bae89b2f5f5e2715ee87875b2f7d1be422fa034bbb8a5f2ef9966e5cefd843"
+    },
+    {
+      "bytes": 1489,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/admin-control-plane/schemas/admin-result.schema.json",
+      "sha256": "913b12e595b25429cd1b58e6e7f559370908ff4acd4a1bf7db7bef6f4d36d5da"
+    },
+    {
+      "bytes": 2673,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/config/domains.json",
+      "sha256": "285adc410e073e09c7a7c7aaf2d7e9c2021e58771930b7fa9aacf9e72eae7763"
+    },
+    {
+      "bytes": 3564,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/config/ontology.json",
+      "sha256": "0d0ea4091fc476dcb6abceb07a32092617b7242dff1bdb95783aa09293dff694"
+    },
+    {
+      "bytes": 494,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/config/splits.json",
+      "sha256": "9d19fd27c6908ae79a82575c3c41e38cdce9aec8b8e5514d42ff5e84f0112a5f"
+    },
+    {
+      "bytes": 1339,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/contract/EAF-R2A-CONTRACT-v0.1.json",
+      "sha256": "d369723b7c5c1851ad2ba49cc1f0e45b732d8426aaad9435029ad542598b4b24"
+    },
+    {
+      "bytes": 3062,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/contract/EAF-R2A-CONTRACT-v0.1.md",
+      "sha256": "7d31683d14f1707f12ee90c8e94ae0f0e77c70e59439f37e9382939e851e13b7"
+    },
+    {
+      "bytes": 2548,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/contract/invariants.json",
+      "sha256": "63ccff1642f0a805663cc581cf8234ec478feb57b98adc62e704bdafb624023b"
+    },
+    {
+      "bytes": 8465772,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/dataset/eafbench-v0.1.jsonl",
+      "sha256": "62e4d7d09cd2ef2550edc41ae7def2da92c182955ab164fe5973e63fd9b45d20"
+    },
+    {
+      "bytes": 712198,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/dataset/falsification.jsonl",
+      "sha256": "0d9395d0e1d0690bd922ee43f805e4cd8e0bb31ec20a56e845df259ff7069265"
+    },
+    {
+      "bytes": 171279,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/dataset/golden-50.jsonl",
+      "sha256": "6f009f36c408e11e8b1b179085812dcd55380de251fddb4f50b35cce2f18c932"
+    },
+    {
+      "bytes": 1827104,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/dataset/heldout.jsonl",
+      "sha256": "c40beb4f4ab0b0ebe6cf172a888abc6ce2ecf988e6e16c401843ac19be020f92"
+    },
+    {
+      "bytes": 355,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/docs/ACCEPTANCE-CRITERIA.md",
+      "sha256": "a0e69af85cb0f693f61836d1754cb2ddcac139c3e9efce81b51e4dc6f365f606"
+    },
+    {
+      "bytes": 1302,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/docs/DATASET-CARD.md",
+      "sha256": "70ecde58fd664e2597809d9dac1e8df53b098355fc6a7e2fdcbd5b21bafc8222"
+    },
+    {
+      "bytes": 851,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/docs/METHODOLOGY.md",
+      "sha256": "ac8489ff43e0b66c735a2a69333d2a00860e5a8c2069d0844613b9db3990eec4"
+    },
+    {
+      "bytes": 2946,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/docs/REAL-OPS-EVIDENCE.md",
+      "sha256": "c3c4703cccb4b7823276015bc998ea74be9eabdd54d12e6efd55b78347b69189"
+    },
+    {
+      "bytes": 1137,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/ACCEPTANCE-REPORT.json",
+      "sha256": "479241e5f80792d15e0c0d1b25eeb5610f04a1d5f13cf6b4fc7a19899534cdaf"
+    },
+    {
+      "bytes": 1262,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/ACCEPTANCE-REPORT.md",
+      "sha256": "f7b36b6a39c207462ed1310a8d5ee971ef2021b916a8c94d76a522738a8326aa"
+    },
+    {
+      "bytes": 1215,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/REAL-OPS-ACCEPTANCE.json",
+      "sha256": "27edb738ef714c2cf85e0a087a07e3d291e104139b795c99223790f80eba8fa5"
+    },
+    {
+      "bytes": 20865,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/SHA256SUMS.json",
+      "sha256": "7d0f235f612c98ffa2da96066d659b4c27c56dcd9cb719e7b731ea85b44718b6"
+    },
+    {
+      "bytes": 1670,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/dataset-characterization.json",
+      "sha256": "56461ba40ca23c774c906b062121d1caadacb678f10d91545fca88ecf1a2b0b8"
+    },
+    {
+      "bytes": 580,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/oracle-validator-metrics.json",
+      "sha256": "a65409878a62e31941716f6ed490d46c94e4e231402165fdd3a56de3459593e6"
+    },
+    {
+      "bytes": 73,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/schema-validation.json",
+      "sha256": "24ace00c7c760dfb04f4d01d7baea822f94eff39b7940ab05166a137bfcf8e9a"
+    },
+    {
+      "bytes": 3,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/evidence/validator-failures.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 3617,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/real-ops/observations/CLAIM-LEDGER-EAF-OPS-000001.json",
+      "sha256": "1574b24cfd29bdd5966dfcca75715213f27ecd19ec92c0ba92540b24d51ea17f"
+    },
+    {
+      "bytes": 9498,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/real-ops/observations/EAF-OPS-000001.json",
+      "sha256": "8ac5ef01389fefaf67a365c9ca59cf19a305e46b7e93d98c550875dfc4d062f0"
+    },
+    {
+      "bytes": 109097,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/real-ops/raw/EIA-Paired-Comparison.json",
+      "sha256": "20662fa85eb09381087439bc0e4eab41beb9e6b03fa05854c7fe8abb6be77abe"
+    },
+    {
+      "bytes": 81794,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/real-ops/raw/EIA-Trust-and-Value-Evaluation.md",
+      "sha256": "e5bbf5fb45a558b1e91f84074eb8454d295af0395cde23c31af30a1e7858bd79"
+    },
+    {
+      "bytes": 1110,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/real-ops/schemas/eaf-ops-observation.schema.json",
+      "sha256": "780d54341124d982181ebdd73e57418c92a53ace944cc7aba8938f89ff67dd9f"
+    },
+    {
+      "bytes": 47,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/requirements.txt",
+      "sha256": "6703ca96e65901801511086d7aa08b7aa469074b6e5c7ee51eafd58e38296fc2"
+    },
+    {
+      "bytes": 1404,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/schemas/capability.schema.json",
+      "sha256": "5f4bbed871398d5c695a8b225ab950db5612223196976a7b3b441829f638d551"
+    },
+    {
+      "bytes": 3290,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/schemas/episode.schema.json",
+      "sha256": "9de8bbda9cec651bd55b45f3963eac1c2195fe6ca331551149b7d7e2f8a3c5a2"
+    },
+    {
+      "bytes": 1914,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/schemas/evidence.schema.json",
+      "sha256": "5e8df7da93c13a8b4a0cef38c37fdf23fd02dd82148cd675ec8e138f67e989c1"
+    },
+    {
+      "bytes": 1258,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/schemas/result.schema.json",
+      "sha256": "303eb2305e87a9ba5bad707beb9bf1a31b63111a157e83666c164cc85c386dba"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/SHA256SUMS.json.sig",
+      "sha256": "8a35c0559705abe14d73673944e0836bb4ebe98b6429afbb19774a8c1866e548"
+    },
+    {
+      "bytes": 462,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/SIGNING-STATUS.md",
+      "sha256": "37806d0a8fda0fa4b7f46cbb8913b56bc03a41bd5c4e6855cc17a5c3c1d39422"
+    },
+    {
+      "bytes": 113,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/release-public-key.pem",
+      "sha256": "9f8bda33ede32b184d98824cc5b825fcfdae941b425160a6906cbe8232bc9803"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench____init__.py.sig",
+      "sha256": "48abb4dc9ee88daf3cab50d0d49936b6f56fe678bdfe0e4f86451cc995c6fe10"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__build_dataset.py.sig",
+      "sha256": "be5171fdf00dbe09b828c6c8a4c829ae49761c51534b9a6fe4a981c8e3bd2ada"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__config.py.sig",
+      "sha256": "5cb35a20c601b73a1c9c43cb519196a9509de8c93f1902e0352a6b3358b16f03"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__core.py.sig",
+      "sha256": "4a4b372c6d3de9135590ec46c29ee387535d1775ba1a2bbf25895996a5ba1878"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__generator.py.sig",
+      "sha256": "3ee2c78f33331c12384a4cd2f12fd5196e5f156c6bbaea010d04b29a5551b8e7"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__metrics.py.sig",
+      "sha256": "7c8ba5997e0bde099069c507b7f8a7abc241fd039193bb82406e479fb5e40e92"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__validator.py.sig",
+      "sha256": "24e9938fd36ee36245ed6e8ffe03106a2031377e89e33c209dc844d9a3e0c889"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafadminbench__verify_release.py.sig",
+      "sha256": "d6e8530eab17bd659fc560ad31c16022b0181ec90f9bfe7801e52892aafb49a0"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench____init__.py.sig",
+      "sha256": "fb1a3054fc62ce59bcc4d2a0ee878aa311455e2b92d5d7eeb17a53f449f6547b"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__build_dataset.py.sig",
+      "sha256": "5c50f4ff2687ec4c8a2f05c761e69d4f4535b22804c08b4f272e9980995c3621"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__characterize.py.sig",
+      "sha256": "a289723ed1ba7f3b02d068a8f18a2290bd1d30f617444e2adfe3664fc12c86fd"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__core.py.sig",
+      "sha256": "ebfbea5d867aaa2a5ee1f0cbfdbc5bf36756b70cbdf59d7488d34bdf2c24a8e2"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__domain.py.sig",
+      "sha256": "d2da7595a4c221c35e3ca0fe86382accc636c68c852ccc371cb1a8cfc998e132"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__experiment_harness.py.sig",
+      "sha256": "1c4f18c83f5a14418fa85571f666670eb155f60397fb8eb0b6907b91dc40883f"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__generator.py.sig",
+      "sha256": "aeb0b73842abfd9f308519a96c743f416f9b73b4d547370d44b69a0134f0b437"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__metrics.py.sig",
+      "sha256": "51aa4f8ecd88a95d05d4952b639cf5334d1eb5a4b0056c226cf8de9e48c4c9b6"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__splits.py.sig",
+      "sha256": "ce45d5c99c2a4ab1d517ddcf45465c0786ff1d93f14e70bb23d47e2b1ee6cee6"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__validator.py.sig",
+      "sha256": "3408820d4711958fda0c9674fb98783d570ff027ddca822c053420a6876f610a"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/src__eafbench__verify_signatures.py.sig",
+      "sha256": "a10bb3a37f211675352b06ed245de89888d3bde0dfa0a17d5d82f0b27f638815"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/tests__test_admin_control_plane.py.sig",
+      "sha256": "770c8b2b74177ef9259a83709a6bcf758c41da4e4849f73dee67c73a1c55a47a"
+    },
+    {
+      "bytes": 89,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/signatures/tests__test_foundation.py.sig",
+      "sha256": "a173d085c26d61bea68417d07ec9169947f4aee3b4f13e1f72761f340d6dc7c1"
+    },
+    {
+      "bytes": 22,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__init__.py",
+      "sha256": "2c6550c83b1689f7400a8eeacedc1bf115961ddb3513bb90f99a83f12023cb0e"
+    },
+    {
+      "bytes": 196,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "aae3e8e373818600f8428908618befebbdd6f22d20a56a367da5af4443618124"
+    },
+    {
+      "bytes": 1342,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/config.cpython-313.pyc",
+      "sha256": "3c4576c8c6636bce2ad1ef0d8be3d3e787f5048046fcd1880509e4a638df65cd"
+    },
+    {
+      "bytes": 1457,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/core.cpython-313.pyc",
+      "sha256": "2694259f1235ff3210e76cf23611bb3b315e0eb182212a52e6ae7332eece718a"
+    },
+    {
+      "bytes": 11651,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/generator.cpython-313.pyc",
+      "sha256": "b82c2c1820a32b627eebb04dcdc371cdca3c8e43f2c198560a9cc433a6e5592d"
+    },
+    {
+      "bytes": 5201,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/metrics.cpython-313.pyc",
+      "sha256": "388c5782f23341c577208c888b24ad1a3599f26d8e6614e3dfb5ff38b8c53100"
+    },
+    {
+      "bytes": 2159,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/__pycache__/validator.cpython-313.pyc",
+      "sha256": "743482588008381568986ef5eb89c38a289cd938e7e5291141f95a7fcfe9945a"
+    },
+    {
+      "bytes": 848,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/build_dataset.py",
+      "sha256": "494cce93b9eeb8156c438e27fc6c27bea89fecb218450ecfe02515381cf45f47"
+    },
+    {
+      "bytes": 568,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/config.py",
+      "sha256": "261c2ab84669393e3982143b64d3c8d78f3efb88a0e07439c089b1fddfde195e"
+    },
+    {
+      "bytes": 478,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/core.py",
+      "sha256": "528762051db9770f179902fb96e3c7c3aa732366de5329c1418273d0a76fb1b6"
+    },
+    {
+      "bytes": 12959,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/generator.py",
+      "sha256": "d8ef83279e7191021eff40107d0745c15ac540e1ffea4557b781d35b0f6e08e7"
+    },
+    {
+      "bytes": 4465,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/metrics.py",
+      "sha256": "48217f0e8c36905b3e80247e922024d948f69c2b20fae0599d35f6e789ab9465"
+    },
+    {
+      "bytes": 1481,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/validator.py",
+      "sha256": "d29b842e932b1609bf3381dbd2ea5e58e322646a69848fe41e289c709c5931b7"
+    },
+    {
+      "bytes": 1362,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafadminbench/verify_release.py",
+      "sha256": "f161126754bd3c57c5a3b44b528651e85637941aa2d83890774c5588b1616319"
+    },
+    {
+      "bytes": 22,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__init__.py",
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "bytes": 184,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "b4cdb07bb7915f33135df5dd483b7999ed44138da6ea81671d064507aaa610af"
+    },
+    {
+      "bytes": 1504,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/core.cpython-313.pyc",
+      "sha256": "fcd85ee67c51827eeaa16b8c19531128cc2f271336888611da5108c3bd44debc"
+    },
+    {
+      "bytes": 1154,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/domain.cpython-313.pyc",
+      "sha256": "c13941066c7c9a66bdda1286dc1b153129e2c8255a0562fae70439077299c1dd"
+    },
+    {
+      "bytes": 13170,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/generator.cpython-313.pyc",
+      "sha256": "5c3e344ab4ec5d763c1858e47aef2dddc930fbd9293addfa9def21b8535e5017"
+    },
+    {
+      "bytes": 4906,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/metrics.cpython-313.pyc",
+      "sha256": "680295f7f9eede0cb3fbdcb6f9e395f08ec50a17a8b92134a6da295019951d77"
+    },
+    {
+      "bytes": 581,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/splits.cpython-313.pyc",
+      "sha256": "4703b8dfd6d3990caabd08c1a98f731f88ca6d5c8c85e61fd00e1d19847118f7"
+    },
+    {
+      "bytes": 2158,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/__pycache__/validator.cpython-313.pyc",
+      "sha256": "c1fa55fc1ca880dfac70b88c41fa251a8f0509be1172f39d08c3b9ba2560430c"
+    },
+    {
+      "bytes": 813,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/build_dataset.py",
+      "sha256": "fe6a5290a889b0aa670fffc64ce9fe4d64e28448ccc3cc437aaf77dc02e832f6"
+    },
+    {
+      "bytes": 1287,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/characterize.py",
+      "sha256": "fdd636dd280bc59b692d6eb71433f958c6d791f148cdadee7f0a5390495043e3"
+    },
+    {
+      "bytes": 518,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/core.py",
+      "sha256": "a8cd9c3b9960ad4a13514615cb037b802cfcc5d6ef0225d7937698fb06f70eec"
+    },
+    {
+      "bytes": 485,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/domain.py",
+      "sha256": "5c743da0c5cdc299faebb4e01d13a4fe965ee15865caaf4213315672ff09e723"
+    },
+    {
+      "bytes": 1852,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/experiment_harness.py",
+      "sha256": "bdcab59e76121e590d02c097c0122507b2c1202904941844fa66a5b9345db708"
+    },
+    {
+      "bytes": 14600,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/generator.py",
+      "sha256": "a8643e4d9270f5dac7d49776a95f0105106938a1660b25755e19ef02732d11b6"
+    },
+    {
+      "bytes": 4939,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/metrics.py",
+      "sha256": "ba2920cf53c44e116853ff04a3222c60891a75741c274441e4c24903c7d26493"
+    },
+    {
+      "bytes": 309,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/splits.py",
+      "sha256": "f658da4b767780cfe570c9f07f350b3449f5834ab106e7fc1cda915af956202c"
+    },
+    {
+      "bytes": 1563,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/validator.py",
+      "sha256": "cb338fa07baf39133e3a21f17f13371b16ef5aa3a8551c8f3c11c24c948f520f"
+    },
+    {
+      "bytes": 1333,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/src/eafbench/verify_signatures.py",
+      "sha256": "9b89a1d398f41b769ab2ea555dfa5814eb57e5d58be3ade9df300061bb439988"
+    },
+    {
+      "bytes": 8452,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/tests/__pycache__/test_admin_control_plane.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "965c42300eb555d48d0478bdd250c93444dc550d1804577577e437247c866965"
+    },
+    {
+      "bytes": 7193,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/tests/__pycache__/test_foundation.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "ef0e26b402cd79773e5c86a230725a01e5bc07ee1381a86e8667e186b621fec1"
+    },
+    {
+      "bytes": 1532,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/tests/test_admin_control_plane.py",
+      "sha256": "2191325cb80ac9c5c4ff68d818c40a3709ea5452d451b7b55af40581fe8552f7"
+    },
+    {
+      "bytes": 1035,
+      "path": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE/tests/test_foundation.py",
+      "sha256": "13135e2c485f53af4d9a00f04c6cc91027f696d5b98788a9db908eb8c1c3e25e"
+    },
+    {
+      "bytes": 767,
+      "path": "signatures/SIGNING-STATUS.md",
+      "sha256": "d920137e98c035abf2378ea06f77adb886d8306d7ed58a4774fc6f0534ea994e"
+    },
+    {
+      "bytes": 113,
+      "path": "signatures/consolidated-release-public-key.pem",
+      "sha256": "8742167bce5d2fe4f40422f89e5ced174063466fb4a1d81626a8b7b462d4676b"
+    },
+    {
+      "bytes": 1041,
+      "path": "source-evidence/EVIDENCE-CATALOG.json",
+      "sha256": "27761aa64f6b6d08774d65a02472d06464ec12c0c7330254be0b9117607cbec3"
+    },
+    {
+      "bytes": 109097,
+      "path": "source-evidence/raw-reports/EIA-Paired-Comparison.json",
+      "sha256": "20662fa85eb09381087439bc0e4eab41beb9e6b03fa05854c7fe8abb6be77abe"
+    },
+    {
+      "bytes": 81794,
+      "path": "source-evidence/raw-reports/EIA-Trust-and-Value-Evaluation.md",
+      "sha256": "e5bbf5fb45a558b1e91f84074eb8454d295af0395cde23c31af30a1e7858bd79"
+    },
+    {
+      "bytes": 338100,
+      "path": "source-evidence/ui-screenshots/eia-context-boundary-comparison.png",
+      "sha256": "eadda5afc15f0098c1686be037bf0109caa5fe6045ba9aa5bb07320b2abb8a40"
+    },
+    {
+      "bytes": 271395,
+      "path": "source-evidence/ui-screenshots/eia-ops-coverage-and-pairing.png",
+      "sha256": "31b3d05935d819f8915e31194459126da0454a00cfdafff0664f9c26b1dd9395"
+    },
+    {
+      "bytes": 296442,
+      "path": "source-evidence/ui-screenshots/eia-release-controls-and-kpi.png",
+      "sha256": "e154b8c9b3bb9ee323988a793124c8f7fc3c122b513d8bfe265b985d0075e027"
+    },
+    {
+      "bytes": 124660,
+      "path": "source-evidence/ui-screenshots/eia-technical-execution.png",
+      "sha256": "e048f871917fb2fccfb1215f9eca83042ec55e5822d56a3ad1826760ede8b4d0"
+    },
+    {
+      "bytes": 1131,
+      "path": "verification/authoritative-root-verification.txt",
+      "sha256": "bb0be04e048d6ca26b9b9929e05c6c645a876698002c7fec92ae1b0e2e75ebf4"
+    }
+  ],
+  "generated_at_utc": "2026-08-29T08:18:52.471186+00:00"
+}

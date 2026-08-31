@@ -1,0 +1,65 @@
+{
+  "created_at_utc": "2026-08-29T09:39:59.268905+00:00",
+  "immutable_requirements": {
+    "concurrency_must_remain": 1,
+    "model_digest_must_match_before_each_live_run": true,
+    "model_show_sha256_must_match_before_each_live_run": true,
+    "num_ctx_must_remain": 8192,
+    "num_predict_must_remain": 1200,
+    "ollama_server_version_must_match_before_each_live_run": true,
+    "request_timeout_s_must_remain": 600,
+    "seed_must_remain": 20260829,
+    "temperature_must_remain": 0.0,
+    "think_must_remain": false
+  },
+  "provider_config": {
+    "authentication": "NONE_LOCAL_RUNTIME",
+    "base_url": "http://127.0.0.1:11434",
+    "concurrency": 1,
+    "keep_alive": "30m",
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "num_predict": 1200,
+    "provider": "ollama",
+    "provider_retries": 0,
+    "request_timeout_s": 600,
+    "seed": 20260829,
+    "stream": false,
+    "temperature": 0.0,
+    "think": false
+  },
+  "qualification_gate": "PASS",
+  "qualification_report_sha256": "ff9da502101c51b0441075e9694d0cb0d27dabeef4fb45d4a5911d4e3a946b3e",
+  "runtime_identity": {
+    "captured_at_utc": "2026-08-29T09:38:05.192588+00:00",
+    "machine": "AMD64",
+    "model": "qwen3:8b",
+    "model_capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "model_details": {
+      "context_length": 40960,
+      "embedding_length": 4096,
+      "families": [
+        "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "model_modified_at": "2026-08-29T14:46:07.5183576+05:30",
+    "model_show_sha256": "7b8770aeedf2c77c7f58c0ecb4031766e08307eca874d11c106a4e28ab7510c9",
+    "model_size_bytes": 5225388164,
+    "ollama_server_version": "0.33.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "runtime_lock_version": "R1.1.1",
+  "status": "FROZEN_CANDIDATE"
+}

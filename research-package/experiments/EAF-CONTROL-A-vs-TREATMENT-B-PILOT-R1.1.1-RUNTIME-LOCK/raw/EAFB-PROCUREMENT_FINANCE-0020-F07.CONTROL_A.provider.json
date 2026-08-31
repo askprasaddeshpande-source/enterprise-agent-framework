@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:53:46.5531466Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 196,
+  "eval_duration": 35605614000,
+  "load_duration": 2100900,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"FINANCE_APPROVER\",\n  \"required_next_action\": \"APPROVAL_REQUIRED\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission requires releasing payment PAY-0020. The requester has the role of FINANCE_APPROVER, which matches the required requester authority for the capability CAP-RELEASE_PAYMENT. The evidence confirms the current and historical eligibility of the payment. However, the required approval FINANCE_APPROVAL is not yet verified, so approval is required before execution.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1029,
+  "prompt_eval_duration": 24758203000,
+  "total_duration": 60511547200
+}

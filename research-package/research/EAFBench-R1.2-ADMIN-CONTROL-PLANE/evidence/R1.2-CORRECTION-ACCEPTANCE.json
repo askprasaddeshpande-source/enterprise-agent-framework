@@ -1,0 +1,18 @@
+{
+  "admin_active_dataset": "admin-control-plane/dataset/eaf-admin-bench-v1.2.jsonl",
+  "admin_episodes": 2000,
+  "all_executable_scripts_digitally_signed": true,
+  "corrections": [
+    "C001_F05_F06_AUTHORITY_DISTINCTION",
+    "C004_CONSEQUENTIAL_READBACK_NEXT_ACTION",
+    "C002_A05_CURRENT_POLICY_LABEL",
+    "C003_A15_RETIRED_AGENT_LABEL"
+  ],
+  "model_experiments_executed": 0,
+  "old_release_preserved": true,
+  "original_active_dataset": "dataset/eafbench-v0.2.jsonl",
+  "original_episodes": 2400,
+  "parent": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE",
+  "pytest_pass": true,
+  "release": "EAFBench-R1.2-ADMIN-CONTROL-PLANE"
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:39:49.1939783Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 246,
+  "eval_duration": 43053282000,
+  "load_duration": 2679700,
+  "message": {
+    "content": "{\n  \"decision\": \"DENIED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"POLICY_PROHIBITED\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-WEAK-CONFLICT\"\n  ],\n  \"reasoning_summary\": \"The mission seeks to restart SVC-0001, which is currently blocked (E-WEAK-CONFLICT). Despite having a valid change approval (APR-SVC-0001), the policy POL-ENTERPRISE_IT_OPS prohibits high-impact actions without an authorized operator. The requester (USER-0001) holds the role of SRE_LEAD, which is listed as a required requester authority, but the policy explicitly requires an authorized operator, which is not confirmed. Therefore, the action is denied due to policy conflict.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1189,
+  "prompt_eval_duration": 27830758000,
+  "total_duration": 70960152100
+}

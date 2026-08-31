@@ -1,0 +1,82 @@
+[
+  {
+    "id": "A1",
+    "text": "Agent existence does not imply agent registration."
+  },
+  {
+    "id": "A2",
+    "text": "Registration does not imply enablement."
+  },
+  {
+    "id": "A3",
+    "text": "Enablement does not imply capability authority."
+  },
+  {
+    "id": "A4",
+    "text": "Capability authority does not imply execution authority."
+  },
+  {
+    "id": "A5",
+    "text": "Tenant scope is an administrative hard boundary."
+  },
+  {
+    "id": "A6",
+    "text": "An agent may not delegate authority it does not possess."
+  },
+  {
+    "id": "A7",
+    "text": "Delegation scope may narrow authority but may not silently widen it."
+  },
+  {
+    "id": "A8",
+    "text": "Revocation must take precedence over previously valid grants for current execution."
+  },
+  {
+    "id": "A9",
+    "text": "Policy version changes must become visible to governed executions according to the active policy contract."
+  },
+  {
+    "id": "A10",
+    "text": "Approval may be granted, revoked, expire, or be superseded independently of agent capability."
+  },
+  {
+    "id": "A11",
+    "text": "A kill switch must override otherwise valid execution permission."
+  },
+  {
+    "id": "A12",
+    "text": "Model/provider admission is administrative policy, not a model choice."
+  },
+  {
+    "id": "A13",
+    "text": "Tool/MCP discovery is not equivalent to tool/MCP admission."
+  },
+  {
+    "id": "A14",
+    "text": "Shared policy reuse must produce consistent administrative decisions across affected agents."
+  },
+  {
+    "id": "A15",
+    "text": "Disabled or retired agents must not execute consequential actions."
+  },
+  {
+    "id": "A16",
+    "text": "Every consequential administrative decision must be attributable to a versioned policy/authority lineage."
+  },
+  {
+    "id": "A17",
+    "text": "Missing audit lineage must never be represented as complete governance evidence."
+  },
+  {
+    "id": "A18",
+    "text": "Successful execution transport is not durable success without authoritative readback where readback is required."
+  },
+  {
+    "id": "A19",
+    "text": "Administrative conflict must not be silently resolved by model preference."
+  },
+  {
+    "id": "A20",
+    "text": "Human or system emergency override must be explicit, attributable, scoped, and separately auditable."
+  }
+]

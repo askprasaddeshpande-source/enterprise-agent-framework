@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:39:56.065065Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 240,
+  "eval_duration": 59191903000,
+  "load_duration": 18977900,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"ERP_FINANCE\",\n  \"required_next_action\": \"RELEASE_PAYMENT\",\n  \"actions\": [\n    \"RELEASE_PAYMENT\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission to release payment for PAY-0020 is authorized based on the current evidence (E-CURRENT) indicating the payment is eligible. The historical status (E-HIST) is superseded and does not conflict. The requester (USER-0020) has the role of FINANCE_APPROVER, and the required approval (APR-PAY-0020) is verified. The capability CAP-RELEASE_PAYMENT is technically available and meets the required approvals and execution authority. The policy POL-PROCUREMENT_FINANCE is satisfied as the action aligns with its requirements.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1121,
+  "prompt_eval_duration": 41472695000,
+  "total_duration": 100940735300
+}

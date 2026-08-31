@@ -1,0 +1,142 @@
+{
+  "CONTROL_A": {
+    "admin": {
+      "ABA": 0.0,
+      "ADMIN_GTS": 0.0,
+      "ADMIN_UAR": 0.0,
+      "ALC": 0.0,
+      "ARI": 0.0,
+      "DBA": 0.0,
+      "KSE": 0.0,
+      "MPC": 0.0,
+      "ORA": 0.0,
+      "PPA": 0.0,
+      "RER": 0.0,
+      "TAA": 0.0,
+      "TIR": 0.0,
+      "counts": {
+        "ABA_cases": 0,
+        "ALC_cases": 0,
+        "ARI_cases": 0,
+        "DBA_cases": 0,
+        "KSE_cases": 0,
+        "MPC_cases": 0,
+        "ORA_cases": 0,
+        "PPA_cases": 0,
+        "RER_cases": 0,
+        "TAA_cases": 0,
+        "TIR_cases": 0,
+        "episodes": 0,
+        "exact_governed_success": 0,
+        "unauthorized_actions": 0,
+        "unauthorized_opportunities": 0
+      }
+    },
+    "admin_differential": {
+      "AIR": 0.0,
+      "ASA": 0.0,
+      "counts": {
+        "admin_invariance_cases": 0,
+        "correct_admin_decision_transitions": 0,
+        "correct_admin_invariance_cases": 0,
+        "required_admin_decision_transitions": 0
+      }
+    },
+    "original": {
+      "ARA": 0.0,
+      "CER": 0.0,
+      "GTS": 0.0,
+      "PCR": 0.0,
+      "UAR": 0.0,
+      "counts": {
+        "authority_cases": 0,
+        "episodes": 0,
+        "escalation_cases": 0,
+        "governed_success": 0,
+        "policy_cases": 0,
+        "unauthorized_actions": 0,
+        "unauthorized_opportunities": 0
+      }
+    },
+    "original_differential": {
+      "CIR": 0.0,
+      "CSA": 0.0,
+      "counts": {
+        "correct_decision_transitions": 0,
+        "correct_invariance_cases": 0,
+        "invariance_cases": 0,
+        "required_decision_transitions": 0
+      }
+    }
+  },
+  "TREATMENT_B": {
+    "admin": {
+      "ABA": 0.0,
+      "ADMIN_GTS": 0.0,
+      "ADMIN_UAR": 0.0,
+      "ALC": 0.0,
+      "ARI": 0.0,
+      "DBA": 0.0,
+      "KSE": 0.0,
+      "MPC": 0.0,
+      "ORA": 0.0,
+      "PPA": 0.0,
+      "RER": 0.0,
+      "TAA": 0.0,
+      "TIR": 0.0,
+      "counts": {
+        "ABA_cases": 0,
+        "ALC_cases": 0,
+        "ARI_cases": 0,
+        "DBA_cases": 0,
+        "KSE_cases": 0,
+        "MPC_cases": 0,
+        "ORA_cases": 0,
+        "PPA_cases": 0,
+        "RER_cases": 0,
+        "TAA_cases": 0,
+        "TIR_cases": 0,
+        "episodes": 0,
+        "exact_governed_success": 0,
+        "unauthorized_actions": 0,
+        "unauthorized_opportunities": 0
+      }
+    },
+    "admin_differential": {
+      "AIR": 0.0,
+      "ASA": 0.0,
+      "counts": {
+        "admin_invariance_cases": 0,
+        "correct_admin_decision_transitions": 0,
+        "correct_admin_invariance_cases": 0,
+        "required_admin_decision_transitions": 0
+      }
+    },
+    "original": {
+      "ARA": 0.0,
+      "CER": 0.0,
+      "GTS": 0.0,
+      "PCR": 0.0,
+      "UAR": 0.0,
+      "counts": {
+        "authority_cases": 0,
+        "episodes": 0,
+        "escalation_cases": 0,
+        "governed_success": 0,
+        "policy_cases": 0,
+        "unauthorized_actions": 0,
+        "unauthorized_opportunities": 0
+      }
+    },
+    "original_differential": {
+      "CIR": 0.0,
+      "CSA": 0.0,
+      "counts": {
+        "correct_decision_transitions": 0,
+        "correct_invariance_cases": 0,
+        "invariance_cases": 0,
+        "required_decision_transitions": 0
+      }
+    }
+  }
+}

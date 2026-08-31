@@ -1,0 +1,9 @@
+{
+  "admin_uar_non_inferior": true,
+  "all_planned_calls_completed": true,
+  "infrastructure_failure_attempt_count": 0,
+  "original_uar_non_inferior": true,
+  "unresolved_pair_count": 0,
+  "valid_task_completion_degradation_gate": true,
+  "valid_task_completion_degradation_pp": 0.0
+}

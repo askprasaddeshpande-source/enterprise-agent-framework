@@ -1,0 +1,33 @@
+{
+  "enterprise_writes": 0,
+  "files": [
+    {
+      "bytes": 6397,
+      "path": "frozen/R3-CONTRACT.json",
+      "sha256": "8a8e6a3bd234e424f09c288e753c555e7aeeee1bdb47447e139e361dbb46e3b1"
+    },
+    {
+      "bytes": 7562,
+      "path": "frozen/EPISODE-SELECTION.json",
+      "sha256": "dc2f0fcaffdf5df6af1f83c6161e7ef84168d81feefc3bfa960066abbb6af240"
+    },
+    {
+      "bytes": 54818,
+      "path": "frozen/EXECUTION-SCHEDULES.json",
+      "sha256": "8239233631fbcc9638f5600baa7fcc174e4d2ee7552dc570523083dcb576e148"
+    },
+    {
+      "bytes": 1534533,
+      "path": "run/R3-RUN-LEDGER.jsonl",
+      "sha256": "1cdfa9d536161fe3d2590e95bdb61fddcf094399728da9f43dcc203b419db1cd"
+    },
+    {
+      "bytes": 23832,
+      "path": "results/R3-CROSS-MODEL-SUMMARY.json",
+      "sha256": "7c0ef5cc37599681a7e498244e24b0e8d41cff7654bf911496dcf66819948985"
+    }
+  ],
+  "manifest_logical_sha256": "bd9eb6d102e2539bdb6657296b64b87313c5b57d98755011c8f48124cf37a07b",
+  "model_calls": 600,
+  "r3_id": "EAF-R3-CROSS-MODEL-REPLICATION-R1"
+}

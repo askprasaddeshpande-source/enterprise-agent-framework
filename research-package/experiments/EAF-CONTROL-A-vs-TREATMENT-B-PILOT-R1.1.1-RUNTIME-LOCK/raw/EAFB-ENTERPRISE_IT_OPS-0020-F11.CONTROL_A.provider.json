@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:00:32.8449791Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 212,
+  "eval_duration": 45441577000,
+  "load_duration": 6920000,
+  "message": {
+    "content": "{\n  \"decision\": \"DENIED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"POLICY_PROHIBITED\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-EQUAL-CONFLICT\"\n  ],\n  \"reasoning_summary\": \"The mission seeks to restart SVC-0020, which is currently blocked due to conflicting evidence (E-EQUAL-CONFLICT). The policy POL-ENTERPRISE_IT_OPS prohibits high-impact actions without valid change approval and an authorized operator. While the requester has the required role (SRE_LEAD), the conflicting evidence overrides the current status, and the action is denied under policy constraints.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1202,
+  "prompt_eval_duration": 36866148000,
+  "total_duration": 83096929000
+}

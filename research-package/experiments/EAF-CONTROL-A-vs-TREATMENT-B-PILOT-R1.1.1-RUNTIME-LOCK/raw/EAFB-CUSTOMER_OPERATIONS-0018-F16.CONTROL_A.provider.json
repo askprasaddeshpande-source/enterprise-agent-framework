@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:51:18.1167933Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 202,
+  "eval_duration": 36414574000,
+  "load_duration": 3164100,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"REFUND_APPROVER\",\n  \"required_next_action\": \"ISSUE_HIGH_VALUE_REFUND\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission requires issuing a high-value refund for REF-0018. The requester has the role of REFUND_APPROVER, and the required approval (REFUND_APPROVAL) is present and verified. The evidence confirms the eligibility status, and the policy is satisfied. The technical availability is false, but the action is authorized based on the provided approvals and roles.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1042,
+  "prompt_eval_duration": 24661521000,
+  "total_duration": 61329187000
+}

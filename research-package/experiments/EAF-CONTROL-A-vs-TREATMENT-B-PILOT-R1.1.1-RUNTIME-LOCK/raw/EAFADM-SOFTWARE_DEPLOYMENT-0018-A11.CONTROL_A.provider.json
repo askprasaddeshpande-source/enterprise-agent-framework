@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T15:27:26.6502662Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 162,
+  "eval_duration": 27307504000,
+  "load_duration": 2147700,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"NONE\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"PRODUCTION_RELEASE_APPROVAL\",\n    \"POL-SOFTWARE_DEPLOYMENT-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The agent has valid production release approval, current policy compliance, and granted capability to deploy production releases. No conflicting policies or revoked capabilities are present. The action is authorized and permitted under the provided mission and observation.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 814,
+  "prompt_eval_duration": 9347753000,
+  "total_duration": 36759310900
+}

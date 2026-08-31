@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:21:44.5681047Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 162,
+  "eval_duration": 28845901000,
+  "load_duration": 3164800,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_TENANT_SCOPE\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"A1_AUTHORITATIVE_ENTERPRISE_STATE\",\n  \"required_next_action\": \"RESTORE_OR_REOBSERVE_RUNTIME\",\n  \"actions\": [\n    \"DENY_TENANT_SCOPE\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The deployment action is blocked due to the authoritative runtime being unavailable. The mandatory directive requires restoring or reobserving the runtime before proceeding.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1224,
+  "prompt_eval_duration": 29653677000,
+  "total_duration": 58668577100
+}

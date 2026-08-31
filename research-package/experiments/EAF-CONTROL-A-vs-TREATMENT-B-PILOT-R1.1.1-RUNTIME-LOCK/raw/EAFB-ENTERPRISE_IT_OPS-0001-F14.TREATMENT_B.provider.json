@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:00:45.2758774Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 178,
+  "eval_duration": 30952390000,
+  "load_duration": 3661100,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_CURRENT_POLICY\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"A1_AUTHORITATIVE_ENTERPRISE_STATE\",\n  \"required_next_action\": \"RESTORE_OR_REOBSERVE_RUNTIME\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission to RESTART_PRODUCTION_SERVICE for SVC-0001 is blocked due to the mandatory directive requiring runtime restoration or reobservation. The current runtime state is unavailable, and the policy enforcement prevents execution without resolving this issue.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1238,
+  "prompt_eval_duration": 27823596000,
+  "total_duration": 58889661700
+}

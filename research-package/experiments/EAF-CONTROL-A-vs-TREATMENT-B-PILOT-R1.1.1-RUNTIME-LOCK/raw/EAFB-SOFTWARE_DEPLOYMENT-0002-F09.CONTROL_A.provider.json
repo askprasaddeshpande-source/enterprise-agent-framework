@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:32:54.9164398Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 159,
+  "eval_duration": 27506520000,
+  "load_duration": 3184200,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_CURRENT_POLICY\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"POLICY_PROHIBITED\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The policy explicitly prohibits the specific operation, despite the presence of required approvals and capabilities. The mission cannot proceed without policy modification or override.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1045,
+  "prompt_eval_duration": 8289412000,
+  "total_duration": 35911351900
+}

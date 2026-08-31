@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:43:39.2848979Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 156,
+  "eval_duration": 26128627000,
+  "load_duration": 2651200,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"APPROVAL_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_FRESH_APPROVAL\",\n  \"actions\": [\n    \"DENY_REVOKED_APPROVAL\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"APPROVAL_REVOKED\"\n  ],\n  \"reasoning_summary\": \"The requested action 'RELEASE_PAYMENT' is denied due to a revoked approval. The mandatory directive in the EAF control envelope explicitly blocks execution under these conditions.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 949,
+  "prompt_eval_duration": 19482758000,
+  "total_duration": 45746729600
+}

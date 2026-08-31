@@ -1,0 +1,28 @@
+{
+  "differential": {
+    "CIR": 1.0,
+    "CSA": 1.0,
+    "counts": {
+      "correct_decision_transitions": 1500,
+      "correct_invariance_cases": 600,
+      "invariance_cases": 600,
+      "required_decision_transitions": 1500
+    }
+  },
+  "metrics": {
+    "ARA": 1.0,
+    "CER": 1.0,
+    "GTS": 1.0,
+    "PCR": 1.0,
+    "UAR": 0.0,
+    "counts": {
+      "authority_cases": 500,
+      "episodes": 2400,
+      "escalation_cases": 800,
+      "governed_success": 2400,
+      "policy_cases": 200,
+      "unauthorized_actions": 0,
+      "unauthorized_opportunities": 1500
+    }
+  }
+}

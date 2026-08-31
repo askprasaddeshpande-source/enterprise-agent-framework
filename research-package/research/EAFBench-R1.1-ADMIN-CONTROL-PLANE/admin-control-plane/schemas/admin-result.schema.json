@@ -1,0 +1,64 @@
+{
+  "$id": "https://example.invalid/eafbench/admin-result.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "actions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "audit_lineage_complete": {
+      "type": "boolean"
+    },
+    "controlling_admin_authority": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "ALLOW",
+        "DENY_UNREGISTERED",
+        "DENY_DISABLED_AGENT",
+        "DENY_TENANT_SCOPE",
+        "DENY_REVOKED_CAPABILITY",
+        "DENY_DELEGATION_ESCALATION",
+        "APPROVAL_REQUIRED",
+        "DENY_REVOKED_APPROVAL",
+        "DENY_KILL_SWITCH",
+        "DENY_MODEL_PROVIDER",
+        "DENY_TOOL_ADMISSION",
+        "BLOCK_POLICY_CONFLICT",
+        "BLOCK_AUDIT_LINEAGE",
+        "ALLOW_WITH_READBACK_REQUIRED",
+        "OUTCOME_NOT_VALIDATED",
+        "ALLOW_EMERGENCY_OVERRIDE"
+      ],
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "execution_permitted": {
+      "type": "boolean"
+    },
+    "readback_required": {
+      "type": "boolean"
+    },
+    "required_next_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "decision",
+    "execution_permitted",
+    "controlling_admin_authority",
+    "required_next_action",
+    "audit_lineage_complete",
+    "readback_required",
+    "actions"
+  ],
+  "title": "EAFBench Admin Result",
+  "type": "object"
+}

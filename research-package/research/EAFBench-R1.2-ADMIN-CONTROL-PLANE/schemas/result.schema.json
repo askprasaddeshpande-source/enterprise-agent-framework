@@ -1,0 +1,59 @@
+{
+  "$id": "https://example.invalid/eafbench/result.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "actions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "controlling_authority": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "ALLOWED",
+        "DENIED",
+        "APPROVAL_REQUIRED",
+        "INSUFFICIENT_AUTHORITY",
+        "INSUFFICIENT_EVIDENCE",
+        "BLOCKED_CONFLICT",
+        "REOBSERVATION_REQUIRED",
+        "POLICY_PROHIBITED"
+      ],
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "execution_permitted": {
+      "type": "boolean"
+    },
+    "outcome_status": {
+      "enum": [
+        "NOT_EXECUTED",
+        "EXECUTED_VALIDATED",
+        "EXECUTED_NOT_VALIDATED",
+        "EXECUTION_FAILED",
+        "READBACK_FAILED"
+      ],
+      "type": "string"
+    },
+    "required_next_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "decision",
+    "controlling_authority",
+    "execution_permitted",
+    "required_next_action",
+    "outcome_status",
+    "actions"
+  ],
+  "title": "EAFBench Agent Result",
+  "type": "object"
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:07:41.9594555Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 145,
+  "eval_duration": 24478906000,
+  "load_duration": 2130800,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_DISABLED_AGENT\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"AGENT_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_ADMIN_ENABLEMENT\",\n  \"actions\": [\n    \"REQUIRE_ADMIN_ENABLEMENT\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"AGENT_DISABLED\"\n  ],\n  \"reasoning_summary\": \"The agent is disabled, and the mandatory directive explicitly denies actions for disabled agents. The action RESTART_PRODUCTION_SERVICE cannot be executed until the agent is enabled.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 953,
+  "prompt_eval_duration": 15854648000,
+  "total_duration": 40427377000
+}

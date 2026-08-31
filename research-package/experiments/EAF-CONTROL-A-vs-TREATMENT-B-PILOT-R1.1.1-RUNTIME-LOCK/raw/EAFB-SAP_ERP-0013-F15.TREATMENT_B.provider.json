@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:02:45.2225686Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 173,
+  "eval_duration": 30677345000,
+  "load_duration": 1591800,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"SAP_RELEASE_AUTHORITY\",\n  \"required_next_action\": \"DEPLOY_RAP_OBJECT\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The deployment of RAP-0013 is authorized by the SAP_RELEASE_AUTHORITY, and the required SAP_DEPLOYMENT_APPROVAL is present. The evidence confirms the object's eligibility for deployment, and the policy conditions are satisfied.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1153,
+  "prompt_eval_duration": 23489593000,
+  "total_duration": 54285568700
+}

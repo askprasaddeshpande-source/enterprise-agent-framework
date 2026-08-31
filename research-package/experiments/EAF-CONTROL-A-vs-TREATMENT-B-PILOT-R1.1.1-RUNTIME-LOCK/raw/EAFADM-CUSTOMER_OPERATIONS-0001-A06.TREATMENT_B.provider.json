@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:21:43.4508677Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 162,
+  "eval_duration": 39735223000,
+  "load_duration": 4384400,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_CAPABILITY\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"CAPABILITY_GRANT_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_NEW_GRANT\",\n  \"actions\": [\n    \"DENY_REVOKED_CAPABILITY\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"CAPABILITY_REVOKED\"\n  ],\n  \"reasoning_summary\": \"The requested action 'ISSUE_HIGH_VALUE_REFUND' is denied due to the capability being revoked. The grant for the capability is marked as revoked, and the mandatory directive explicitly blocks execution.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 955,
+  "prompt_eval_duration": 26311343000,
+  "total_duration": 66201909100
+}

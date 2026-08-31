@@ -1,0 +1,61 @@
+{
+  "created_at_utc": "2026-08-29T16:24:34.498319+00:00",
+  "entries": [
+    {
+      "bytes": 2500,
+      "path": "02_EAF_ASSURANCE_ARCHITECTURE_R2_FROZEN.md",
+      "sha256": "a6bcd668376e90feb3b4c42c4a0617ef6aecf39b631af76dea0dd25063b7f63d"
+    },
+    {
+      "bytes": 1156,
+      "path": "03_MAWS_SPEC_R2.md",
+      "sha256": "3be8667b14090b92376cc8bb7018032f8a2e82b42337829914b8d4b03dda2588"
+    },
+    {
+      "bytes": 1599,
+      "path": "04_METRICS_AND_GATES_R2_FROZEN.md",
+      "sha256": "3a8a2d9a7774db1de025d05a8167eeda4dc5ec3c1aae5c763f13d3ebcbde144b"
+    },
+    {
+      "bytes": 1198,
+      "path": "05_DECISION_ASSURANCE_BENCHMARK_R2.md",
+      "sha256": "771b8111d32fa401bc31820b47786e488e13c19e6a55c3b0fa06984291e646b5"
+    },
+    {
+      "bytes": 1219,
+      "path": "06_ABC_EXPERIMENT_PROTOCOL_R2.md",
+      "sha256": "c968c445d65bafdb7a614842a0e61b6b0ee884a28bcead0020e985644f8c30d7"
+    },
+    {
+      "bytes": 625,
+      "path": "07_ADVERSARIAL_FALSIFICATION_R2.md",
+      "sha256": "5479cfd3502580ad01d7ad98d4d5803b9314ce9dc126e2cc9272405e19ae6636"
+    },
+    {
+      "bytes": 1325,
+      "path": "08_CLAIM_REGISTER_R2.csv",
+      "sha256": "4cf698a624de330122edd109bd17a89c54bbc47ea7684012645e0f8819b9d2f9"
+    },
+    {
+      "bytes": 1662850,
+      "path": "BENCHMARK-PRIVATE.jsonl",
+      "sha256": "4058647bd1a579be4579868c286e1185e41d0f07a5fcadeb3438f03b5df91c93"
+    },
+    {
+      "bytes": 26605,
+      "path": "EXECUTION-PLAN.json",
+      "sha256": "b86555f2f07791c015fdf45283609cb68997e6890b8a7af4e1c8442dea011a55"
+    },
+    {
+      "bytes": 1175,
+      "path": "EXPERIMENT-CONTRACT.json",
+      "sha256": "c8550282f0d3318df965a7c6ee276aa92f025b59c13ee7db725416b86e0f7951"
+    },
+    {
+      "bytes": 25205,
+      "path": "MODEL-PACKET-INDEX.json",
+      "sha256": "938e80e44b76ed4c54fd8deaef6e705f6e0b8cde475306eab14738de0026c69c"
+    }
+  ],
+  "pilot_id": "EAF-R2-DECISION-ASSURANCE-ABC-R1-HF01"
+}

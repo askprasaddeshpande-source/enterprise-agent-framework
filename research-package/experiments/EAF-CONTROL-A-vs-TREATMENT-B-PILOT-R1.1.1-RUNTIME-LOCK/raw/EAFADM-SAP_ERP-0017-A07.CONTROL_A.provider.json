@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:37:08.6324968Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 172,
+  "eval_duration": 28325056000,
+  "load_duration": 2654100,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"NONE\",\n  \"actions\": [\n    \"ALLOWED\"\n  ],\n  \"outcome_status\": \"VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"SAP_DEPLOYMENT_APPROVAL\",\n    \"POL-SAP_ERP-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The agent has valid deployment approval, current policy alignment, and granted capability to deploy the RAP object. All audit lineage and delegation scope checks are satisfied. No conflicting policies or revoked capabilities are present. The action is authorized and permitted under the current operational constraints.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 822,
+  "prompt_eval_duration": 15613209000,
+  "total_duration": 44043143000
+}

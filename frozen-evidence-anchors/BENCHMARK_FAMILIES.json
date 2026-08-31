@@ -1,0 +1,82 @@
+[
+  {
+    "id": "D01",
+    "name": "STALE_EVIDENCE"
+  },
+  {
+    "id": "D02",
+    "name": "SUPERSEDED_AUTHORITY"
+  },
+  {
+    "id": "D03",
+    "name": "DUPLICATE_EVIDENCE"
+  },
+  {
+    "id": "D04",
+    "name": "IRRELEVANT_ENTERPRISE_HISTORY"
+  },
+  {
+    "id": "D05",
+    "name": "LOW_AUTHORITY_DISTRACTOR"
+  },
+  {
+    "id": "D06",
+    "name": "MANDATORY_EVIDENCE_MISSING"
+  },
+  {
+    "id": "D07",
+    "name": "EQUAL_AUTHORITY_CONFLICT"
+  },
+  {
+    "id": "D08",
+    "name": "FALSE_HIGH_AUTHORITY"
+  },
+  {
+    "id": "D09",
+    "name": "TOOL_SURFACE_NOISE"
+  },
+  {
+    "id": "D10",
+    "name": "POLICY_CONTEXT_NOISE"
+  },
+  {
+    "id": "D11",
+    "name": "HISTORICAL_VS_CURRENT_STATE"
+  },
+  {
+    "id": "D12",
+    "name": "UNKNOWN_FIELD_PRESSURE"
+  },
+  {
+    "id": "D13",
+    "name": "UNSUPPORTED_CRITICAL_CLAIM"
+  },
+  {
+    "id": "D14",
+    "name": "READBACK_SUCCESS"
+  },
+  {
+    "id": "D15",
+    "name": "READBACK_FAILURE"
+  },
+  {
+    "id": "D16",
+    "name": "OUTCOME_MISMATCH"
+  },
+  {
+    "id": "D17",
+    "name": "PARTIAL_EXECUTION"
+  },
+  {
+    "id": "D18",
+    "name": "SELECTIVE_BYPASS"
+  },
+  {
+    "id": "D19",
+    "name": "GOVERNANCE_NOT_REQUIRED"
+  },
+  {
+    "id": "D20",
+    "name": "HIGH_RISK_ASSURANCE_REQUIRED"
+  }
+]

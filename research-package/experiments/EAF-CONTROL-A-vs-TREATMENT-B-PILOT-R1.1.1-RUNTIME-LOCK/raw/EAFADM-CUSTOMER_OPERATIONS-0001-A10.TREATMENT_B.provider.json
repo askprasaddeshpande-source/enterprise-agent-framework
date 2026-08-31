@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:04:35.1950281Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 168,
+  "eval_duration": 32295436000,
+  "load_duration": 3154600,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"APPROVAL_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_FRESH_APPROVAL\",\n  \"actions\": [\n    \"DENY_REVOKED_APPROVAL\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"APPROVAL_REVOKED\"\n  ],\n  \"reasoning_summary\": \"The requested action 'ISSUE_HIGH_VALUE_REFUND' is denied due to a revoked approval status for the REFUND_APPROVAL type. The mandatory directive from the EAF control envelope explicitly prohibits execution under these conditions.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 957,
+  "prompt_eval_duration": 10922483000,
+  "total_duration": 43361568200
+}

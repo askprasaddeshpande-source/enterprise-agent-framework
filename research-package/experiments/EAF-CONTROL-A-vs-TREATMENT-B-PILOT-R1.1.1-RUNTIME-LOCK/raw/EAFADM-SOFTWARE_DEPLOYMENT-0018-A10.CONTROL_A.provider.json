@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:11:35.1022219Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 192,
+  "eval_duration": 31643891000,
+  "load_duration": 2780400,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"PRODUCTION_RELEASE_APPROVAL\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"REVOKE_PRODUCTION_RELEASE_APPROVAL\",\n    \"REVIEW_PRODUCTION_RELEASE_APPROVAL\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"PRODUCTION_RELEASE_APPROVAL-REL-0018\",\n    \"POL-SOFTWARE_DEPLOYMENT-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The requested action 'DEPLOY_PRODUCTION_RELEASE' is denied due to the revoked production release approval. Reobservation is required to validate the outcome.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 816,
+  "prompt_eval_duration": 15254663000,
+  "total_duration": 47002940100
+}

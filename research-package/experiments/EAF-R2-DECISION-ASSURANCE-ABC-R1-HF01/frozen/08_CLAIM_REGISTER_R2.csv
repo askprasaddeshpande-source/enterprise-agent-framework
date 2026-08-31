@@ -1,0 +1,13 @@
+claim_id,claim,status
+R2-C001,EAF deterministic control reduces invalid/unauthorized actions relative to native execution.,AWAITING_R1_AND_R2_EVIDENCE
+R2-C002,Full EAF Arm C preserves legitimate task completion within the frozen 5pp degradation gate.,NOT_YET_TESTED
+R2-C003,MAWS reduces actual model-active prompt tokens relative to Arm B while MEC and CAC remain 100%.,NOT_YET_TESTED
+R2-C004,MAWS reduces stale/duplicate/irrelevant/tool/policy decision noise.,NOT_YET_TESTED
+R2-C005,Reliability-aware authority handling blocks/adjudicates false-high-authority contradiction rather than silently trusting rank.,NOT_YET_TESTED
+R2-C006,Authoritative readback reduces false-success classification.,NOT_YET_TESTED
+R2-C007,Selective assurance correctly bypasses low-risk cases while retaining strict assurance for high-risk cases.,NOT_YET_TESTED
+R2-C008,EAF reduces latency.,PROHIBITED_UNTIL_MEASURED
+R2-C009,EAF reduces monetary cost.,PROHIBITED_UNTIL_MEASURED
+R2-C010,EAF improves enterprise ROI.,PROHIBITED_UNTIL_MEASURED
+R2-C011,"EAF uniquely provides registry, identity, gateway or generic agent policy.",PROHIBITED_OVERBROAD_MARKET_CLAIM
+R2-C012,The integrated evidence-authority + MAWS + assurance-state + readback chain is differentiated from reviewed headline market abstractions.,MARKET_BOUNDARY_HYPOTHESIS

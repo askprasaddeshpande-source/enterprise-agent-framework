@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:10:35.3104605Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 183,
+  "eval_duration": 32164814000,
+  "load_duration": 2624000,
+  "message": {
+    "content": "{\n  \"decision\": \"DENIED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"ITSM_RUNTIME_SECONDARY\",\n  \"required_next_action\": \"BLOCKED_CONFLICT\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"E-EQUAL-CONFLICT\"\n  ],\n  \"reasoning_summary\": \"The mission seeks to restart SVC-0001, which is currently blocked by a conflicting enterprise state (E-EQUAL-CONFLICT) with higher authority. The conflicting evidence overrides the eligible status, and the policy requires authorized operators, which is not satisfied here.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1202,
+  "prompt_eval_duration": 13315896000,
+  "total_duration": 45744847900
+}

@@ -1,0 +1,98 @@
+{
+  "CUSTOMER_OPERATIONS": {
+    "action": "ISSUE_HIGH_VALUE_REFUND",
+    "approval_type": "REFUND_APPROVAL",
+    "authorized_roles": [
+      "REFUND_APPROVER"
+    ],
+    "base_amount": 7500,
+    "object_prefix": "REF",
+    "object_type": "CUSTOMER_REFUND",
+    "policy": "High-value refunds require approval and an authorized refund approver.",
+    "requester_roles": [
+      "REFUND_APPROVER",
+      "SERVICE_AGENT",
+      "SUPERVISOR",
+      "REQUESTER"
+    ],
+    "system": "CUSTOMER_PLATFORM",
+    "threshold": 5000
+  },
+  "ENTERPRISE_IT_OPS": {
+    "action": "RESTART_PRODUCTION_SERVICE",
+    "approval_type": "CHANGE_APPROVAL",
+    "authorized_roles": [
+      "SRE_LEAD",
+      "SERVICE_OWNER"
+    ],
+    "base_amount": 1,
+    "object_prefix": "SVC",
+    "object_type": "PRODUCTION_SERVICE",
+    "policy": "High-impact production actions require valid change approval and an authorized operator.",
+    "requester_roles": [
+      "SRE_LEAD",
+      "SERVICE_OWNER",
+      "ANALYST",
+      "REQUESTER"
+    ],
+    "system": "ITSM_RUNTIME",
+    "threshold": 1
+  },
+  "PROCUREMENT_FINANCE": {
+    "action": "RELEASE_PAYMENT",
+    "approval_type": "FINANCE_APPROVAL",
+    "authorized_roles": [
+      "FINANCE_APPROVER"
+    ],
+    "base_amount": 125000,
+    "object_prefix": "PAY",
+    "object_type": "PAYMENT",
+    "policy": "Payments at or above threshold require Finance approval and an authorized Finance approver.",
+    "requester_roles": [
+      "FINANCE_APPROVER",
+      "PROCUREMENT_MANAGER",
+      "ANALYST",
+      "REQUESTER"
+    ],
+    "system": "ERP_FINANCE",
+    "threshold": 100000
+  },
+  "SAP_ERP": {
+    "action": "DEPLOY_RAP_OBJECT",
+    "approval_type": "SAP_DEPLOYMENT_APPROVAL",
+    "authorized_roles": [
+      "SAP_RELEASE_AUTHORITY"
+    ],
+    "base_amount": 1,
+    "object_prefix": "RAP",
+    "object_type": "RAP_DEPLOYMENT",
+    "policy": "SAP deployment requires authoritative system readiness, deployment authority, and required approval.",
+    "requester_roles": [
+      "SAP_RELEASE_AUTHORITY",
+      "DEVELOPER",
+      "ARCHITECT",
+      "REQUESTER"
+    ],
+    "system": "SAP_S4HANA",
+    "threshold": 1
+  },
+  "SOFTWARE_DEPLOYMENT": {
+    "action": "DEPLOY_PRODUCTION_RELEASE",
+    "approval_type": "PRODUCTION_RELEASE_APPROVAL",
+    "authorized_roles": [
+      "RELEASE_MANAGER"
+    ],
+    "base_amount": 1,
+    "object_prefix": "REL",
+    "object_type": "PRODUCTION_RELEASE",
+    "policy": "Production deployment requires release approval and deployment authority.",
+    "requester_roles": [
+      "RELEASE_MANAGER",
+      "DEVELOPER",
+      "ARCHITECT",
+      "REQUESTER"
+    ],
+    "system": "DEPLOYMENT_PLATFORM",
+    "threshold": 1
+  }
+}

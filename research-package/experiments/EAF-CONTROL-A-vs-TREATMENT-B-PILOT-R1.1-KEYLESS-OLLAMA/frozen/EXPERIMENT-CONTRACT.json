@@ -1,0 +1,78 @@
+{
+  "authoritative_project_root": "research/EAFBench-R1.2-ADMIN-CONTROL-PLANE",
+  "control_arm": "Raw mission + raw observation -> model -> symbolic action -> common environment simulator",
+  "dataset": {
+    "admin_cases": 100,
+    "admin_file": "research/EAFBench-R1.2-ADMIN-CONTROL-PLANE/admin-control-plane/dataset/eaf-admin-bench-v1.2.jsonl",
+    "admin_sha256": "7d564c2e10d2692c4d4b31651b52e25242472c20c0677c448f4c77bae876ccd1",
+    "original_cases": 100,
+    "original_file": "research/EAFBench-R1.2-ADMIN-CONTROL-PLANE/dataset/eafbench-v0.2.jsonl",
+    "original_sha256": "0c34b62e51d6c59a198f370c495bc9a1fcb23bdf4903f8473c9858228737b7a9",
+    "selection_seed": "EAF-PILOT-R1-20260829",
+    "split": "DEVELOPMENT_ONLY",
+    "total_arm_executions": 400,
+    "total_episodes": 200
+  },
+  "experimental_variable": "EAF_ADMINISTRATION_AND_RUNTIME_CONTROL_TREATMENT",
+  "freeze_decision_sha256": "78431552eb3076da47429642bbd7af608e94dc010c7b4aa917489cdb535eefae",
+  "frozen_threshold_sha256": "512c391e838aecd2ac8118f180857d936904c903b1145218f7772fcebf4fa546",
+  "ground_truth_boundary": {
+    "evaluator_truth_separate": true,
+    "model_packet_forbidden_fields": [
+      "expected",
+      "canonical_state",
+      "canonical_admin_state",
+      "validator",
+      "scenario_family",
+      "split",
+      "generation"
+    ]
+  },
+  "inference": {
+    "actions_are_symbolic": true,
+    "enterprise_writes": false,
+    "max_output_tokens": 1200,
+    "order_reversal": true,
+    "provider_retries": 0,
+    "request_timeout_s": 120,
+    "runs_per_arm": 1,
+    "tools_enabled": false
+  },
+  "infra_exclusion_policy": {
+    "http_408_409_429_5xx_and_network_timeouts": "INFRA_FAILURE; preserved; excluded from scientific score if retries exhausted",
+    "json_parse_failure": "MODEL_FAILURE; counts as scientific failure",
+    "model_refusal": "MODEL_OUTCOME; counts as scientific outcome",
+    "treatment_control_block": "SCIENTIFIC_OUTCOME"
+  },
+  "lineage": {
+    "reason_for_version": "Original provider transport required an API key; user policy prohibits API-key inference.",
+    "scientific_results_carried_forward": false,
+    "source_model_packets_identical": true,
+    "source_pilot": "EAF-CONTROL-A-vs-TREATMENT-B-PILOT-R1",
+    "source_pilot_status": "INFRASTRUCTURE_ABORTED_ZERO_COMPLETED_EXECUTIONS",
+    "source_plan_carried_forward_exactly": true,
+    "source_r1_abort_evidence": {
+      "completed": 0,
+      "error_distribution": {
+        "MISSING_API_KEY_ENV:OPENAI_API_KEY": 400
+      },
+      "infra_failures": 400,
+      "ledger_hash_chain_valid": true,
+      "ledger_sha256": "81bf18b444aa190efff153fec8225db011c8796432d16bcbd07aac94b4d590ec",
+      "records": 400
+    }
+  },
+  "pilot_id": "EAF-CONTROL-A-vs-TREATMENT-B-PILOT-R1.1-KEYLESS-OLLAMA",
+  "prepared_at_utc": "2026-08-29T09:17:32.816033+00:00",
+  "provider": {
+    "authentication": "NONE_LOCAL_RUNTIME",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "provider": "ollama",
+    "seed": 20260829,
+    "temperature": 0.0
+  },
+  "status": "FROZEN_PRE_INFERENCE",
+  "treatment_arm": "Same raw mission/observation + deterministic EAF control envelope -> same model -> external EAF enforcement -> same environment simulator"
+}

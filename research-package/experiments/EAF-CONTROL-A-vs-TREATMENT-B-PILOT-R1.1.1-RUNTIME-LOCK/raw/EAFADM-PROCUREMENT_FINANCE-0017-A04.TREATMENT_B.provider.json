@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:45:52.9534973Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 183,
+  "eval_duration": 31421622000,
+  "load_duration": 2637600,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_TENANT_SCOPE\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"TENANT_SCOPE_POLICY\",\n  \"required_next_action\": \"REJECT_CROSS_TENANT_REQUEST\",\n  \"actions\": [\n    \"DENY_TENANT_SCOPE\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"TENANT-02\",\n    \"TENANT-99\"\n  ],\n  \"reasoning_summary\": \"The agent's tenant ID (TENANT-02) does not match the mission's tenant ID (TENANT-99), resulting in a TENANT_SCOPE_MISMATCH. The mandatory directive blocks execution due to this conflict.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 950,
+  "prompt_eval_duration": 20635777000,
+  "total_duration": 52311055700
+}

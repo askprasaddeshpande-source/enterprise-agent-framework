@@ -1,0 +1,67 @@
+{
+  "$id": "https://example.invalid/eafbench/capability.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "capability_id": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "read_only": {
+      "type": "boolean"
+    },
+    "required_approvals": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "required_execution_authority": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "required_requester_authority": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "reversible": {
+      "type": "boolean"
+    },
+    "risk_class": {
+      "enum": [
+        "R0_INFORMATIONAL",
+        "R1_RECOMMENDATION",
+        "R2_REVERSIBLE_LOW_IMPACT_ACTION",
+        "R3_CONSEQUENTIAL_ACTION",
+        "R4_HIGH_IMPACT_OR_REGULATED_ACTION"
+      ],
+      "type": "string"
+    },
+    "system": {
+      "type": "string"
+    },
+    "technical_availability": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "capability_id",
+    "operation",
+    "system",
+    "read_only",
+    "technical_availability",
+    "required_requester_authority",
+    "required_execution_authority",
+    "required_approvals",
+    "risk_class",
+    "reversible"
+  ],
+  "title": "EAFBench Capability",
+  "type": "object"
+}

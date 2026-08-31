@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:56:00.3426596Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 170,
+  "eval_duration": 29287949000,
+  "load_duration": 3222400,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_CURRENT_POLICY\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"NONE\",\n  \"required_next_action\": \"REOBSERVE_AUTHORITATIVE_STATE\",\n  \"actions\": [\n    \"REOBSERVE_AUTHORITATIVE_STATE\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mandatory directive blocks execution due to a missing authoritative state. The policy requires an authorized refund approver, which is satisfied by the requester's role. However, the mandatory directive overrides policy enforcement, requiring reobservation of the authoritative state before proceeding.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1073,
+  "prompt_eval_duration": 19142357000,
+  "total_duration": 48563504300
+}

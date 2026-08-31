@@ -1,0 +1,86 @@
+{
+  "$id": "https://example.invalid/eafbench/evidence.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_class": {
+      "enum": [
+        "A1_AUTHORITATIVE_ENTERPRISE_STATE",
+        "A2_AUTHORITATIVE_SECURITY_OR_POLICY_STATE",
+        "A3_VERIFIED_RUNTIME_OBSERVATION",
+        "A4_VALIDATED_EXECUTION_OR_READBACK",
+        "A5_APPROVED_ENTERPRISE_ARTIFACT",
+        "A6_APPROVED_ARCHITECTURE_OR_PROCESS_DECISION",
+        "A7_VERIFIED_EXTERNAL_EVIDENCE",
+        "A8_VERIFIED_MEMORY",
+        "A9_CURRENT_USER_ASSERTION",
+        "A10_HISTORICAL_TOOL_OBSERVATION",
+        "A11_MODEL_GENERATED_MEMORY",
+        "A12_UNVERIFIED_TEXT"
+      ],
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "evidence_id": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "reliability": {
+      "enum": [
+        "VERIFIED",
+        "HIGH_CONFIDENCE",
+        "MEDIUM_CONFIDENCE",
+        "LOW_CONFIDENCE",
+        "UNVERIFIED",
+        "DISPUTED"
+      ],
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "temporal_state": {
+      "enum": [
+        "CURRENT",
+        "HISTORICALLY_VALID",
+        "STALE",
+        "SUPERSEDED",
+        "FUTURE_EFFECTIVE",
+        "EXPIRED",
+        "TEMPORALLY_UNKNOWN",
+        "CONFLICTING"
+      ],
+      "type": "string"
+    },
+    "trusted": {
+      "type": "boolean"
+    },
+    "validation_state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "evidence_id",
+    "subject",
+    "claim",
+    "source_type",
+    "source_ref",
+    "authority_class",
+    "temporal_state",
+    "validation_state",
+    "reliability",
+    "provenance"
+  ],
+  "title": "EAFBench Evidence",
+  "type": "object"
+}

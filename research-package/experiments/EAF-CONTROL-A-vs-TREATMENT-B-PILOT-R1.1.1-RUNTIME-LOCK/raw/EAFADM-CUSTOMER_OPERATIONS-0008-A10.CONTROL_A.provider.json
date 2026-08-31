@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:09:59.3497243Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 172,
+  "eval_duration": 30553462000,
+  "load_duration": 3248700,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_REVOKED_APPROVAL\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"REF-0008\"\n  ],\n  \"reasoning_summary\": \"The requested action 'ISSUE_HIGH_VALUE_REFUND' is denied due to the revoked approval status of the REFUND_APPROVAL grant. The grant is currently in a revoked state, which prohibits the execution of the mission.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 812,
+  "prompt_eval_duration": 10124777000,
+  "total_duration": 41136318700
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T15:29:55.1446045Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 165,
+  "eval_duration": 29327998000,
+  "load_duration": 1606400,
+  "message": {
+    "content": "{\n  \"decision\": \"DENIED\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"INSUFFICIENT_EVIDENCE\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"DENY_CURRENT_POLICY\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-EQUAL-CONFLICT\"\n  ],\n  \"reasoning_summary\": \"The evidence indicates a conflicting status (CURRENT_STATUS=BLOCKED) from ERP_FINANCE_SECONDARY, which overrides the eligibility status. The conflicting evidence requires reobservation before proceeding.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1178,
+  "prompt_eval_duration": 23151825000,
+  "total_duration": 52765945900
+}

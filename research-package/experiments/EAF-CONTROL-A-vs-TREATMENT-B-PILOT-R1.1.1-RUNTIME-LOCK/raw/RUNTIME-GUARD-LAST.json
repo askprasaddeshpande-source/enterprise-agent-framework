@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-08-29T15:31:02.946319+00:00",
+  "current_runtime_identity": {
+    "captured_at_utc": "2026-08-29T15:31:02.943351+00:00",
+    "machine": "AMD64",
+    "model": "qwen3:8b",
+    "model_capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "model_details": {
+      "context_length": 40960,
+      "embedding_length": 4096,
+      "families": [
+        "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "model_modified_at": "2026-08-29T14:46:07.5183576+05:30",
+    "model_show_sha256": "7b8770aeedf2c77c7f58c0ecb4031766e08307eca874d11c106a4e28ab7510c9",
+    "model_size_bytes": 5225388164,
+    "ollama_server_version": "0.33.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "frozen_runtime_identity": {
+    "captured_at_utc": "2026-08-29T09:38:05.192588+00:00",
+    "machine": "AMD64",
+    "model": "qwen3:8b",
+    "model_capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "model_details": {
+      "context_length": 40960,
+      "embedding_length": 4096,
+      "families": [
+        "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M"
+    },
+    "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "model_modified_at": "2026-08-29T14:46:07.5183576+05:30",
+    "model_show_sha256": "7b8770aeedf2c77c7f58c0ecb4031766e08307eca874d11c106a4e28ab7510c9",
+    "model_size_bytes": 5225388164,
+    "ollama_server_version": "0.33.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS"
+}

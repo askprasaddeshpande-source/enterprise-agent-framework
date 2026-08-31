@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:40:00.6007053Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 151,
+  "eval_duration": 26164796000,
+  "load_duration": 3236500,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_DISABLED_AGENT\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"AGENT_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_ADMIN_ENABLEMENT\",\n  \"actions\": [\n    \"REQUIRE_ADMIN_ENABLEMENT\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"AGENT_DISABLED\"\n  ],\n  \"reasoning_summary\": \"The agent is disabled, and the mandatory directive explicitly denies actions for disabled agents. The agent's registry status confirms the disablement, and no overriding authority or evidence is present to permit execution.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 950,
+  "prompt_eval_duration": 19150618000,
+  "total_duration": 45437841000
+}

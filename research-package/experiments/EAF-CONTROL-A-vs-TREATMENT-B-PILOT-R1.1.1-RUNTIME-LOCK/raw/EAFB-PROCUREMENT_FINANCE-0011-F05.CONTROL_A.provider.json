@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:29:53.476717Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 197,
+  "eval_duration": 33499480000,
+  "load_duration": 3158400,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"FINANCE_APPROVER\",\n  \"required_next_action\": \"RELEASE_PAYMENT\",\n  \"actions\": [\n    \"RELEASE_PAYMENT\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission requires releasing payment for PAY-0011. The requester has the role of FINANCE_APPROVER, and the required FINANCE_APPROVAL is present and verified. The capability CAP-RELEASE_PAYMENT is technically available and meets the required approvals. The policy POL-PROCUREMENT_FINANCE is satisfied with the provided approvals. No conflicting policies or missing authorizations are present.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1069,
+  "prompt_eval_duration": 23280850000,
+  "total_duration": 56920402100
+}

@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-08-29T08:40:11.104393+00:00",
+  "files": [
+    {
+      "bytes": 724,
+      "path": "REVIEW-REPORT.md",
+      "sha256": "f0b346a63fea74634d1643feb14626b4d81c2d46a30295d41c422cb5316b32e3"
+    },
+    {
+      "bytes": 104,
+      "path": "SEMANTIC-ISSUES.json",
+      "sha256": "3045c6de2acf764373a8f435007ae28b6b06d556e1191e11dd544ff8ad73cebc"
+    },
+    {
+      "bytes": 384,
+      "path": "FREEZE-DECISION.json",
+      "sha256": "78431552eb3076da47429642bbd7af608e94dc010c7b4aa917489cdb535eefae"
+    },
+    {
+      "bytes": 1324,
+      "path": "THRESHOLDS-FROZEN.json",
+      "sha256": "512c391e838aecd2ac8118f180857d936904c903b1145218f7772fcebf4fa546"
+    },
+    {
+      "bytes": 1606,
+      "path": "REVIEW-EVIDENCE.json",
+      "sha256": "684077248f1cfb14322d5145f53d4acdc20ba30fe7849755ce2d185065726ddb"
+    }
+  ],
+  "review_version": "1.0.0"
+}

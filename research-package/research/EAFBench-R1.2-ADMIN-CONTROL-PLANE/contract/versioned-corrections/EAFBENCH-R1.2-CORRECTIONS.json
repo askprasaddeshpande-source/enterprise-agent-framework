@@ -1,0 +1,25 @@
+{
+  "corrections": [
+    {
+      "change": "F05 now represents authorized requester + absent execution authority; F06 represents requester authority absent.",
+      "id": "C001_F05_F06_AUTHORITY_DISTINCTION"
+    },
+    {
+      "change": "All normally allowed consequential paths now use EXECUTE_THEN_VALIDATE; post-execution outcome determines validated success.",
+      "id": "C004_CONSEQUENTIAL_READBACK_NEXT_ACTION"
+    },
+    {
+      "change": "A05 uses DENY_CURRENT_POLICY.",
+      "id": "C002_A05_CURRENT_POLICY_LABEL"
+    },
+    {
+      "change": "A15 uses DENY_RETIRED_AGENT.",
+      "id": "C003_A15_RETIRED_AGENT_LABEL"
+    }
+  ],
+  "created_at_utc": "2026-08-29T08:39:52.401490+00:00",
+  "model_experiments_seen": 0,
+  "parent_authoritative_root": "research/EAFBench-R1.1-ADMIN-CONTROL-PLANE",
+  "release": "R1.2",
+  "treatment_results_used": false
+}

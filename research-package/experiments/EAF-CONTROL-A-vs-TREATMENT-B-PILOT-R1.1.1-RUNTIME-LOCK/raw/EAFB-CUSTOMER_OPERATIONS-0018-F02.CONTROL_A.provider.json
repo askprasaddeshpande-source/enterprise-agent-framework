@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T10:41:50.7645895Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 188,
+  "eval_duration": 32359231000,
+  "load_duration": 2648300,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"ISSUE_HIGH_VALUE_REFUND\",\n  \"actions\": [\n    \"ISSUE_HIGH_VALUE_REFUND\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The mission requires issuing a high-value refund for REF-0018. The requester has the role of REFUND_APPROVER, and the required approval (REFUND_APPROVAL) is present and verified. The capability to issue the refund is technically available, and the policy requirement is satisfied. However, readback is required for validation.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1038,
+  "prompt_eval_duration": 16784610000,
+  "total_duration": 49291080600
+}

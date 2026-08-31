@@ -1,0 +1,53 @@
+{
+  "administration_plane": {
+    "does_not_own": [
+      "model intelligence",
+      "enterprise system-of-record truth",
+      "enterprise-system native authorization",
+      "human accountability",
+      "provider inference implementation"
+    ],
+    "owns_or_governs": [
+      "agent registration",
+      "agent enablement and lifecycle",
+      "tenant scope",
+      "identity and requester binding",
+      "capability grants",
+      "tool/MCP admission",
+      "model/provider admission",
+      "policy versions",
+      "approval state",
+      "delegation state",
+      "revocation",
+      "kill switch",
+      "shared policy reuse",
+      "audit lineage",
+      "claim/release gates"
+    ]
+  },
+  "artifact": "EAFBench-R1.1-ADMIN-CONTROL-PLANE",
+  "base_eafbench_must_remain_unchanged": true,
+  "benchmark_truth": "DETERMINISTIC_CANONICAL_ADMIN_STATE",
+  "llm_ground_truth_authority": "NONE",
+  "model_experiments_executed": 0,
+  "model_judge_primary_validator": "PROHIBITED",
+  "parent_foundation": "EAF-RESEARCH-FOUNDATION-R1.1-REAL-OPS-EVIDENCE",
+  "purpose": "Evaluate the Enterprise Agent Framework as an enterprise administration and runtime control plane between probabilistic agent intelligence and authoritative enterprise systems.",
+  "real_ops_evidence_must_remain_unchanged": true,
+  "runtime_control_plane": {
+    "governs": [
+      "administrative admission",
+      "evidence admission",
+      "authority resolution",
+      "policy evaluation",
+      "execution permission",
+      "approval checks",
+      "runtime guard",
+      "readback validation",
+      "trace emission"
+    ]
+  },
+  "script_signing_required": true,
+  "status": "FREEZE_CANDIDATE",
+  "version": "1.1"
+}

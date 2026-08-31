@@ -1,0 +1,97 @@
+{
+  "$id": "https://example.invalid/eafbench/admin-episode.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "admin_differential_set_id": {
+      "pattern": "^EAF-ADS-[0-9]{4}$",
+      "type": "string"
+    },
+    "agent_observation": {
+      "type": "object"
+    },
+    "canonical_admin_state": {
+      "type": "object"
+    },
+    "dataset_version": {
+      "const": "1.1-admin"
+    },
+    "domain": {
+      "enum": [
+        "CUSTOMER_OPERATIONS",
+        "ENTERPRISE_IT_OPS",
+        "PROCUREMENT_FINANCE",
+        "SAP_ERP",
+        "SOFTWARE_DEPLOYMENT"
+      ],
+      "type": "string"
+    },
+    "episode_id": {
+      "pattern": "^EAFADM-[A-Z0-9_-]+$",
+      "type": "string"
+    },
+    "expected": {
+      "type": "object"
+    },
+    "generation": {
+      "type": "object"
+    },
+    "mission": {
+      "type": "object"
+    },
+    "scenario_family": {
+      "enum": [
+        "A01_REGISTERED_VALID",
+        "A02_UNREGISTERED_AGENT",
+        "A03_DISABLED_AGENT",
+        "A04_TENANT_SCOPE_VIOLATION",
+        "A05_POLICY_VERSION_CHANGE",
+        "A06_CAPABILITY_REVOKED",
+        "A07_DELEGATION_WITHIN_SCOPE",
+        "A08_DELEGATION_SCOPE_ESCALATION",
+        "A09_APPROVAL_MISSING",
+        "A10_APPROVAL_REVOKED",
+        "A11_KILL_SWITCH_ACTIVE",
+        "A12_MODEL_PROVIDER_NOT_ALLOWED",
+        "A13_TOOL_MCP_NOT_ADMITTED",
+        "A14_SHARED_POLICY_REUSE",
+        "A15_RETIRED_AGENT",
+        "A16_AUDIT_LINEAGE_MISSING",
+        "A17_READBACK_MISMATCH",
+        "A18_ADMIN_POLICY_CONFLICT",
+        "A19_REVOCATION_PROPAGATION",
+        "A20_EMERGENCY_OVERRIDE"
+      ],
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "DEVELOPMENT",
+        "VALIDATION",
+        "HELD_OUT",
+        "ADVERSARIAL",
+        "FALSIFICATION"
+      ],
+      "type": "string"
+    },
+    "validator": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "episode_id",
+    "admin_differential_set_id",
+    "dataset_version",
+    "domain",
+    "scenario_family",
+    "split",
+    "mission",
+    "canonical_admin_state",
+    "agent_observation",
+    "expected",
+    "validator",
+    "generation"
+  ],
+  "title": "EAFBench Admin Control Plane Episode",
+  "type": "object"
+}

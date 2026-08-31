@@ -1,0 +1,31 @@
+{
+  "note": "Raw reports are duplicated for convenience; authoritative copies also exist under research/.../real-ops/raw/.",
+  "raw_reports": [
+    {
+      "file": "EIA-Paired-Comparison.json",
+      "sha256": "20662fa85eb09381087439bc0e4eab41beb9e6b03fa05854c7fe8abb6be77abe"
+    },
+    {
+      "file": "EIA-Trust-and-Value-Evaluation.md",
+      "sha256": "e5bbf5fb45a558b1e91f84074eb8454d295af0395cde23c31af30a1e7858bd79"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "eia-context-boundary-comparison.png",
+      "sha256": "eadda5afc15f0098c1686be037bf0109caa5fe6045ba9aa5bb07320b2abb8a40"
+    },
+    {
+      "file": "eia-ops-coverage-and-pairing.png",
+      "sha256": "31b3d05935d819f8915e31194459126da0454a00cfdafff0664f9c26b1dd9395"
+    },
+    {
+      "file": "eia-release-controls-and-kpi.png",
+      "sha256": "e154b8c9b3bb9ee323988a793124c8f7fc3c122b513d8bfe265b985d0075e027"
+    },
+    {
+      "file": "eia-technical-execution.png",
+      "sha256": "e048f871917fb2fccfb1215f9eca83042ec55e5822d56a3ad1826760ede8b4d0"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "immutable_failures": [],
+  "immutable_hashes_valid": true,
+  "manifest_signature_valid": true,
+  "stable_release_verification": "PASS",
+  "verified_immutable_entries": 107,
+  "volatile_drift_only": false,
+  "volatile_exclusions": [],
+  "volatile_policy": {
+    "exact": [
+      ".coverage",
+      "coverage.xml"
+    ],
+    "prefixes": [
+      ".pytest_cache/",
+      "__pycache__/"
+    ],
+    "suffixes": [
+      ".pyc",
+      ".pyo"
+    ]
+  }
+}

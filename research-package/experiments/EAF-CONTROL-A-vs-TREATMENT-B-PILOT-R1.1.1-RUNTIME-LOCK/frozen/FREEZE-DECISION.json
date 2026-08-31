@@ -1,0 +1,13 @@
+{
+  "automatic": true,
+  "codex_calls": 0,
+  "completed_at_utc": "2026-08-29T08:40:11.103285+00:00",
+  "decision": "PASS",
+  "gate": "EAFBENCH-AUTHORITATIVE-REVIEW-AND-FREEZE",
+  "hard_issue_count": 0,
+  "llm_calls": 0,
+  "model_ab_execution_permitted": true,
+  "review_method": "DETERMINISTIC_SCRIPTED_REVIEW",
+  "soft_issue_count": 0,
+  "thresholds_status": "FROZEN"
+}

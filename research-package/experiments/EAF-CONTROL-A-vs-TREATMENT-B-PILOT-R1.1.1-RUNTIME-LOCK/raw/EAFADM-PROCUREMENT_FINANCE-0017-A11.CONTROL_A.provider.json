@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:36:42.496178Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 171,
+  "eval_duration": 30206611000,
+  "load_duration": 3191200,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"NONE\",\n  \"actions\": [\n    \"RELEASE_PAYMENT\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"SHARED-PROCUREMENT_FINANCE-01\",\n    \"POL-PROCUREMENT_FINANCE-CURRENT\"\n  ],\n  \"reasoning_summary\": \"The agent has valid finance approval, granted capability to release payment, active runtime admin permissions, and complete audit lineage. No conflicting policies or revoked capabilities are present. The action is authorized under the current policy and risk class.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 802,
+  "prompt_eval_duration": 9901379000,
+  "total_duration": 40236449900
+}

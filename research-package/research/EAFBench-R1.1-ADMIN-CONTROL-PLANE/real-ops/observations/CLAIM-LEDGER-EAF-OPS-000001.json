@@ -1,0 +1,73 @@
+{
+  "artifact": "EAF-RESEARCH-FOUNDATION-R1.1-REAL-OPS-EVIDENCE",
+  "not_supported_as_scientific_claims": [
+    "EIA reduces provider-metered model input by 95.8%.",
+    "EIA reduces end-to-end latency.",
+    "EIA reduces monetary cost.",
+    "EIA improves outcome quality based on this single paired evaluation.",
+    "EIA improves resilience in this run.",
+    "EIA proves enterprise ROI.",
+    "EIA proves engineering effort savings.",
+    "EIA proves incident effort avoided.",
+    "Nine reusable agents imply quantified financial benefit.",
+    "The source label 'Trust Improvement Observed' is itself independent causal proof of trust improvement."
+  ],
+  "paper_usage_rule": "Use this record as observational/runtime evidence and as a paired feasibility case. Do not use it as a causal treatment-effect estimate until the frozen sample floors, quality/evidence floors, and required approvals are satisfied.",
+  "record_id": "EAF-OPS-000001",
+  "supported_observations": [
+    {
+      "basis": "workload_contract.field_checks; all_pinned=true; input_parity=true",
+      "claim": "The workload contract records the same runtime profile, agent, system, service, entity set, reasoning mode, prompt, top value, date range, and filters across the baseline and EIA arms.",
+      "id": "OBS-01",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "comparison.baseline / comparison.with_eia",
+      "claim": "Both the direct baseline and EIA arm completed with SUCCESS and recorded six findings and zero actions.",
+      "id": "OBS-02",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "release_aware_report.paired_comparison",
+      "claim": "The report records outcome-quality parity at 70.0/100 versus 70.0/100 for this paired evaluation.",
+      "id": "OBS-03",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "transparent 4-bytes-per-token estimates, not provider billing/input telemetry",
+      "claim": "The direct baseline is reported at approximately 9,895 estimated raw-context tokens, while the EIA compact context is reported at approximately 408 estimated tokens.",
+      "id": "OBS-04",
+      "status": "SUPPORTED_BY_SOURCE_WITH_MEASUREMENT_CAVEAT"
+    },
+    {
+      "basis": "with_eia.evidence_profile",
+      "claim": "EIA preserved 100 unique records, removed zero duplicates, reported zero conflicts, and recorded evidence coverage of four categories/items: two authoritative and two supporting.",
+      "id": "OBS-05",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "technical_execution.runtime_microkernel",
+      "claim": "The run recorded 8,450.429 ms of synchronous EIA microkernel overhead.",
+      "id": "OBS-06",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "latency_decomposition and paired comparison",
+      "claim": "End-to-end latency, SAP wait, MCP wait, RAG/vector wait, and LLM time were not measured for this evaluation.",
+      "id": "OBS-07",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "release_aware_report.reuse",
+      "claim": "The release identified nine agents potentially affected by a shared admission/evidence contract, without financially proving reuse value.",
+      "id": "OBS-08",
+      "status": "SUPPORTED_BY_SOURCE"
+    },
+    {
+      "basis": "sample_protocol and release_controls",
+      "claim": "The source evaluation explicitly blocks customer/optimization claims because the 30 functional-pair and 100 latency-pair floors are not met and named approval is still required.",
+      "id": "OBS-09",
+      "status": "SUPPORTED_BY_SOURCE"
+    }
+  ]
+}

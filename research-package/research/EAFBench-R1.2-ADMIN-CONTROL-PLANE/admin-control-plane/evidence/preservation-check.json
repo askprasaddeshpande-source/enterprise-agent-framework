@@ -1,0 +1,8 @@
+{
+  "base_eafbench_sha256_after": "62e4d7d09cd2ef2550edc41ae7def2da92c182955ab164fe5973e63fd9b45d20",
+  "base_eafbench_sha256_before": "62e4d7d09cd2ef2550edc41ae7def2da92c182955ab164fe5973e63fd9b45d20",
+  "base_eafbench_unchanged": true,
+  "real_ops_raw_sha256_after": "20662fa85eb09381087439bc0e4eab41beb9e6b03fa05854c7fe8abb6be77abe",
+  "real_ops_raw_sha256_before": "20662fa85eb09381087439bc0e4eab41beb9e6b03fa05854c7fe8abb6be77abe",
+  "real_ops_raw_unchanged": true
+}

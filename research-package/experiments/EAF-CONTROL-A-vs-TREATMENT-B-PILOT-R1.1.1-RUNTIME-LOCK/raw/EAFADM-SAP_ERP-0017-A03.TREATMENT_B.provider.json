@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:40:48.3589684Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 142,
+  "eval_duration": 26952207000,
+  "load_duration": 3750600,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_DISABLED_AGENT\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"AGENT_REGISTRY\",\n  \"required_next_action\": \"REQUIRE_ADMIN_ENABLEMENT\",\n  \"actions\": [\n    \"REQUIRE_ADMIN_ENABLEMENT\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"AGENT_DISABLED\"\n  ],\n  \"reasoning_summary\": \"The agent is disabled, and deployment of the RAP object is prohibited due to the agent's disabled status as per the EAF control envelope.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 944,
+  "prompt_eval_duration": 25177835000,
+  "total_duration": 52263222500
+}

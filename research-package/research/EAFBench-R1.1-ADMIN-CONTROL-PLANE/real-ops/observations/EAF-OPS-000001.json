@@ -1,0 +1,292 @@
+{
+  "baseline": {
+    "actions": 0,
+    "compact_bytes": 11960,
+    "conflicts": 0,
+    "duplicates_removed": 0,
+    "estimated_compact_tokens": 2990,
+    "estimated_raw_tokens": 9895,
+    "evidence_hash": "757be9d4c3bc3ed0d2b2312d95221ec7bc706ffa8653b9c334ac8f35f11f13b4",
+    "findings": 6,
+    "measurement_note": "Counts use stored run evidence where available. Token values are transparent 4-bytes-per-token estimates, not provider billing data. Missing fields remain null.",
+    "mode": "disabled",
+    "output_hash": "0296f6f00db3be2e22fc4695fecb10453c03ed8a0c612922178070bc2d0f34dd",
+    "raw_bytes": 39579,
+    "raw_records": 100,
+    "unique_records": 100
+  },
+  "causal_claim_authority": "NOT_ESTABLISHED",
+  "claim_gate": {
+    "baseline_runs": 1,
+    "claim_block_reason": "Named Test Automation Architect and Product/Architecture Owner approval is required even after sample floors are met.",
+    "claim_permitted": false,
+    "claim_requirements": [
+      "30 paired functional runs",
+      "100 paired latency runs",
+      "signed benchmark evidence",
+      "quality and evidence floors",
+      "rollback and kill switch"
+    ],
+    "eia_runs": 1,
+    "functional_floor": 30,
+    "functional_floor_met": false,
+    "latency_floor": 100,
+    "latency_floor_met": false,
+    "p4_p5_claims_permitted": false,
+    "paired_runs": 1,
+    "protocol_state": "EVALUATION_ONLY",
+    "signed_approval_required": true,
+    "statistical_floor_met": false
+  },
+  "created_at": "2026-07-02T05:40:14.652114+00:00",
+  "evidence_funnel": [
+    {
+      "bytes": 38899,
+      "owner": "SAP / MCP / RAG / Vector",
+      "records": 100,
+      "stage": "Raw enterprise signals"
+    },
+    {
+      "coverage": {
+        "authoritative": 2,
+        "count": 4,
+        "supporting": 2
+      },
+      "owner": "EIA evidence contract",
+      "records": 100,
+      "stage": "Validated and authoritative"
+    },
+    {
+      "conflicts": 0,
+      "duplicates_removed": 0,
+      "owner": "Deterministic evidence layer",
+      "stage": "Deduplicated and correlated"
+    },
+    {
+      "bytes": 1629,
+      "estimated_tokens": 408,
+      "owner": "Context boundary",
+      "stage": "Compact model context"
+    },
+    {
+      "final_owner": "Agent Hub",
+      "owner": "LLM / Agent Hub",
+      "stage": "Interpretation and explanation"
+    }
+  ],
+  "flow": [
+    {
+      "changed": false,
+      "detail": "Never changed by EIA",
+      "id": "intent",
+      "label": "User intent",
+      "owner": "Agent Hub"
+    },
+    {
+      "changed": false,
+      "detail": "Raw retrieval is not yet trusted evidence",
+      "id": "acquire",
+      "label": "SAP / MCP / RAG / Vector signals",
+      "owner": "Agent Hub"
+    },
+    {
+      "changed": true,
+      "detail": "Schema, source, identity and evidence gates",
+      "id": "validate",
+      "label": "Validate authority & freshness",
+      "owner": "EIA deterministic layer"
+    },
+    {
+      "changed": true,
+      "detail": "Remove noise and surface conflicts",
+      "id": "reduce",
+      "label": "Deduplicate & correlate",
+      "owner": "EIA deterministic layer"
+    },
+    {
+      "changed": true,
+      "detail": "Only relevant verified evidence proceeds",
+      "id": "compact",
+      "label": "Compact business evidence",
+      "owner": "EIA context boundary"
+    },
+    {
+      "changed": false,
+      "detail": "No raw enterprise truth ownership",
+      "id": "reason",
+      "label": "Interpret & explain",
+      "owner": "LLM"
+    },
+    {
+      "changed": true,
+      "detail": "Agent Hub remains owner",
+      "id": "result",
+      "label": "Final response",
+      "owner": "Agent Hub"
+    }
+  ],
+  "pair": {
+    "all_pinned": true,
+    "baseline_run_id": "run-6284122a-7a08-44c7-b5c5-363241c66fe9",
+    "baseline_status": "SUCCESS",
+    "eia_run_id": "run-4cdee06e-089f-4c1d-944c-30b71e1f903b",
+    "eia_status": "SUCCESS",
+    "evidence_changed": true,
+    "input_parity": true,
+    "output_changed": true,
+    "same_agent": true,
+    "same_profile": true,
+    "same_system": true,
+    "workload_case_id": "case-5ee2544643c7efb34b09"
+  },
+  "paired_measures": {
+    "baseline_compact_estimated_tokens": 2990,
+    "cross_boundary_estimated_reduction_pct": 95.8767054067711,
+    "cross_boundary_estimated_token_delta": -9487,
+    "direct_raw_estimated_tokens": 9895,
+    "eia_compact_estimated_tokens": 408,
+    "eia_compact_vs_baseline_compact_reduction_pct": 86.35451505016722,
+    "eia_synchronous_overhead_ms": 8450.429,
+    "end_to_end_latency": "NOT_MEASURED",
+    "mandatory_evidence_coverage": "NOT_MEASURED",
+    "outcome_quality_baseline": "70.0/100",
+    "outcome_quality_delta": "+0.0",
+    "outcome_quality_eia": "70.0/100",
+    "reusable_agents_affected": 9,
+    "tool_calls_baseline": 0,
+    "tool_calls_eia": 0,
+    "unsupported_critical_claims": "NOT_MEASURED"
+  },
+  "record_id": "EAF-OPS-000001",
+  "record_type": "OBSERVATIONAL_PAIRED_RUNTIME_EVIDENCE",
+  "release": {
+    "eia_version": "0.4.0",
+    "mode": "passthrough",
+    "release_build": "R2.2.9.19",
+    "release_id": "R2.0",
+    "runtime_profile_id": "current-poc",
+    "runtime_profile_label": "Current POC \u00b7 3.1.0-RC10.4"
+  },
+  "research_authority": "OBSERVATIONAL_SUPPORT",
+  "runtime": {
+    "evidence_decision": "Continue",
+    "external_sap_wait_ms": null,
+    "fallback_used": "No",
+    "llm_time_ms": null,
+    "mcp_wait_ms": null,
+    "measurement_rule": "Microkernel overhead excludes SAP, MCP, RAG, vector, LLM and asynchronous telemetry time.",
+    "microkernel_overhead_ms": 8450.429,
+    "rag_vector_wait_ms": null,
+    "runtime_guard_decision": "Pass",
+    "total_synchronous_eia_time_ms": 8450.429,
+    "trace_id": "9059c404-2fb7-4c3a-8ae8-9e995615b977"
+  },
+  "selective_invocation": {
+    "advisory_only": true,
+    "reasons": [
+      "Multiple SAP or knowledge sources required",
+      "Evidence may be missing, stale or contradictory",
+      "Capability or policy can be reused across agents"
+    ],
+    "recommended_mode": "Balanced",
+    "recommended_path": "BALANCED",
+    "score": 3,
+    "scoring_model": "Four binary signals; no weights",
+    "signal_count": 4,
+    "signals": [
+      {
+        "evidence": "Route:c6f14c11, SAP",
+        "id": "MULTI_SOURCE",
+        "label": "Multiple SAP or knowledge sources required",
+        "yes": true
+      },
+      {
+        "evidence": "Evidence gap, freshness or conflict signal detected",
+        "id": "EVIDENCE_UNCERTAINTY",
+        "label": "Evidence may be missing, stale or contradictory",
+        "yes": true
+      },
+      {
+        "evidence": "Low-risk context",
+        "id": "DECISION_RISK",
+        "label": "Decision has operational, financial or compliance risk",
+        "yes": false
+      },
+      {
+        "evidence": "Admitted reusable skill/policy contract",
+        "id": "PORTFOLIO_REUSE",
+        "label": "Capability or policy can be reused across agents",
+        "yes": true
+      }
+    ],
+    "statement": "Use bounded evidence validation and context preparation.",
+    "yes_count": 3
+  },
+  "source_classification": "Trust Improvement Observed",
+  "source_evaluation_id": "eval-92987d976256610f",
+  "source_files": [
+    "real-ops/raw/EIA-Trust-and-Value-Evaluation.md",
+    "real-ops/raw/EIA-Paired-Comparison.json"
+  ],
+  "source_future_classification": {
+    "available_after": "30 functional pairs, 100 latency pairs and signed G6 evidence",
+    "current_observation": "Portfolio Reuse Identified",
+    "label": "Enterprise Value Proven",
+    "status": "Available only after sample floors and named approval"
+  },
+  "trust_model": {
+    "agent_role": "Orchestrates the task and owns the final response",
+    "deterministic_outside_llm": [
+      "identity and tenant validation",
+      "skill and MCP admission",
+      "source authority",
+      "evidence integrity",
+      "mandatory evidence floor",
+      "route and policy gates"
+    ],
+    "eia_role": "Validates, deduplicates, correlates and traces evidence before model reasoning",
+    "enterprise_truth_owner": "SAP and registered enterprise sources",
+    "llm_role": "Interpretation, explanation and decision support only"
+  },
+  "with_eia": {
+    "actions": 0,
+    "alignment_id": "rv-217c1ba00e46d58e",
+    "compact_bytes": 1629,
+    "conflicts": 0,
+    "coverage": {
+      "authoritative": 2,
+      "count": 4,
+      "supporting": 2
+    },
+    "duplicates_removed": 0,
+    "estimated_compact_tokens": 408,
+    "estimated_payload_reduction_pct": 95.8,
+    "estimated_raw_tokens": 9725,
+    "evidence_hash": "d9a5b5da3af860dade34360c2fd264aa46087a62215a915ea3f10a31d1784358",
+    "findings": 6,
+    "measurement_note": "Counts use stored run evidence where available. Token values are transparent 4-bytes-per-token estimates, not provider billing data. Missing fields remain null.",
+    "mode": "passthrough",
+    "output_hash": "b7dabc5fa15a510914338a821bbbb440cdd19fca8e5a3d2d8d432e3cd2bfd78f",
+    "raw_bytes": 38899,
+    "raw_records": 100,
+    "selected_routes": [
+      {
+        "entity_set": "DumpHeader",
+        "service_id": "custom_st22_agent_service",
+        "system_id": "PAL"
+      }
+    ],
+    "selected_tools": [],
+    "synchronous_overhead_ms": 8450.429,
+    "unique_records": 100
+  },
+  "workload": {
+    "agent_id": "custom_st22_agent",
+    "entity_set": "DumpHeader",
+    "prompt_sha256": "d6a80a06ab77593ed75019a4226ac6a4adc5616973e2179854db0591edf10ed6",
+    "reasoning_mode": "LLM_ASSISTED",
+    "service_id": "custom_st22_agent_service",
+    "system_id": "PAL",
+    "top": 100
+  }
+}

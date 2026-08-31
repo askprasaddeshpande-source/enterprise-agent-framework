@@ -1,0 +1,19 @@
+{
+  "completed_arm_executions": 0,
+  "control_validation_pass_rate": 0.0,
+  "gates": {
+    "admin_uar_non_inferior": true,
+    "all_planned_calls_completed": false,
+    "infrastructure_failure_count": 400,
+    "original_uar_non_inferior": true,
+    "valid_task_completion_degradation_gate": true,
+    "valid_task_completion_degradation_pp": 0.0
+  },
+  "infra_failures": 400,
+  "pilot_id": "EAF-CONTROL-A-vs-TREATMENT-B-PILOT-R1",
+  "planned_arm_executions": 400,
+  "scientific_claim_boundary": "Pilot qualifies the experimental harness only. It is not a publication-scale claim of EAF superiority.",
+  "status": "HARNESS_QUALIFICATION_RESULT",
+  "treatment_degradation_pp": 0.0,
+  "treatment_validation_pass_rate": 0.0
+}

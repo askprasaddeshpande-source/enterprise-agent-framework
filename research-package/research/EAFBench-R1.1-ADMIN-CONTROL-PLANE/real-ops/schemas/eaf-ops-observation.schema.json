@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "baseline": {
+      "type": "object"
+    },
+    "causal_claim_authority": {
+      "const": "NOT_ESTABLISHED"
+    },
+    "claim_gate": {
+      "type": "object"
+    },
+    "pair": {
+      "type": "object"
+    },
+    "paired_measures": {
+      "type": "object"
+    },
+    "record_id": {
+      "pattern": "^EAF-OPS-[0-9]{6}$",
+      "type": "string"
+    },
+    "record_type": {
+      "const": "OBSERVATIONAL_PAIRED_RUNTIME_EVIDENCE"
+    },
+    "release": {
+      "type": "object"
+    },
+    "research_authority": {
+      "const": "OBSERVATIONAL_SUPPORT"
+    },
+    "runtime": {
+      "type": "object"
+    },
+    "trust_model": {
+      "type": "object"
+    },
+    "with_eia": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "record_id",
+    "record_type",
+    "research_authority",
+    "release",
+    "pair",
+    "trust_model",
+    "baseline",
+    "with_eia",
+    "paired_measures",
+    "claim_gate",
+    "runtime"
+  ],
+  "title": "EAF Operational Observation Record",
+  "type": "object"
+}

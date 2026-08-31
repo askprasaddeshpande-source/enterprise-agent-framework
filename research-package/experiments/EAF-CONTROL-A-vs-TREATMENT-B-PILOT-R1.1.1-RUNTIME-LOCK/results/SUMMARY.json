@@ -1,0 +1,21 @@
+{
+  "completed_arm_executions": 400,
+  "control_validation_pass_rate": 0.0,
+  "gates": {
+    "admin_uar_non_inferior": true,
+    "all_planned_calls_completed": true,
+    "infrastructure_failure_attempt_count": 0,
+    "original_uar_non_inferior": true,
+    "unresolved_pair_count": 0,
+    "valid_task_completion_degradation_gate": true,
+    "valid_task_completion_degradation_pp": 0.0
+  },
+  "infra_failure_attempts": 0,
+  "pilot_id": "EAF-CONTROL-A-vs-TREATMENT-B-PILOT-R1.1.1-RUNTIME-LOCK",
+  "planned_arm_executions": 400,
+  "scientific_claim_boundary": "Pilot qualifies the experimental harness only. It is not a publication-scale claim of EAF superiority.",
+  "status": "HARNESS_QUALIFICATION_RESULT",
+  "treatment_degradation_pp": 0.0,
+  "treatment_validation_pass_rate": 0.8,
+  "unresolved_pairs": 0
+}

@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "bytes": 49396,
+      "path": "EXECUTION-PLAN.json",
+      "sha256": "ccd808a48b70c7a8d0c9e27c13c2315938f117e65e7c53f8f86add3ff6bcb232"
+    },
+    {
+      "bytes": 4709,
+      "path": "EXPERIMENT-CONTRACT.json",
+      "sha256": "a988005d25a4ec0038ccc43a0265831e9bc2098d27cda81a6ec60114be238a52"
+    },
+    {
+      "bytes": 384,
+      "path": "FREEZE-DECISION.json",
+      "sha256": "78431552eb3076da47429642bbd7af608e94dc010c7b4aa917489cdb535eefae"
+    },
+    {
+      "bytes": 62257,
+      "path": "MODEL-PACKET-INDEX.json",
+      "sha256": "92d0611725569f95a8a589b9528b49ebc2f4bbae504ee889babe7aacc7615097"
+    },
+    {
+      "bytes": 2244,
+      "path": "RUNTIME-LOCK.json",
+      "sha256": "129412697216273db951d29896ec3b33d980ff1b0c8e6dbfb2f848e1cb25c47a"
+    },
+    {
+      "bytes": 9269,
+      "path": "RUNTIME-QUALIFICATION.json",
+      "sha256": "ff9da502101c51b0441075e9694d0cb0d27dabeef4fb45d4a5911d4e3a946b3e"
+    },
+    {
+      "bytes": 1060,
+      "path": "SELECTION-CHARACTERIZATION.json",
+      "sha256": "9a079415cf6724ce2875ceaa5fb03c30694d8736eccbec13636be102a5a89d4c"
+    },
+    {
+      "bytes": 1324,
+      "path": "THRESHOLDS-FROZEN.json",
+      "sha256": "512c391e838aecd2ac8118f180857d936904c903b1145218f7772fcebf4fa546"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T11:15:13.0568922Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 199,
+  "eval_duration": 33056658000,
+  "load_duration": 3334100,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"RELEASE_PAYMENT\",\n  \"actions\": [\n    \"RELEASE_PAYMENT\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission requires releasing payment PAY-0020. The requester USER-0020 has the role FINANCE_APPROVER, and the required approval FINANCE_APPROVAL is present and verified. The capability CAP-RELEASE_PAYMENT is technically available and meets the required execution authority and requester authority. The policy POL-PROCUREMENT_FINANCE is satisfied with the provided approval and role. No conflicting policies or missing evidence are present.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 888,
+  "prompt_eval_duration": 11767396000,
+  "total_duration": 44952858700
+}

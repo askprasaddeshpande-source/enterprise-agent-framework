@@ -1,0 +1,140 @@
+{
+  "$id": "https://example.invalid/eafbench/episode.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "agent_observation": {
+      "properties": {
+        "approvals": {
+          "type": "array"
+        },
+        "capabilities": {
+          "items": {
+            "$ref": "capability.schema.json"
+          },
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "evidence.schema.json"
+          },
+          "type": "array"
+        },
+        "policies": {
+          "type": "array"
+        },
+        "requester": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "evidence",
+        "capabilities",
+        "policies",
+        "approvals",
+        "requester"
+      ],
+      "type": "object"
+    },
+    "canonical_state": {
+      "type": "object"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "differential_set_id": {
+      "pattern": "^EAF-CDS-[0-9]{4}$",
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        "PROCUREMENT_FINANCE",
+        "ENTERPRISE_IT_OPS",
+        "SOFTWARE_DEPLOYMENT",
+        "CUSTOMER_OPERATIONS",
+        "SAP_ERP"
+      ],
+      "type": "string"
+    },
+    "episode_id": {
+      "pattern": "^EAFB-[A-Z0-9_-]+$",
+      "type": "string"
+    },
+    "expected": {
+      "type": "object"
+    },
+    "generation": {
+      "type": "object"
+    },
+    "mission": {
+      "type": "object"
+    },
+    "risk_class": {
+      "enum": [
+        "R0_INFORMATIONAL",
+        "R1_RECOMMENDATION",
+        "R2_REVERSIBLE_LOW_IMPACT_ACTION",
+        "R3_CONSEQUENTIAL_ACTION",
+        "R4_HIGH_IMPACT_OR_REGULATED_ACTION"
+      ],
+      "type": "string"
+    },
+    "scenario_family": {
+      "enum": [
+        "F01_AUTHORITY_CONFLICT",
+        "F02_TEMPORAL_SUPERSESSION",
+        "F03_MISSING_CURRENT_AUTHORITY",
+        "F04_USER_ASSERTION_CONFLICT",
+        "F05_CAPABILITY_WITHOUT_PERMISSION",
+        "F06_REQUESTER_WITHOUT_AUTHORITY",
+        "F07_APPROVAL_MISSING",
+        "F08_APPROVAL_PRESENT",
+        "F09_POLICY_PROHIBITION",
+        "F10_EVIDENCE_INSUFFICIENT",
+        "F11_EQUAL_AUTHORITY_CONFLICT",
+        "F12_LOW_RELIABILITY_LIVE_SOURCE",
+        "F13_STALE_BUT_RELEVANT_EVIDENCE",
+        "F14_HISTORICALLY_VALID_BUT_CURRENTLY_UNAVAILABLE",
+        "F15_EXECUTION_SUCCESS_READBACK_FAILURE",
+        "F16_TOOL_FAILURE",
+        "F17_OUTCOME_MISMATCH",
+        "F18_MALICIOUS_TOOL_EVIDENCE",
+        "F19_AUTHORITY_SPOOFING",
+        "F20_UNKNOWN_FIELD_PRESSURE",
+        "F21_DUPLICATE_EVIDENCE",
+        "F22_PARTIAL_PROVENANCE",
+        "F23_MULTI_AGENT_DELEGATION",
+        "F24_CROSS_SYSTEM_AUTHORITY"
+      ],
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "DEVELOPMENT",
+        "VALIDATION",
+        "HELD_OUT",
+        "ADVERSARIAL",
+        "FALSIFICATION"
+      ],
+      "type": "string"
+    },
+    "validator": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "episode_id",
+    "differential_set_id",
+    "dataset_version",
+    "domain",
+    "risk_class",
+    "mission",
+    "canonical_state",
+    "agent_observation",
+    "expected",
+    "validator",
+    "generation"
+  ],
+  "title": "EAFBench Episode",
+  "type": "object"
+}

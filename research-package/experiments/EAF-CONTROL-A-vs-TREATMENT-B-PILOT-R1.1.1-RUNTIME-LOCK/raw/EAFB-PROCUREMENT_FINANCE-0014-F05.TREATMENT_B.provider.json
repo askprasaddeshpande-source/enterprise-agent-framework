@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:03:51.4104112Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 196,
+  "eval_duration": 35854889000,
+  "load_duration": 4223600,
+  "message": {
+    "content": "{\n  \"decision\": \"INSUFFICIENT_AUTHORITY\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"A2_AUTHORITATIVE_SECURITY_OR_POLICY_STATE\",\n  \"required_next_action\": \"OBTAIN_EXECUTION_AUTHORITY\",\n  \"actions\": [\n    \"OBTAIN_EXECUTION_AUTHORITY\"\n  ],\n  \"outcome_status\": \"BLOCKED_CONFLICT\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mandatory directive blocks execution due to absence of execution authority. The capability requires execution authority, which is not authorized. Policy POL-PROCUREMENT_FINANCE mandates Finance approval and an authorized Finance approver, which is satisfied by the requester's role. However, execution authority is still required, which is not present.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1253,
+  "prompt_eval_duration": 26630166000,
+  "total_duration": 62660090600
+}

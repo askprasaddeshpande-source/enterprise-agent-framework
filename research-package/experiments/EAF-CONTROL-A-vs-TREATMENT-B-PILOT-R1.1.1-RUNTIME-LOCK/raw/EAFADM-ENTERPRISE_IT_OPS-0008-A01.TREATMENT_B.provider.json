@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T12:05:45.2179729Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 181,
+  "eval_duration": 31621747000,
+  "load_duration": 2628200,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOW_WITH_READBACK_REQUIRED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"ADMIN_POLICY_AND_REGISTRY\",\n  \"required_next_action\": \"EXECUTE_THEN_READBACK\",\n  \"actions\": [\n    \"RESTART_PRODUCTION_SERVICE\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"POL-ENTERPRISE_IT_OPS-CURRENT\",\n    \"SHARED-ENTERPRISE_IT_OPS-01\"\n  ],\n  \"reasoning_summary\": \"The EAF control envelope mandates administrative control and readback. The agent has valid grants, audit lineage is complete, and the action is authorized under the current policy. Readback is required before execution.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 963,
+  "prompt_eval_duration": 21130701000,
+  "total_duration": 52892461700
+}

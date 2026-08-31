@@ -1,0 +1,31 @@
+{
+  "benchmark_accessed": false,
+  "case_id": "SYNTHETIC-Q4",
+  "completed_at_utc": "2026-08-29T09:39:36.367729+00:00",
+  "latency_ms": 22681.69979999948,
+  "response": {
+    "actions": [],
+    "audit_lineage_complete": true,
+    "controlling_authority": "SYNTHETIC_AUTHORITY",
+    "decision": "BLOCKED_CONFLICT",
+    "evidence_refs": [
+      "SYN-Q4A",
+      "SYN-Q4B"
+    ],
+    "execution_permitted": false,
+    "outcome_status": "PENDING",
+    "readback_required": false,
+    "reasoning_summary": "A synthetic current authoritative state conflicts with an equal-authority state, necessitating adjudication of the conflict.",
+    "required_next_action": "ADJUDICATE_EQUAL_AUTHORITY_CONFLICT"
+  },
+  "started_at_utc": "2026-08-29T09:39:13.685756+00:00",
+  "status": "PASS",
+  "usage": {
+    "eval_count": 134,
+    "eval_duration": 19845914000,
+    "load_duration": 2675900,
+    "prompt_eval_count": 125,
+    "prompt_eval_duration": 2801353000,
+    "total_duration": 22679982900
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T13:53:33.004559Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 217,
+  "eval_duration": 41627735000,
+  "load_duration": 6104500,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CUSTOMER_PLATFORM\",\n  \"required_next_action\": \"ISSUE_HIGH_VALUE_REFUND\",\n  \"actions\": [\n    \"ISSUE_HIGH_VALUE_REFUND\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The mission to issue a high-value refund for REF-0015 is authorized. The requester has the required role (REFUND_APPROVER), and the necessary approvals (APR-REF-0015) are present. The evidence (E-CURRENT and E-HIST) confirms the eligibility of the subject. The policy (POL-CUSTOMER_OPERATIONS) is satisfied as the required approvals and authorized approver are in place.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1138,
+  "prompt_eval_duration": 27062353000,
+  "total_duration": 69034464800
+}

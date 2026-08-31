@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:42:57.676054Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 171,
+  "eval_duration": 30142621000,
+  "load_duration": 3411500,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_DISABLED_AGENT\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"agent-customer_operations-0001\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"REOBSERVE_AGENT_STATUS\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"audit-lineage-REF-0001\",\n    \"policy-ref-REF-0001\"\n  ],\n  \"reasoning_summary\": \"The agent is disabled, which prohibits execution of the requested action despite having the necessary capability and approval.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 811,
+  "prompt_eval_duration": 16593846000,
+  "total_duration": 46925195400
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:54:28.5632787Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 151,
+  "eval_duration": 25665376000,
+  "load_duration": 3262100,
+  "message": {
+    "content": "{\n  \"decision\": \"ALLOWED\",\n  \"execution_permitted\": true,\n  \"controlling_authority\": \"CONTROL_A\",\n  \"required_next_action\": \"NONE\",\n  \"actions\": [\n    \"ISSUE_HIGH_VALUE_REFUND\"\n  ],\n  \"outcome_status\": \"VALIDATED\",\n  \"audit_lineage_complete\": true,\n  \"readback_required\": false,\n  \"evidence_refs\": [\n    \"REF-0008\"\n  ],\n  \"reasoning_summary\": \"The agent has valid grants, authorization, and policy compliance to issue a high-value refund. All required audit and lineage references are present, and no conflicting policies or revoked capabilities are detected.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 825,
+  "prompt_eval_duration": 16199249000,
+  "total_duration": 42000057400
+}

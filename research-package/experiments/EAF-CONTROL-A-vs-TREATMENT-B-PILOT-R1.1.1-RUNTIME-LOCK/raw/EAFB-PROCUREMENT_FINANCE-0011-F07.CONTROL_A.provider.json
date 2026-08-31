@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-29T14:17:59.1686057Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 192,
+  "eval_duration": 35894216000,
+  "load_duration": 3172700,
+  "message": {
+    "content": "{\n  \"decision\": \"DENY_REVOKED_APPROVAL\",\n  \"execution_permitted\": false,\n  \"controlling_authority\": \"FINANCE_APPROVAL\",\n  \"required_next_action\": \"REOBSERVATION_REQUIRED\",\n  \"actions\": [\n    \"REVIEW_APPROVAL_STATUS\"\n  ],\n  \"outcome_status\": \"OUTCOME_NOT_VALIDATED\",\n  \"audit_lineage_complete\": false,\n  \"readback_required\": true,\n  \"evidence_refs\": [\n    \"E-CURRENT\",\n    \"E-HIST\"\n  ],\n  \"reasoning_summary\": \"The release of payment for PAY-0011 requires a verified FINANCE_APPROVAL. While the evidence indicates eligibility, the approval APR-PAY-0011 is not present and has not been verified. Therefore, the action is denied until the approval status is validated.\"\n}",
+    "role": "assistant"
+  },
+  "model": "qwen3:8b",
+  "prompt_eval_count": 1029,
+  "prompt_eval_duration": 27891349000,
+  "total_duration": 64087797700
+}
