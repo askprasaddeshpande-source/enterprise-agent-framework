@@ -10,8 +10,8 @@
   },
   "repository_url": "https://github.com/askprasaddeshpande-source/enterprise-agent-framework",
   "release_tag": "v1.1.0",
-  "zenodo_version_doi": null,
-  "zenodo_concept_doi": null,
+  "zenodo_version_doi": "10.5281/zenodo.22193673",
+  "zenodo_concept_doi": "10.5281/zenodo.22193672",
   "resource_type": "software",
   "keywords": [
     "Agentic AI",
@@ -29,5 +29,11 @@
     "software": "Apache-2.0",
     "documentation": "CC-BY-4.0",
     "third_party": "Original terms retained"
+  },
+  "publication_layer": {
+    "status": "PUBLIC_RESEARCH_RELEASE_WITH_EXTERNAL_REVIEW_CANDIDATE",
+    "paper_path": "paper/EAF_Manuscript_v1.1_EXTERNAL_REVIEW_CANDIDATE_R1.md",
+    "update_note": "publication/PUBLICATION_UPDATE_2026-10-14.md",
+    "scientific_result_changes": 0
   }
 }
