@@ -17,6 +17,16 @@ The research snapshot is preserved byte-for-byte under esearch-package/. Public
 
 The evidence supports bounded authority-aware context-compilation utility and cross-model replication of the MAWS utility-preservation direction. It **does not establish general enterprise safety or cross-model zero-critical-action safety**. The frozen R3 conclusion remains INTEGRATED_ASSURANCE_SAFETY=NOT_ESTABLISHED.
 
+
+## Paper and publication-layer assets
+
+- [Publication-hardened v1.1 manuscript](paper/EAF_Manuscript_v1.1_EXTERNAL_REVIEW_CANDIDATE_R1.md)
+- [Paper landing page](paper/README.md)
+- [Publication update - 14 October 2026](publication/PUBLICATION_UPDATE_2026-10-14.md)
+- [LinkedIn publication announcement source](social/LINKEDIN_EAF_PUBLICATION_POST_R1.md)
+
+The manuscript is released as a public research/preprint artifact and is not represented as journal or conference peer review. The frozen reproducibility release remains unchanged.
+
 ## Reproducibility
 
 See REPRODUCIBILITY.md, FROZEN_EVIDENCE_ANCHORS.json, PUBLICATION_MANIFEST.json, and SHA256SUMS.txt.
