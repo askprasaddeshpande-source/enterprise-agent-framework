@@ -30,3 +30,7 @@ MAWS reduced model-active input while preserving available required evidence and
 ## Publication principle
 
 > Remember broadly. Govern deterministically. Infer narrowly. Verify authoritatively.
+
+## Architecture cover
+
+- [EAF architecture cover](../assets/EAF_ARCHITECTURE_COVER_R1.svg)
