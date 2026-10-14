@@ -1,5 +1,7 @@
 # Enterprise Agent Framework (EAF)
 
+![EAF architecture cover](assets/EAF_ARCHITECTURE_COVER_R1.svg)
+
 **Minimum Authoritative Working Sets and Closed-Loop Outcome Assurance for Enterprise AI Agents**
 
 Version: **1.1.0**  
@@ -20,9 +22,11 @@ The evidence supports bounded authority-aware context-compilation utility and cr
 
 ## Paper and publication-layer assets
 
+- [Reviewed v1.1 paper PDF](paper/EAF_Manuscript_v1.1_FINAL_REVIEWED_R1.pdf)
 - [Publication-hardened v1.1 manuscript](paper/EAF_Manuscript_v1.1_EXTERNAL_REVIEW_CANDIDATE_R1.md)
 - [Paper landing page](paper/README.md)
 - [Publication update - 14 October 2026](publication/PUBLICATION_UPDATE_2026-10-14.md)
+- [Publication asset map](publication/PUBLICATION_ASSET_MAP.md)
 - [LinkedIn publication announcement source](social/LINKEDIN_EAF_PUBLICATION_POST_R1.md)
 - [Architecture cover](assets/EAF_ARCHITECTURE_COVER_R1.svg)
 
