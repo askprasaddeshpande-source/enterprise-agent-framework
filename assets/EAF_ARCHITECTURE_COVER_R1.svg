@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#075ad8"/><stop offset="1" stop-color="#00a5ff"/></linearGradient>
+  <linearGradient id="orange" x1="0" x2="1"><stop stop-color="#ff7a00"/><stop offset="1" stop-color="#ffb22e"/></linearGradient>
+  <linearGradient id="teal" x1="0" x2="1"><stop stop-color="#00a9a5"/><stop offset="1" stop-color="#32d7c6"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity=".14"/></filter>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#0a318f}
+    .title{font-weight:800;font-size:42px}
+    .stageTitle{font-weight:800;font-size:22px}
+    .sub{font-size:15px;fill:#274c9f}
+    .small{font-size:13px;fill:#355a9f}
+    .num{font-size:28px;font-weight:800;fill:white}
+    .box{fill:#fff;stroke:#1764e8;stroke-width:2.5;rx:16;filter:url(#shadow)}
+    .arrow{fill:none;stroke:#1566e9;stroke-width:8;marker-end:url(#ah)}
+  </style>
+  <marker id="ah" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1566e9"/></marker>
+</defs>
+
+<rect width="1600" height="900" fill="#fffdf9"/>
+<!-- watercolor-like corner mosaics -->
+<g opacity=".65" fill="#1688ff">
+  <circle cx="18" cy="18" r="80"/><circle cx="90" cy="20" r="55" opacity=".55"/><circle cx="35" cy="95" r="50" opacity=".4"/>
+  <circle cx="65" cy="845" r="88"/><circle cx="145" cy="882" r="55" opacity=".4"/>
+</g>
+<g opacity=".55" fill="#ff8a14">
+  <circle cx="1585" cy="10" r="90"/><circle cx="1500" cy="25" r="55" opacity=".45"/><circle cx="1560" cy="95" r="60" opacity=".35"/>
+  <circle cx="1585" cy="855" r="95"/><circle cx="1495" cy="890" r="55" opacity=".4"/>
+</g>
+
+<text x="800" y="58" text-anchor="middle" class="title">How does EAF move an AI agent from capability to a verified enterprise outcome?</text>
+<text x="800" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#526aa4">Remember broadly · Govern deterministically · Infer narrowly · Verify authoritatively</text>
+
+<!-- top stages -->
+<rect class="box" x="245" y="115" width="470" height="125"/>
+<circle cx="275" cy="145" r="29" fill="url(#blue)"/><text x="275" y="155" text-anchor="middle" class="num">1</text>
+<text x="325" y="150" class="stageTitle">MISSION / BUSINESS EVENT</text>
+<text x="325" y="178" class="sub">Decision, incident, approval, change or enterprise task</text>
+<text x="325" y="207" class="small">The mission defines what evidence and authority matter now.</text>
+
+<path class="arrow" d="M725 177 H865"/>
+<text x="795" y="150" text-anchor="middle" font-size="15" font-weight="700">Mission activates</text>
+<text x="795" y="169" text-anchor="middle" class="small">a bounded assurance cycle</text>
+
+<rect class="box" x="885" y="115" width="470" height="125"/>
+<circle cx="915" cy="145" r="29" fill="url(#blue)"/><text x="915" y="155" text-anchor="middle" class="num">2</text>
+<text x="965" y="150" class="stageTitle">EVIDENCE &amp; CONTEXT SOURCES</text>
+<text x="965" y="178" class="sub">Policies · approvals · telemetry · records · tools · history</text>
+<text x="965" y="207" class="small">Persistent evidence stays broad; model-active context does not.</text>
+
+<!-- central platform -->
+<rect x="85" y="265" width="1220" height="300" rx="22" fill="#f8fbff" stroke="#1166e8" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="118" cy="300" r="30" fill="url(#blue)"/><text x="118" y="310" text-anchor="middle" class="num">3</text>
+<text x="165" y="307" font-size="29" font-weight="800">ENTERPRISE AGENT FRAMEWORK — EAF</text>
+<text x="1265" y="302" text-anchor="end" font-size="15" font-weight="700">Governed · Evidence-aware · Bounded · Observable</text>
+
+<rect class="box" x="135" y="335" width="250" height="125"/>
+<text x="260" y="370" text-anchor="middle" class="stageTitle">AUTHORITY CONTROL</text>
+<text x="260" y="399" text-anchor="middle" class="sub">Identity · tenant · policy</text>
+<text x="260" y="424" text-anchor="middle" class="small">grants · approvals · kill switch</text>
+
+<path class="arrow" d="M395 397 H440"/>
+<rect x="455" y="335" width="275" height="125" rx="16" fill="#f5fffe" stroke="#0ca9a5" stroke-width="3" filter="url(#shadow)"/>
+<text x="592" y="370" text-anchor="middle" class="stageTitle" fill="#007b78">CONTEXT INTELLIGENCE</text>
+<text x="592" y="399" text-anchor="middle" class="sub">Authority · time · reliability · conflicts</text>
+<text x="592" y="424" text-anchor="middle" font-size="16" font-weight="800" fill="#007b78">MAWS: Minimum Authoritative Working Set</text>
+
+<path class="arrow" d="M740 397 H785"/>
+<rect class="box" x="800" y="335" width="225" height="125"/>
+<text x="912" y="370" text-anchor="middle" class="stageTitle">EXECUTION ASSURANCE</text>
+<text x="912" y="399" text-anchor="middle" class="sub">Deterministic gate</text>
+<text x="912" y="424" text-anchor="middle" class="small">constraints · tool admission · allow/block</text>
+
+<path class="arrow" d="M1035 397 H1080"/>
+<rect x="1095" y="335" width="175" height="125" rx="16" fill="#fffaf3" stroke="#ff8a00" stroke-width="3" filter="url(#shadow)"/>
+<text x="1182" y="370" text-anchor="middle" class="stageTitle" fill="#b85600">OUTCOME</text>
+<text x="1182" y="396" text-anchor="middle" class="stageTitle" fill="#b85600">ASSURANCE</text>
+<text x="1182" y="424" text-anchor="middle" class="small">Observation contract · readback</text>
+
+<rect x="135" y="485" width="1135" height="55" rx="14" fill="#eaf6ff" stroke="#95cfff"/>
+<text x="702" y="519" text-anchor="middle" font-size="18" font-weight="800">Durable Evidence Plane ≠ Model-Active Wire Plane  ·  Not model-active ≠ deleted</text>
+
+<!-- systems of record -->
+<rect x="1330" y="265" width="220" height="300" rx="18" fill="#fffaf7" stroke="#ef4b32" stroke-width="2.5"/>
+<text x="1440" y="300" text-anchor="middle" font-size="18" font-weight="800" fill="#a72b22">ENTERPRISE SYSTEMS</text>
+<text x="1440" y="322" text-anchor="middle" class="small" fill="#a72b22">systems of record</text>
+<g>
+  <rect x="1352" y="350" width="176" height="52" rx="10" fill="white" stroke="#ef4b32"/><text x="1440" y="381" text-anchor="middle" font-size="16" font-weight="700" fill="#0a318f">ERP / Finance</text>
+  <rect x="1352" y="414" width="176" height="52" rx="10" fill="white" stroke="#ef4b32"/><text x="1440" y="445" text-anchor="middle" font-size="16" font-weight="700" fill="#0a318f">ITSM / DevOps</text>
+  <rect x="1352" y="478" width="176" height="52" rx="10" fill="white" stroke="#ef4b32"/><text x="1440" y="509" text-anchor="middle" font-size="16" font-weight="700" fill="#0a318f">CRM / External</text>
+</g>
+<path d="M1270 397 H1325" stroke="#ef4b32" stroke-width="8" fill="none" marker-end="url(#ah)"/>
+
+<!-- bottom execution chain -->
+<g>
+<rect class="box" x="75" y="590" width="275" height="120"/><circle cx="108" cy="620" r="27" fill="url(#blue)"/><text x="108" y="629" text-anchor="middle" class="num">4</text><text x="145" y="621" class="stageTitle">MODEL DECISION</text><text x="105" y="654" class="sub">Proposed action + evidence state</text><text x="105" y="680" class="small">What should happen next?</text>
+<path class="arrow" d="M355 650 H385"/>
+<rect class="box" x="400" y="590" width="275" height="120"/><circle cx="433" cy="620" r="27" fill="url(#blue)"/><text x="433" y="629" text-anchor="middle" class="num">5</text><text x="470" y="621" class="stageTitle">AUTHORITY GATE</text><text x="430" y="654" class="sub">Identity · approval · policy · constraint</text><text x="430" y="680" class="small">Capability does not equal authority.</text>
+<path class="arrow" d="M680 650 H710"/>
+<rect class="box" x="725" y="590" width="260" height="120"/><circle cx="758" cy="620" r="27" fill="url(#blue)"/><text x="758" y="629" text-anchor="middle" class="num">6</text><text x="795" y="621" class="stageTitle">CONTROLLED EXECUTION</text><text x="755" y="654" class="sub">Governed tool / API action</text><text x="755" y="680" class="small">Execution is bounded and auditable.</text>
+<path class="arrow" d="M990 650 H1020"/>
+<rect class="box" x="1035" y="590" width="245" height="120"/><circle cx="1068" cy="620" r="27" fill="url(#blue)"/><text x="1068" y="629" text-anchor="middle" class="num">7</text><text x="1105" y="621" class="stageTitle">READBACK</text><text x="1065" y="654" class="sub">Observe authoritative target state</text><text x="1065" y="680" class="small">Receipt ≠ validated outcome.</text>
+<path class="arrow" d="M1285 650 H1315"/>
+<rect x="1330" y="590" width="220" height="120" rx="16" fill="#f7fff9" stroke="#18a558" stroke-width="2.5" filter="url(#shadow)"/><circle cx="1362" cy="620" r="27" fill="#18a558"/><text x="1362" y="629" text-anchor="middle" class="num">8</text><text x="1398" y="621" class="stageTitle" fill="#14743e">VALIDATED OUTCOME</text><text x="1360" y="654" class="small">VALIDATED · MISMATCH</text><text x="1360" y="678" class="small">PARTIAL · READBACK_FAILED</text>
+</g>
+
+<!-- bottom lens -->
+<rect x="80" y="750" width="1470" height="105" rx="18" fill="#eef6ff" stroke="#1764e8" stroke-width="2"/>
+<text x="105" y="782" font-size="23" font-weight="800">Research &amp; Architecture Evaluation Lens</text>
+<g font-size="15" font-weight="700">
+  <rect x="110" y="800" width="210" height="38" rx="10" fill="#e7f3ff" stroke="#2583ee"/><text x="215" y="824" text-anchor="middle">PRESERVE — AREPR / CAPR</text>
+  <rect x="340" y="800" width="210" height="38" rx="10" fill="#f0e9ff" stroke="#7c4de2"/><text x="445" y="824" text-anchor="middle">COMPARE — MAWS vs Generic</text>
+  <rect x="570" y="800" width="210" height="38" rx="10" fill="#fff1e3" stroke="#ff8600"/><text x="675" y="824" text-anchor="middle">GOVERN — Gate &amp; Policy</text>
+  <rect x="800" y="800" width="210" height="38" rx="10" fill="#e9faee" stroke="#27a85a"/><text x="905" y="824" text-anchor="middle">REPLICATE — 4 Models</text>
+  <rect x="1030" y="800" width="210" height="38" rx="10" fill="#fff0f0" stroke="#e74d4d"/><text x="1135" y="824" text-anchor="middle">VERIFY — Outcome Contract</text>
+  <rect x="1260" y="800" width="250" height="38" rx="10" fill="#e9f7ff" stroke="#1b83d6"/><text x="1385" y="824" text-anchor="middle">BOUND — Hard Safety NOT ESTABLISHED</text>
+</g>
+<text x="30" y="882" font-size="13" font-weight="700">Architected by Prasad Deshpande · Enterprise Agent Framework (EAF) · Public research release v1.1</text>
+</svg>
