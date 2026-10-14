@@ -33,4 +33,5 @@ MAWS reduced model-active input while preserving available required evidence and
 
 ## Architecture cover
 
-- [EAF architecture cover](../assets/EAF_ARCHITECTURE_COVER_R1.svg)
+- [LinkedIn-ready EAF architecture cover](../assets/EAF_ARCHITECTURE_COVER_LINKEDIN_R1.png)
+- [EAF architecture cover source](../assets/EAF_ARCHITECTURE_COVER_R1.svg)
