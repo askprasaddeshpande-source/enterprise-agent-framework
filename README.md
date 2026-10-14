@@ -24,6 +24,7 @@ The evidence supports bounded authority-aware context-compilation utility and cr
 - [Paper landing page](paper/README.md)
 - [Publication update - 14 October 2026](publication/PUBLICATION_UPDATE_2026-10-14.md)
 - [LinkedIn publication announcement source](social/LINKEDIN_EAF_PUBLICATION_POST_R1.md)
+- [Architecture cover](assets/EAF_ARCHITECTURE_COVER_R1.svg)
 
 The manuscript is released as a public research/preprint artifact and is not represented as journal or conference peer review. The frozen reproducibility release remains unchanged.
 
