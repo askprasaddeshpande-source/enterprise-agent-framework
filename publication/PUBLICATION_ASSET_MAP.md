@@ -5,7 +5,8 @@
 - Repository: https://github.com/askprasaddeshpande-source/enterprise-agent-framework
 - Reviewed paper PDF: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/paper/EAF_Manuscript_v1.1_FINAL_REVIEWED_R1.pdf
 - Publication-hardened manuscript source: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/paper/EAF_Manuscript_v1.1_EXTERNAL_REVIEW_CANDIDATE_R1.md
-- Architecture cover: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/assets/EAF_ARCHITECTURE_COVER_R1.svg
+- LinkedIn-ready architecture cover: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/assets/EAF_ARCHITECTURE_COVER_LINKEDIN_R1.png
+- Architecture source: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/assets/EAF_ARCHITECTURE_COVER_R1.svg
 - LinkedIn announcement source: https://github.com/askprasaddeshpande-source/enterprise-agent-framework/blob/main/social/LINKEDIN_EAF_PUBLICATION_POST_R1.md
 
 ## Reproducibility and archival record
